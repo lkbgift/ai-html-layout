@@ -1,0 +1,477 @@
+// Settings file to override Foundation variables
+
+// You can find the variables for each component at the bottom of their
+// doc page. We tried to name them to where they'd make sense just by reading them.
+// Go to http://foundation.zurb.com/docs/ to find what you need.
+
+//
+// Advanced Layout
+//
+
+  // Foundation Global Function, Variables and Mixins
+  //
+  // Variables
+  //
+
+  // This is the default html and body font-size for the base em value.
+  $em-base: 16px;
+
+  // We use these to control various global styles
+  $body-bg: #fff;
+  $body-font-color: #222;
+  $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  $body-font-weight: normal;
+  $body-font-style: normal;
+
+  // We use this to control font-smoothing
+  $font-smoothing: antialiased;
+
+  // We use these to control text direction settings
+  $text-direction: ltr;
+
+  // We use these as default colors throughout
+  $primary-color: #2ba6cb;
+  $secondary-color: #e9e9e9;
+  $alert-color: #c60f13;
+  $success-color: #5da423;
+
+  // We use these to make sure border radius matches unless we want it different.
+  $global-radius: 3px;
+  $global-rounded: 1000px;
+
+  // We use these to control inset shadow shiny edges and depressions.
+  $shiny-edge-size: 0 1px 0;
+  $shiny-edge-color: rgba(#fff, .5);
+  $shiny-edge-active-color: rgba(#000, .2);
+
+  // We use this to control whether or not CSS classes come through in the gem files.
+  $include-html-classes: true;
+  $include-print-styles: true;
+
+
+  //
+  // Functions
+  //
+
+  // Working in ems is annoying. Think in pixels by using this handy function, emCalc(#px)
+  @function emCalc($pxWidth) {
+    @return $pxWidth / $em-base * 1em;
+  }
+
+  // Creating rems and pixels
+  @function remCalc($pxWidth) {
+    @return $pxWidth / $em-base * 1rem;
+  }
+
+  // Grid Calculation for Percentages
+  @function gridCalc($colNumber, $totalColumns) {
+    @return percentage(($colNumber / $totalColumns));
+  }
+
+//
+// Media Queries
+//
+
+  /* Medium Displays: 768px - 1279px */
+  @media only screen and (min-width: 66em) {
+    .lkb-hide-for-medium{
+      display: none !important;
+    }
+  }
+
+//
+// Fonts General
+// 
+
+  $fontFileName: "../fonts/general_enclosed_foundicons";
+  $fontName: "GeneralEnclosedFoundicons";
+  $classPrefix: "foundicon-";
+
+  @mixin i-class($name,$pua) {
+    .#{$classPrefix}#{$name}:before { 
+      content: "\f#{$pua}";
+    }
+  }
+
+  @mixin ie-class($name,$pua) {
+    .#{$classPrefix}#{$name} { 
+      *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf#{$pua};"); 
+    }
+  }
+
+  @mixin face {
+    @font-face { 
+      font-family: "GeneralEnclosedFoundicons";
+      src: url('#{$fontFileName}.eot');
+      src: url('#{$fontFileName}.eot?#iefix') format('embedded-opentype'),
+           url('#{$fontFileName}.woff') format('woff'),
+           url('#{$fontFileName}.ttf') format('truetype'),
+           url('#{$fontFileName}.svg##{$fontName}') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+  }
+
+  /* general icons for IE7 */
+  [class*="#{$classPrefix}"] {
+    font-family: $fontName;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @include ie-class(search,"02e");
+
+  /* font-face */
+  @include face;
+
+  /* global foundicon styles */
+  [class*="#{$classPrefix}"] {
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: inherit;
+    vertical-align: baseline;
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+  }
+  [class*="general foundicon"]:before {
+    font-family: GeneralEnclosedFoundicons;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+  }
+
+  @include i-class(search,"02e");
+
+  // Social Icons
+
+  $fontFileName: "../fonts/social_foundicons";
+  $fontName: "SocialFoundicons";
+  $classPrefix: "foundicon-";
+
+  @mixin i-class($name,$pua) {
+    .#{$classPrefix}#{$name}:before { 
+      content: "\f#{$pua}";
+    }
+  }
+
+  @mixin ie-class($name,$pua) {
+    .#{$classPrefix}#{$name} { 
+      *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf#{$pua};"); 
+    }
+  }
+
+  @mixin face {
+    @font-face { 
+      font-family: "SocialFoundicons";
+      src: url('#{$fontFileName}.eot');
+      src: url('#{$fontFileName}.eot?#iefix') format('embedded-opentype'),
+           url('#{$fontFileName}.woff') format('woff'),
+           url('#{$fontFileName}.ttf') format('truetype'),
+           url('#{$fontFileName}.svg##{$fontName}') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+  }
+
+  /* general icons for IE7 */
+  [class*="#{$classPrefix}"] {
+    font-family: $fontName;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @include ie-class(facebook,"003");
+  @include ie-class(twitter,"004");
+  @include ie-class(youtube,"00e");
+
+  /* font-face */
+  @include face;
+
+  /* global foundicon styles */
+  [class*="#{$classPrefix}"] {
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: inherit;
+    vertical-align: baseline;
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+  }
+  [class*="social foundicon"]:before {
+    font-family: SocialFoundicons;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+  }
+
+  /* icons */
+  @include i-class(facebook,"003");
+  @include i-class(twitter,"004");
+  @include i-class(youtube,"00e");
+
+  .social-block span {font-size: 2em; }
+
+//
+// Elements
+//
+  .fl{
+    float:left;
+  }
+  .fr{
+    float:right;
+  }
+  .h300{
+    height: 350px;
+  }
+  .b30{
+    padding-bottom: 30px;
+  }
+  ul.no-style{
+    list-style: none;
+  }
+  hr.silent{
+    border: 1px solid #fff;
+  }
+  .overflow{ overflow:hidden; border-top: 5px solid #BC5753; background: #FAF8F6;}
+  .top-nav-wrapper{ background: white; }
+  .sexy_line { 
+    margin: 25px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+  }
+  .pr98 {
+    padding-right: 0.9375em;
+  }
+
+  // Circle
+
+    .x1 {
+        overflow:hidden;
+    }
+    .x1 .x2 {
+        display:block;
+        float:left;
+        padding: 48%;
+        width:auto;
+        height:auto;
+        border-radius:50%;
+        -moz-border-radius:50%;
+        -webkit-border-radius:50%;
+        -khtml-border-radius: 50%;
+        border:3px solid #eee;
+        text-align:center;
+        position: relative;
+    }
+    .x1 .x2 span {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 48%;
+        line-height: 1em;
+        height: 1em;
+        font-size: 100%;
+        overflow: hidden;
+    }
+  // Spacing
+
+    .vertical-space{ padding: 10% 3% 0; }
+
+//
+// Layout
+//
+  .case-studies-content, .page-main-content{
+    width: 671px;
+  }
+  .case-studies-extension, .page-main-extension, 
+  .social-block-extension, .email-alerts-extension, .products-link-extension, .distribution-link-extension,
+  .partner-block-extension, .company-facts-extension {
+    width: 9999px;
+  }
+
+  .social-block-content, .email-alerts-content, .products-link-content, .distribution-link-content,
+  .partner-block-content, .company-facts-content{
+    width: 290px;
+    padding-left: 0.9375em;
+  }
+
+  .social-block-extension, .email-alerts-extension, .products-link-extension, .distribution-link-extension,
+  .partner-block-extension, .company-facts-extension{
+    background: #353230;
+  }
+
+//
+// Main
+//
+
+  .main{
+    background: lighten(#fbffe3, 90%);
+  }
+  div.main.columns{
+    padding-right: 0em;
+  }
+
+  //
+  // Top Bar
+  //
+
+    /* Background color for the top bar */
+    $topbar-bg: #fff;
+
+    /* Height and margin */
+    $topbar-height: 75px;
+    $topbar-margin-bottom: emCalc(30px);
+
+    /* Control Input height for top bar */
+
+    /* Set the link colors and styles for top-level nav */
+    $topbar-link-color: #222;
+
+    /* Style the top bar dropdown elements */
+    $topbar-dropdown-bg: #fff;
+    $topbar-dropdown-link-color: #222;
+    $topbar-dropdown-toggle-color: #222;
+
+    /* Top menu icon styles */
+    $topbar-menu-link-color: #222;
+    $topbar-menu-icon-color: #222;
+
+    nav.top-bar input{
+      top: 24px;
+    }
+
+    .top-bar{
+      li.name h1 {
+        line-height: 68px;
+        font-size: 1.7625em;
+      }
+      div { 
+        input{ line-height: 1em; }
+      }
+      a{
+        color: #BC5753;
+        i{
+          font-size: 1.7em;
+        }
+        &:hover{
+          background: none;
+        }
+      }
+      .top-bar-section li a:not(.button):hover {
+        background: none;
+      }
+    }
+
+    @media only screen and (min-width: 58.75em) {
+      section.top-bar-section li a:not(.button) {
+        padding: 0 20px;
+      }
+    }
+  
+  // Hero
+  //
+
+    .masthead-photo { overflow: hidden; float: right; }
+    .masthead-photo-extension{ width: 1200px; }
+
+    div .orbit-container{ background: white; height: 350px;}
+
+    .orbit-slide-number{ display: none; }
+    .orbit-next, .orbit-prev{ display: none; }
+
+  //
+  // Case Study
+  //
+    .case-studies{
+    }
+    .case-study-item{ 
+      padding: 3em 0; 
+      h2.subheader{
+        font-size: 1.2em;
+        margin-bottom: .2em;
+      }
+      p{
+        font-size: .8em;
+      }
+    }
+    .case-studies-extension{
+      background: white;
+    }
+
+  //
+  // Page Main
+  //
+
+  .page-main-extension{
+    background: #FAF8F6;
+    border-top: 1px solid #E4E2E1;
+  }
+  .page-main-content{
+    padding-top:1.3em;
+  }
+
+//
+// Sidebar
+//
+
+  div.sidebar{
+    padding-left: 0px !important;
+    background: #333;
+    color: white;
+    h4.subheader{
+      font-size: 2.2em;
+      color: white;
+    }
+    ul{
+      text-indent: 1em;
+    }
+  }
+  .link-string{
+    li{
+      line-height: 1.2em;
+    }
+    a{
+      font-size: .9em;
+    }
+  }
+  // Company Facts
+  //
+    .company-facts{ 
+      padding-bottom: 40px;
+      img { margin: 0 auto; }
+      p{ font-size: .8em; }
+      .row{
+        padding-bottom: 35px;
+      }
+    }
+    div.company-facts-extension{
+      background:#1E1E1E;
+    }
+    .company-facts-content{
+      padding-top: 50px;
+    }
+
+  // Partner
+  //
+
+    .partner-block{
+      padding-top:.3em;
+      ul{
+        margin-left: 0em;
+        li{
+        }
+      }
+    }
+    .partner-block-extension{
+      border-top: 1px solid #444241;
+    }
+  // Email Alerts
+  //
+    .email-alerts-block{
+      label{
+        color: white;
+      }
+    }
