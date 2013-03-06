@@ -1,20 +1,30 @@
 @charset "UTF-8";
+/* line 11, ../scss/_settings.scss */
+.wf-loading {
+  visibility: hidden;
+}
+
+/* line 15, ../scss/_settings.scss */
+.wf-active {
+  visibility: visible;
+}
+
 /* Medium Displays: 768px - 1279px */
 @media only screen and (min-width: 66em) {
-  /* line 77, ../scss/_settings.scss */
+  /* line 100, ../scss/_settings.scss */
   .lkb-hide-for-medium {
     display: none !important;
   }
 }
 /* general icons for IE7 */
-/* line 116, ../scss/_settings.scss */
+/* line 139, ../scss/_settings.scss */
 [class*="foundicon-"] {
   font-family: "GeneralEnclosedFoundicons";
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 97, ../scss/_settings.scss */
+/* line 120, ../scss/_settings.scss */
 .foundicon-search {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02e;");
 }
@@ -29,7 +39,7 @@
 }
 
 /* global foundicon styles */
-/* line 128, ../scss/_settings.scss */
+/* line 151, ../scss/_settings.scss */
 [class*="foundicon-"] {
   display: inline;
   width: auto;
@@ -41,7 +51,7 @@
   background-repeat: repeat;
 }
 
-/* line 138, ../scss/_settings.scss */
+/* line 161, ../scss/_settings.scss */
 [class*="general foundicon"]:before {
   font-family: GeneralEnclosedFoundicons;
   font-weight: normal;
@@ -49,30 +59,30 @@
   text-decoration: inherit;
 }
 
-/* line 91, ../scss/_settings.scss */
+/* line 114, ../scss/_settings.scss */
 .foundicon-search:before {
   content: "\f02e";
 }
 
 /* general icons for IE7 */
-/* line 179, ../scss/_settings.scss */
+/* line 202, ../scss/_settings.scss */
 [class*="foundicon-"] {
   font-family: "SocialFoundicons";
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 160, ../scss/_settings.scss */
+/* line 183, ../scss/_settings.scss */
 .foundicon-facebook {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf003;");
 }
 
-/* line 160, ../scss/_settings.scss */
+/* line 183, ../scss/_settings.scss */
 .foundicon-twitter {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf004;");
 }
 
-/* line 160, ../scss/_settings.scss */
+/* line 183, ../scss/_settings.scss */
 .foundicon-youtube {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00e;");
 }
@@ -87,7 +97,7 @@
 }
 
 /* global foundicon styles */
-/* line 193, ../scss/_settings.scss */
+/* line 216, ../scss/_settings.scss */
 [class*="foundicon-"] {
   display: inline;
   width: auto;
@@ -99,7 +109,7 @@
   background-repeat: repeat;
 }
 
-/* line 203, ../scss/_settings.scss */
+/* line 226, ../scss/_settings.scss */
 [class*="social foundicon"]:before {
   font-family: SocialFoundicons;
   font-weight: normal;
@@ -108,69 +118,69 @@
 }
 
 /* icons */
-/* line 154, ../scss/_settings.scss */
+/* line 177, ../scss/_settings.scss */
 .foundicon-facebook:before {
   content: "\f003";
 }
 
-/* line 154, ../scss/_settings.scss */
+/* line 177, ../scss/_settings.scss */
 .foundicon-twitter:before {
   content: "\f004";
 }
 
-/* line 154, ../scss/_settings.scss */
+/* line 177, ../scss/_settings.scss */
 .foundicon-youtube:before {
   content: "\f00e";
 }
 
-/* line 215, ../scss/_settings.scss */
+/* line 238, ../scss/_settings.scss */
 .social-block span {
   font-size: 2em;
 }
 
-/* line 220, ../scss/_settings.scss */
+/* line 243, ../scss/_settings.scss */
 .fl {
   float: left;
 }
 
-/* line 223, ../scss/_settings.scss */
+/* line 246, ../scss/_settings.scss */
 .fr {
   float: right;
 }
 
-/* line 226, ../scss/_settings.scss */
+/* line 250, ../scss/_settings.scss */
 .h300 {
   height: 350px;
 }
 
-/* line 229, ../scss/_settings.scss */
+/* line 253, ../scss/_settings.scss */
 .b30 {
   padding-bottom: 30px;
 }
 
-/* line 232, ../scss/_settings.scss */
+/* line 257, ../scss/_settings.scss */
 ul.no-style {
   list-style: none;
 }
 
-/* line 235, ../scss/_settings.scss */
+/* line 260, ../scss/_settings.scss */
 hr.silent {
   border: 1px solid white;
 }
 
-/* line 238, ../scss/_settings.scss */
+/* line 263, ../scss/_settings.scss */
 .overflow {
   overflow: hidden;
   border-top: 5px solid #bc5753;
   background: #FAF8F6;
 }
 
-/* line 239, ../scss/_settings.scss */
+/* line 264, ../scss/_settings.scss */
 .top-nav-wrapper {
   background: white;
 }
 
-/* line 240, ../scss/_settings.scss */
+/* line 265, ../scss/_settings.scss */
 .sexy_line {
   margin: 25px 0;
   height: 1px;
@@ -178,17 +188,17 @@ hr.silent {
   background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
 }
 
-/* line 246, ../scss/_settings.scss */
+/* line 271, ../scss/_settings.scss */
 .pr98 {
   padding-right: 0.9375em;
 }
 
-/* line 252, ../scss/_settings.scss */
+/* line 277, ../scss/_settings.scss */
 .x1 {
   overflow: hidden;
 }
 
-/* line 255, ../scss/_settings.scss */
+/* line 280, ../scss/_settings.scss */
 .x1 .x2 {
   display: block;
   float: left;
@@ -204,7 +214,7 @@ hr.silent {
   position: relative;
 }
 
-/* line 269, ../scss/_settings.scss */
+/* line 294, ../scss/_settings.scss */
 .x1 .x2 span {
   position: absolute;
   width: 100%;
@@ -216,44 +226,51 @@ hr.silent {
   overflow: hidden;
 }
 
-/* line 281, ../scss/_settings.scss */
+/* line 306, ../scss/_settings.scss */
 .vertical-space {
   padding: 10% 3% 0;
 }
 
-/* line 286, ../scss/_settings.scss */
-.case-studies-content, .page-main-content {
-  width: 671px;
-}
+@media only screen and (min-width: 62.5em) {
+  /* line 312, ../scss/_settings.scss */
+  .case-studies-content, .page-main-content {
+    width: 41.66666em;
+  }
 
-/* line 291, ../scss/_settings.scss */
-.case-studies-extension, .page-main-extension,
-.social-block-extension, .email-alerts-extension, .products-link-extension, .distribution-link-extension,
-.partner-block-extension, .company-facts-extension {
-  width: 9999px;
-}
+  /* line 317, ../scss/_settings.scss */
+  .case-studies-extension, .page-main-extension,
+  .social-block-extension, .email-alerts-extension, .products-link-extension, .distribution-link-extension,
+  .partner-block-extension, .company-facts-extension {
+    width: 9999px;
+  }
 
-/* line 296, ../scss/_settings.scss */
+  /* line 321, ../scss/_settings.scss */
+  .social-block-content, .email-alerts-content, .products-link-content, .distribution-link-content,
+  .partner-block-content, .company-facts-content {
+    width: 20.83333em;
+  }
+}
+/* line 326, ../scss/_settings.scss */
 .social-block-content, .email-alerts-content, .products-link-content, .distribution-link-content,
 .partner-block-content, .company-facts-content {
-  width: 290px;
   padding-left: 0.9375em;
 }
 
-/* line 302, ../scss/_settings.scss */
+/* line 332, ../scss/_settings.scss */
 .social-block-extension, .email-alerts-extension, .products-link-extension, .distribution-link-extension,
 .partner-block-extension, .company-facts-extension {
   background: #353230;
 }
 
-/* line 310, ../scss/_settings.scss */
+/* line 340, ../scss/_settings.scss */
 .main {
   background: white;
 }
 
-/* line 313, ../scss/_settings.scss */
+/* line 343, ../scss/_settings.scss */
 div.main.columns {
   padding-right: 0em;
+  padding-left: 0em;
 }
 
 /* Background color for the top bar */
@@ -262,169 +279,278 @@ div.main.columns {
 /* Set the link colors and styles for top-level nav */
 /* Style the top bar dropdown elements */
 /* Top menu icon styles */
-/* line 342, ../scss/_settings.scss */
+/* line 374, ../scss/_settings.scss */
 nav.top-bar input {
   top: 24px;
 }
 
-/* line 347, ../scss/_settings.scss */
+/* line 379, ../scss/_settings.scss */
 .top-bar li.name h1 {
   line-height: 68px;
   font-size: 1.7625em;
 }
-/* line 352, ../scss/_settings.scss */
+/* line 384, ../scss/_settings.scss */
 .top-bar div input {
   line-height: 1em;
 }
-/* line 354, ../scss/_settings.scss */
+/* line 386, ../scss/_settings.scss */
 .top-bar a {
   color: #BC5753;
 }
-/* line 356, ../scss/_settings.scss */
+/* line 388, ../scss/_settings.scss */
 .top-bar a i {
   font-size: 1.7em;
 }
-/* line 359, ../scss/_settings.scss */
+/* line 391, ../scss/_settings.scss */
 .top-bar a:hover {
   background: none;
 }
-/* line 363, ../scss/_settings.scss */
-.top-bar .top-bar-section li a:not(.button):hover {
+
+/* line 397, ../scss/_settings.scss */
+.top-bar-section ul.right li a:not(.button):hover {
   background: none;
 }
 
+/* line 401, ../scss/_settings.scss */
+section.top-bar-section ul li > a {
+  color: #333;
+  font-size: .9em;
+  font-weight: 600;
+}
+
+/* line 407, ../scss/_settings.scss */
+.top-nav-wrapper {
+  border-bottom: 1px solid #e4e2e1;
+}
+
 @media only screen and (min-width: 58.75em) {
-  /* line 369, ../scss/_settings.scss */
+  /* line 412, ../scss/_settings.scss */
   section.top-bar-section li a:not(.button) {
     padding: 0 20px;
   }
 }
-/* line 377, ../scss/_settings.scss */
+/* line 417, ../scss/_settings.scss */
+.logo {
+  padding-top: .7em;
+  width: 130px;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s linear;
+  -moz-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
+  -ms-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+}
+/* line 426, ../scss/_settings.scss */
+.logo:hover {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  opacity: .7;
+  -webkit-transition: opacity 0.2s linear;
+  -moz-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
+  -ms-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+}
+
+/* line 438, ../scss/_settings.scss */
+.menu-icon span {
+  color: #BC5753;
+}
+
+/* line 441, ../scss/_settings.scss */
+.top-bar li.toggle-topbar.menu-icon a span {
+  -webkit-box-shadow: 0 10px 0 1px #bc5753, 0 16px 0 1px #bc5753, 0 22px 0 1px #bc5753;
+  box-shadow: 0 10px 0 1px #bc5753, 0 16px 0 1px #bc5753, 0 22px 0 1px #bc5753;
+}
+
+/* line 449, ../scss/_settings.scss */
 .masthead-photo {
   overflow: hidden;
   float: right;
 }
 
-/* line 378, ../scss/_settings.scss */
+/* line 450, ../scss/_settings.scss */
 .masthead-photo-extension {
   width: 1200px;
 }
 
-/* line 380, ../scss/_settings.scss */
+/* line 452, ../scss/_settings.scss */
 div .orbit-container {
-  background: white;
-  height: 350px;
+  background: none;
 }
 
-/* line 382, ../scss/_settings.scss */
+@media only screen and (min-width: 58.75em) {
+  /* line 454, ../scss/_settings.scss */
+  div .orbit-container {
+    height: 350px;
+  }
+}
+/* line 460, ../scss/_settings.scss */
 .orbit-slide-number {
   display: none;
 }
 
-/* line 383, ../scss/_settings.scss */
+/* line 461, ../scss/_settings.scss */
 .orbit-next, .orbit-prev {
   display: none;
 }
 
-/* line 390, ../scss/_settings.scss */
+/* line 468, ../scss/_settings.scss */
 .case-study-item {
-  padding: 3em 0;
+  padding: 2em 0;
 }
-/* line 392, ../scss/_settings.scss */
+/* line 470, ../scss/_settings.scss */
 .case-study-item h2.subheader {
   font-size: 1.2em;
   margin-bottom: .2em;
 }
-/* line 396, ../scss/_settings.scss */
+/* line 474, ../scss/_settings.scss */
 .case-study-item p {
   font-size: .8em;
 }
 
-/* line 400, ../scss/_settings.scss */
+/* line 478, ../scss/_settings.scss */
 .case-studies-extension {
   background: white;
 }
 
-/* line 408, ../scss/_settings.scss */
+@media only screen and (max-width: 58.75em) {
+  /* line 482, ../scss/_settings.scss */
+  .case-studies {
+    height: auto !important;
+  }
+}
+@media only screen and (min-width: 58.75em) {
+  /* line 487, ../scss/_settings.scss */
+  .case-studies-extension {
+    border-top: 1px solid #e4e2e1;
+  }
+}
+/* line 496, ../scss/_settings.scss */
+.page-main-content {
+  padding-left: 0.9375em;
+}
+
+/* line 499, ../scss/_settings.scss */
 .page-main-extension {
   background: #FAF8F6;
   border-top: 1px solid #e4e2e1;
 }
 
-/* line 412, ../scss/_settings.scss */
+/* line 503, ../scss/_settings.scss */
 .page-main-content {
   padding-top: 1.3em;
 }
+/* line 505, ../scss/_settings.scss */
+.page-main-content .info-gr {
+  padding: 3em 0 5em;
+}
 
-/* line 420, ../scss/_settings.scss */
+/* line 514, ../scss/_settings.scss */
+.sidebar .content-sec {
+  padding-right: 0.9375em;
+}
+
+/* line 518, ../scss/_settings.scss */
 div.sidebar {
   padding-left: 0px !important;
+  padding-right: 0px !important;
   background: #333;
   color: white;
 }
-/* line 424, ../scss/_settings.scss */
+/* line 523, ../scss/_settings.scss */
 div.sidebar h4.subheader {
   font-size: 2.2em;
   color: white;
 }
-/* line 428, ../scss/_settings.scss */
+/* line 527, ../scss/_settings.scss */
 div.sidebar ul {
   text-indent: 1em;
 }
 
-/* line 433, ../scss/_settings.scss */
+/* line 532, ../scss/_settings.scss */
 .link-string li {
   line-height: 1.2em;
 }
-/* line 436, ../scss/_settings.scss */
+/* line 535, ../scss/_settings.scss */
 .link-string a {
   font-size: .9em;
 }
 
-/* line 442, ../scss/_settings.scss */
+/* line 541, ../scss/_settings.scss */
 .company-facts {
   padding-bottom: 40px;
 }
-/* line 444, ../scss/_settings.scss */
+/* line 543, ../scss/_settings.scss */
 .company-facts img {
   margin: 0 auto;
 }
-/* line 445, ../scss/_settings.scss */
+/* line 544, ../scss/_settings.scss */
 .company-facts p {
   font-size: .8em;
 }
-/* line 446, ../scss/_settings.scss */
+/* line 545, ../scss/_settings.scss */
 .company-facts .row {
   padding-bottom: 35px;
 }
 
-/* line 450, ../scss/_settings.scss */
+/* line 550, ../scss/_settings.scss */
 div.company-facts-extension {
   background: #1E1E1E;
 }
 
-/* line 453, ../scss/_settings.scss */
+/* line 554, ../scss/_settings.scss */
 .company-facts-content {
   padding-top: 50px;
 }
 
-/* line 460, ../scss/_settings.scss */
+@media only screen and (max-width: 58.75em) {
+  /* line 558, ../scss/_settings.scss */
+  .company-facts-extension .h300 {
+    height: auto!important;
+  }
+  /* line 560, ../scss/_settings.scss */
+  .company-facts-extension .h300 img .max-width {
+    max-width: 25% !important;
+  }
+}
+/* line 570, ../scss/_settings.scss */
 .partner-block {
   padding-top: .3em;
 }
-/* line 462, ../scss/_settings.scss */
+/* line 572, ../scss/_settings.scss */
 .partner-block ul {
   margin-left: 0em;
+  margin-right: 0em;
 }
 
-/* line 468, ../scss/_settings.scss */
+/* line 579, ../scss/_settings.scss */
 .partner-block-extension {
   border-top: 1px solid #444241;
+  height: auto !important;
 }
 
-/* line 474, ../scss/_settings.scss */
+/* line 586, ../scss/_settings.scss */
+.email-alerts-block .email-box {
+  padding-left: 1em;
+}
+/* line 589, ../scss/_settings.scss */
 .email-alerts-block label {
   color: white;
+  margin-bottom: 1em;
+}
+/* line 593, ../scss/_settings.scss */
+.email-alerts-block .small-9 input {
+  border-radius: 10px 0px 0px 10px;
+}
+/* line 596, ../scss/_settings.scss */
+.email-alerts-block a.prefix {
+  border-radius: 0px 10px 10px 0px;
+}
+
+/* line 603, ../scss/_settings.scss */
+.footer-full {
+  border-top: 1px solid #e4e2e1;
 }
 
 /* line 160, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
@@ -448,8 +574,8 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-family: "freight-sans-pro", sans-serif;
+  font-weight: 400;
   font-style: normal;
   line-height: 1;
   position: relative;
@@ -1566,7 +1692,7 @@ p.lead {
 .subheader {
   line-height: 1.4;
   color: #6f6f6f;
-  font-weight: 300;
+  font-weight: 400;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
 }
@@ -1600,13 +1726,13 @@ td {
 /* Default Link Styles */
 /* line 145, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_type.scss */
 a {
-  color: #2ba6cb;
+  color: #bc5753;
   text-decoration: none;
   line-height: inherit;
 }
 /* line 151, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_type.scss */
 a:hover, a:focus {
-  color: #2795b6;
+  color: #b14945;
 }
 /* line 153, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_type.scss */
 a img {
@@ -1632,8 +1758,8 @@ p aside {
 /* Default header styles */
 /* line 174, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  font-family: "freight-sans-pro", sans-serif;
+  font-weight: 600;
   font-style: normal;
   color: #222222;
   text-rendering: optimizeLegibility;
@@ -2011,13 +2137,13 @@ blockquote p {
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
   font-size: 1em;
-  background-color: #2ba6cb;
-  border-color: #2284a1;
+  background-color: #bc5753;
+  border-color: #9e413e;
   color: white;
 }
 /* line 112, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button:hover, .button:focus {
-  background-color: #2284a1;
+  background-color: #9e413e;
 }
 /* line 123, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button:hover, .button:focus {
@@ -2109,8 +2235,8 @@ blockquote p {
 }
 /* line 176, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled, .button[disabled] {
-  background-color: #2ba6cb;
-  border-color: #2284a1;
+  background-color: #bc5753;
+  border-color: #9e413e;
   color: white;
   cursor: default;
   opacity: 0.6;
@@ -2119,7 +2245,7 @@ blockquote p {
 }
 /* line 112, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #2284a1;
+  background-color: #9e413e;
 }
 /* line 123, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
@@ -2127,7 +2253,7 @@ blockquote p {
 }
 /* line 134, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #2ba6cb;
+  background-color: #bc5753;
 }
 /* line 177, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled.secondary, .button[disabled].secondary {
@@ -2959,7 +3085,7 @@ form.custom .custom.disabled {
 }
 /* line 78, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_split-buttons.scss */
 .split.button span {
-  border-left-color: #1e728c;
+  border-left-color: #8c3a37;
 }
 /* line 111, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_split-buttons.scss */
 .split.button span {
@@ -3418,12 +3544,12 @@ form.custom .custom.disabled {
 }
 /* line 219, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
-  background: #2ba6cb;
+  background: #bc5753;
   font-size: 0.8125em;
 }
 /* line 222, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button:hover {
-  background: #2284a1;
+  background: #9e413e;
 }
 /* line 226, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.secondary {
@@ -4373,8 +4499,8 @@ form.custom .custom.disabled {
   position: relative;
   padding: 0.6875em 1.3125em 0.75em 0.6875em;
   font-size: 0.875em;
-  background-color: #2ba6cb;
-  border-color: #2284a1;
+  background-color: #bc5753;
+  border-color: #9e413e;
   color: white;
 }
 /* line 96, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_alert-boxes.scss */
@@ -4452,7 +4578,7 @@ form.custom .custom.disabled {
   font-size: 0.6875em;
   padding-left: 0.75em;
   text-transform: uppercase;
-  color: #2ba6cb;
+  color: #bc5753;
 }
 /* line 71, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs li.current a {
@@ -4519,7 +4645,7 @@ kbd {
   position: relative;
   padding: 0.1875em 0.625em 0.25em;
   font-size: 0.875em;
-  background-color: #2ba6cb;
+  background-color: #bc5753;
   color: #fff;
 }
 /* line 73, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_labels.scss */
@@ -4606,14 +4732,14 @@ kbd {
 }
 /* line 69, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_pagination.scss */
 .pagination li.current a {
-  background: #2ba6cb;
+  background: #bc5753;
   color: white;
   font-weight: bold;
   cursor: default;
 }
 /* line 76, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_pagination.scss */
 .pagination li.current a:hover, .pagination li.current a:focus {
-  background: #2ba6cb;
+  background: #bc5753;
 }
 
 /* line 82, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_pagination.scss */
@@ -4661,16 +4787,16 @@ kbd {
 .panel.callout {
   border-style: solid;
   border-width: 1px;
-  border-color: #2284a1;
+  border-color: #9e413e;
   margin-bottom: 1.25em;
   padding: 1.25em;
-  background: #2ba6cb;
+  background: #bc5753;
   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 }
-/* line 44, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_panels.scss */
+/* line 43, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_panels.scss */
 .panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p {
-  color: white;
+  color: #333333;
 }
 /* line 47, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_panels.scss */
 .panel.callout > :first-child {
@@ -4763,7 +4889,7 @@ kbd {
 }
 /* line 51, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_progress-bars.scss */
 .progress .meter {
-  background: #2ba6cb;
+  background: #bc5753;
   height: 100%;
   display: block;
 }
@@ -4823,7 +4949,7 @@ kbd {
 /* line 42, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_side-nav.scss */
 .side-nav li a {
   display: block;
-  color: #2ba6cb;
+  color: #bc5753;
 }
 /* line 47, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_side-nav.scss */
 .side-nav li.active a {
@@ -4872,7 +4998,7 @@ kbd {
   -webkit-border-radius: 1000px;
   border-radius: 1000px;
   font-weight: bold;
-  background: #2ba6cb;
+  background: #bc5753;
   padding: 0.1875em 0.5625em;
   cursor: default;
   color: white;
@@ -5178,8 +5304,8 @@ table tfoot tr td {
 }
 /* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_thumbs.scss */
 .th:hover, .th:focus {
-  -webkit-box-shadow: 0 0 6px 1px rgba(43, 166, 203, 0.5);
-  box-shadow: 0 0 6px 1px rgba(43, 166, 203, 0.5);
+  -webkit-box-shadow: 0 0 6px 1px rgba(188, 87, 83, 0.5);
+  box-shadow: 0 0 6px 1px rgba(188, 87, 83, 0.5);
 }
 /* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_thumbs.scss */
 .th.radius {
@@ -5197,8 +5323,8 @@ table tfoot tr td {
 }
 /* line 34, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_tooltips.scss */
 .has-tip:hover, .has-tip:focus {
-  border-bottom: dotted 1px #196177;
-  color: #2ba6cb;
+  border-bottom: dotted 1px #7a322f;
+  color: #bc5753;
 }
 /* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_tooltips.scss */
 .has-tip.tip-left, .has-tip.tip-right {
@@ -5232,8 +5358,8 @@ table tfoot tr td {
 }
 /* line 67, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_tooltips.scss */
 .tooltip.opened {
-  color: #2ba6cb !important;
-  border-bottom: dotted 1px #196177 !important;
+  color: #bc5753 !important;
+  border-bottom: dotted 1px #7a322f !important;
 }
 /* line 72, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_tooltips.scss */
 .tooltip.radius {
