@@ -13,15 +13,8 @@
   
 
   <script src="js/vendor/custom.modernizr.js"></script>
-  <script type="text/javascript">
-    (function() {
-      var config = {
-        kitId: 'hxm2vop',
-        scriptTimeout: 3000
-      };
-      var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
-    })();
-  </script>
+  <script type="text/javascript" src="//use.typekit.net/hxm2vop.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 </head>
 <body>
@@ -81,7 +74,7 @@
         <div class="masthead-photo h300">
           <div class="masthead-photo-extension image-wrapper">
             <div class="masthead-photo-content content-sec image-post">
-              <img src="http://fakeimg.pl/1200x350/?text=" alt="">
+              <img src="images/slide-stad.png" alt="">
             </div>    
           </div>
         </div>
@@ -266,7 +259,7 @@
       <div class="row footer">
         <div class="column">
           <nav>
-            <ul class="inline-list">
+            <ul class="inline-list small-block-grid-2">
               <li><a href="">Home</a></li>
               <li><a href="">Distribution</a></li>
               <li><a href="">Clients</a></li>
@@ -278,7 +271,7 @@
               <li><a href="">Contact</a></li>
             </ul>
           </nav>
-          <a href=""><p>&copy; 2013 Acquinity Interaction - all rights reserved</p></a> 
+          <p>&copy; 2013 Acquinity Interactive - All Rights Reserved</p>
         </div>
       </div>
     </div>
@@ -325,6 +318,35 @@
     }, function (response) {
 
     });
+  </script>
+  <script type="text/javascript">
+    (function(){
+      var fbomb = flickrBomb();
+      
+      var currentValue = false,
+      el = $('#demo-content span');
+      el.focus(function(){
+          currentValue = $(this).text();
+      });
+      el.keypress(function (e) {
+          if (e.which == 13) {
+              e.preventDefault();
+              updateIMG($(this));
+          }
+      });
+      el.focusout(function() {
+          updateIMG($(this));
+      });
+      function updateIMG(argu) {
+          if (argu.text() !== currentValue) {
+              var keywords = $('#keywords').text();
+              $('#demo-splash').html('<img src="flickr://' + keywords + '" width="940px" height="250px" style="display:none"><span>Loading New Demo Content</span>');
+              fbomb.bomb();
+          } else {
+              return false;
+          }
+      }
+    })();
   </script>
 </body>
 </html>
