@@ -1,10 +1,10 @@
 @charset "UTF-8";
-/* line 33, ../scss/_settings.scss */
+/* line 34, ../scss/_settings.scss */
 h3.subheader {
   font-size: 2em;
 }
 
-/* line 34, ../scss/_settings.scss */
+/* line 35, ../scss/_settings.scss */
 h4.subheader {
   font-family: "franklin-gothic-urw-comp";
   text-transform: uppercase;
@@ -12,20 +12,20 @@ h4.subheader {
 
 /* Medium Displays: 768px - 1279px */
 @media only screen and (min-width: 66em) {
-  /* line 95, ../scss/_settings.scss */
+  /* line 96, ../scss/_settings.scss */
   .lkb-hide-for-medium {
     display: none !important;
   }
 }
 /* general icons for IE7 */
-/* line 134, ../scss/_settings.scss */
+/* line 135, ../scss/_settings.scss */
 [class*="foundicon-"] {
   font-family: "GeneralEnclosedFoundicons";
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 115, ../scss/_settings.scss */
+/* line 116, ../scss/_settings.scss */
 .foundicon-search {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02e;");
 }
@@ -40,7 +40,7 @@ h4.subheader {
 }
 
 /* global foundicon styles */
-/* line 146, ../scss/_settings.scss */
+/* line 147, ../scss/_settings.scss */
 [class*="foundicon-"] {
   display: inline;
   width: auto;
@@ -52,7 +52,7 @@ h4.subheader {
   background-repeat: repeat;
 }
 
-/* line 156, ../scss/_settings.scss */
+/* line 157, ../scss/_settings.scss */
 [class*="general foundicon"]:before {
   font-family: GeneralEnclosedFoundicons;
   font-weight: normal;
@@ -60,30 +60,30 @@ h4.subheader {
   text-decoration: inherit;
 }
 
-/* line 109, ../scss/_settings.scss */
+/* line 110, ../scss/_settings.scss */
 .foundicon-search:before {
   content: "\f02e";
 }
 
 /* general icons for IE7 */
-/* line 197, ../scss/_settings.scss */
+/* line 198, ../scss/_settings.scss */
 [class*="foundicon-"] {
   font-family: "SocialFoundicons";
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 178, ../scss/_settings.scss */
+/* line 179, ../scss/_settings.scss */
 .foundicon-facebook {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf003;");
 }
 
-/* line 178, ../scss/_settings.scss */
+/* line 179, ../scss/_settings.scss */
 .foundicon-twitter {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf004;");
 }
 
-/* line 178, ../scss/_settings.scss */
+/* line 179, ../scss/_settings.scss */
 .foundicon-youtube {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00e;");
 }
@@ -98,7 +98,7 @@ h4.subheader {
 }
 
 /* global foundicon styles */
-/* line 211, ../scss/_settings.scss */
+/* line 212, ../scss/_settings.scss */
 [class*="foundicon-"] {
   display: inline;
   width: auto;
@@ -110,7 +110,7 @@ h4.subheader {
   background-repeat: repeat;
 }
 
-/* line 221, ../scss/_settings.scss */
+/* line 222, ../scss/_settings.scss */
 [class*="social foundicon"]:before {
   font-family: SocialFoundicons;
   font-weight: normal;
@@ -119,74 +119,74 @@ h4.subheader {
 }
 
 /* icons */
-/* line 172, ../scss/_settings.scss */
+/* line 173, ../scss/_settings.scss */
 .foundicon-facebook:before {
   content: "\f003";
 }
 
-/* line 172, ../scss/_settings.scss */
+/* line 173, ../scss/_settings.scss */
 .foundicon-twitter:before {
   content: "\f004";
 }
 
-/* line 172, ../scss/_settings.scss */
+/* line 173, ../scss/_settings.scss */
 .foundicon-youtube:before {
   content: "\f00e";
 }
 
-/* line 233, ../scss/_settings.scss */
+/* line 234, ../scss/_settings.scss */
 .social-block span {
   font-size: 2em;
 }
 
-/* line 238, ../scss/_settings.scss */
+/* line 239, ../scss/_settings.scss */
 .fl {
   float: left;
 }
 
-/* line 241, ../scss/_settings.scss */
+/* line 242, ../scss/_settings.scss */
 .fr {
   float: right;
 }
 
-/* line 244, ../scss/_settings.scss */
+/* line 245, ../scss/_settings.scss */
 .h300 {
   height: 350px;
 }
 
-/* line 247, ../scss/_settings.scss */
+/* line 248, ../scss/_settings.scss */
 .b30 {
   padding-bottom: 30px;
 }
 
-/* line 250, ../scss/_settings.scss */
+/* line 251, ../scss/_settings.scss */
 .tp30 {
   padding-top: 30px;
 }
 
-/* line 253, ../scss/_settings.scss */
+/* line 254, ../scss/_settings.scss */
 ul.no-style {
   list-style: none;
 }
 
-/* line 256, ../scss/_settings.scss */
+/* line 257, ../scss/_settings.scss */
 hr.silent {
   border: 1px solid white;
 }
 
-/* line 259, ../scss/_settings.scss */
+/* line 260, ../scss/_settings.scss */
 .overflow {
   overflow: hidden;
-  border-top: 5px solid #bc5753;
+  border-top: 5px solid #b61636;
   background: #FAF8F6;
 }
 
-/* line 260, ../scss/_settings.scss */
+/* line 261, ../scss/_settings.scss */
 .top-nav-wrapper {
   background: white;
 }
 
-/* line 261, ../scss/_settings.scss */
+/* line 262, ../scss/_settings.scss */
 .sexy_line {
   margin: 25px 0;
   height: 1px;
@@ -194,17 +194,17 @@ hr.silent {
   background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
 }
 
-/* line 267, ../scss/_settings.scss */
+/* line 268, ../scss/_settings.scss */
 .pr98 {
   padding-right: 0.9375em;
 }
 
-/* line 273, ../scss/_settings.scss */
+/* line 274, ../scss/_settings.scss */
 .x1 {
   overflow: hidden;
 }
 
-/* line 276, ../scss/_settings.scss */
+/* line 277, ../scss/_settings.scss */
 .x1 .x2 {
   display: block;
   float: left;
@@ -220,7 +220,7 @@ hr.silent {
   position: relative;
 }
 
-/* line 290, ../scss/_settings.scss */
+/* line 291, ../scss/_settings.scss */
 .x1 .x2 span {
   position: absolute;
   width: 100%;
@@ -232,43 +232,43 @@ hr.silent {
   overflow: hidden;
 }
 
-/* line 302, ../scss/_settings.scss */
+/* line 303, ../scss/_settings.scss */
 .vertical-space {
   padding: 10% 3% 0;
 }
 
 @media only screen and (min-width: 62.5em) {
-  /* line 308, ../scss/_settings.scss */
-  .case-studies-content, .page-main-content {
+  /* line 309, ../scss/_settings.scss */
+  .masthead-photo-content, .case-studies-content, .page-main-content {
     width: 41.66666em;
   }
 
-  /* line 313, ../scss/_settings.scss */
+  /* line 314, ../scss/_settings.scss */
   .case-studies-extension, .page-main-extension,
   .social-block-extension, .email-alerts-extension, .products-link-extension, .distribution-link-extension,
   .partner-block-extension, .company-facts-extension {
     width: 9999px;
   }
 
-  /* line 317, ../scss/_settings.scss */
+  /* line 318, ../scss/_settings.scss */
   .social-block-content, .email-alerts-content, .products-link-content, .distribution-link-content,
   .partner-block-content, .company-facts-content {
     width: 20.83333em;
   }
 }
-/* line 322, ../scss/_settings.scss */
+/* line 323, ../scss/_settings.scss */
 .social-block-content, .email-alerts-content, .products-link-content, .distribution-link-content,
 .partner-block-content, .company-facts-content {
   padding-left: 0.9375em;
 }
 
-/* line 328, ../scss/_settings.scss */
+/* line 329, ../scss/_settings.scss */
 .social-block-extension, .email-alerts-extension, .products-link-extension, .distribution-link-extension,
 .partner-block-extension, .company-facts-extension {
   background: #353230;
 }
 
-/* line 336, ../scss/_settings.scss */
+/* line 337, ../scss/_settings.scss */
 .main {
   background: white;
 }
@@ -279,25 +279,25 @@ hr.silent {
 /* Set the link colors and styles for top-level nav */
 /* Style the top bar dropdown elements */
 /* Top menu icon styles */
-/* line 368, ../scss/_settings.scss */
+/* line 369, ../scss/_settings.scss */
 nav.top-bar input {
   top: 24px;
 }
 
-/* line 373, ../scss/_settings.scss */
+/* line 374, ../scss/_settings.scss */
 .top-bar li.name h1 {
   line-height: 68px;
   font-size: 1.7625em;
 }
-/* line 378, ../scss/_settings.scss */
+/* line 379, ../scss/_settings.scss */
 .top-bar div input {
   line-height: 1em;
 }
-/* line 380, ../scss/_settings.scss */
+/* line 381, ../scss/_settings.scss */
 .top-bar a {
-  color: #bc5753;
+  color: #b61636;
 }
-/* line 382, ../scss/_settings.scss */
+/* line 383, ../scss/_settings.scss */
 .top-bar a i {
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
@@ -306,50 +306,50 @@ nav.top-bar input {
   transition: color 0.2s;
   font-size: 1.7em;
 }
-/* line 389, ../scss/_settings.scss */
+/* line 390, ../scss/_settings.scss */
 .top-bar a i:hover {
-  color: #d99f9c;
+  color: #e94969;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   -o-transition: color 0.2s;
   -ms-transition: color 0.2s;
   transition: color 0.2s;
 }
-/* line 398, ../scss/_settings.scss */
+/* line 399, ../scss/_settings.scss */
 .top-bar a:hover {
   background: none;
 }
 
 @media only screen and (min-width: 58.75em) {
-  /* line 405, ../scss/_settings.scss */
+  /* line 406, ../scss/_settings.scss */
   div section.top-bar-section li a:not(.button) {
     padding: 0 12px;
   }
 }
-/* line 410, ../scss/_settings.scss */
+/* line 411, ../scss/_settings.scss */
 .top-bar-section ul.right li a:not(.button):hover {
   background: none;
 }
 
-/* line 414, ../scss/_settings.scss */
+/* line 415, ../scss/_settings.scss */
 section.top-bar-section ul li > a {
   color: #333;
   font-size: .9em;
   font-weight: 600;
 }
 
-/* line 420, ../scss/_settings.scss */
+/* line 421, ../scss/_settings.scss */
 .top-nav-wrapper {
   border-bottom: 1px solid #e4e2e1;
 }
 
 @media only screen and (min-width: 58.75em) {
-  /* line 425, ../scss/_settings.scss */
+  /* line 426, ../scss/_settings.scss */
   section.top-bar-section li a:not(.button) {
     padding: 0 20px;
   }
 }
-/* line 430, ../scss/_settings.scss */
+/* line 431, ../scss/_settings.scss */
 .logo {
   padding-top: .7em;
   width: 130px;
@@ -360,7 +360,7 @@ section.top-bar-section ul li > a {
   -ms-transition: opacity 0.2s linear;
   transition: opacity 0.2s linear;
 }
-/* line 439, ../scss/_settings.scss */
+/* line 440, ../scss/_settings.scss */
 .logo:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   filter: alpha(opacity=80);
@@ -372,214 +372,247 @@ section.top-bar-section ul li > a {
   transition: opacity 0.2s linear;
 }
 
-/* line 451, ../scss/_settings.scss */
+/* line 452, ../scss/_settings.scss */
 .menu-icon span {
-  color: #bc5753;
+  color: #b61636;
 }
 
-/* line 454, ../scss/_settings.scss */
+/* line 455, ../scss/_settings.scss */
 .top-bar li.toggle-topbar.menu-icon a span {
-  -webkit-box-shadow: 0 10px 0 1px #bc5753, 0 16px 0 1px #bc5753, 0 22px 0 1px #bc5753;
-  box-shadow: 0 10px 0 1px #bc5753, 0 16px 0 1px #bc5753, 0 22px 0 1px #bc5753;
+  -webkit-box-shadow: 0 10px 0 1px #b61636, 0 16px 0 1px #b61636, 0 22px 0 1px #b61636;
+  box-shadow: 0 10px 0 1px #b61636, 0 16px 0 1px #b61636, 0 22px 0 1px #b61636;
 }
 
-/* line 462, ../scss/_settings.scss */
+/* line 463, ../scss/_settings.scss */
 .masthead-photo {
   margin-right: -0.9375em;
+  background: white;
   overflow: hidden;
   float: right;
 }
 
-/* line 467, ../scss/_settings.scss */
+/* line 469, ../scss/_settings.scss */
 .masthead-photo-extension {
-  width: 1200px;
+  width: 9999px;
 }
 
-/* line 471, ../scss/_settings.scss */
+/* line 472, ../scss/_settings.scss */
+.masthead-photo-content {
+  float: right;
+}
+
+/* line 475, ../scss/_settings.scss */
 div .orbit-container {
   background: none;
   padding-right: 0.9375em;
 }
 
 @media only screen and (min-width: 58.75em) {
-  /* line 473, ../scss/_settings.scss */
+  /* line 477, ../scss/_settings.scss */
   div .orbit-container {
     height: 350px;
   }
 }
-/* line 479, ../scss/_settings.scss */
+/* line 483, ../scss/_settings.scss */
 .orbit-slide-number {
   display: none;
 }
 
-/* line 480, ../scss/_settings.scss */
+/* line 484, ../scss/_settings.scss */
 .orbit-next, .orbit-prev {
   display: none;
 }
 
-/* line 485, ../scss/_settings.scss */
+/* line 489, ../scss/_settings.scss */
 .case-studies {
   margin-right: -0.9375em;
 }
 
-/* line 488, ../scss/_settings.scss */
+/* line 492, ../scss/_settings.scss */
 .case-study-item {
   padding: 2em 0;
 }
-/* line 490, ../scss/_settings.scss */
+/* line 494, ../scss/_settings.scss */
 .case-study-item h2.subheader {
   font-size: 1.2em;
   margin-bottom: .2em;
 }
-/* line 494, ../scss/_settings.scss */
+/* line 498, ../scss/_settings.scss */
 .case-study-item p {
   font-size: .8em;
 }
 
-/* line 498, ../scss/_settings.scss */
+/* line 502, ../scss/_settings.scss */
 .case-studies-extension {
   background: white;
 }
 
-/* line 503, ../scss/_settings.scss */
+/* line 507, ../scss/_settings.scss */
 .orbit-container .orbit-slides-container > * {
   padding-right: 0.9375em;
 }
 
 @media only screen and (max-width: 58.75em) {
-  /* line 507, ../scss/_settings.scss */
+  /* line 511, ../scss/_settings.scss */
   .case-studies {
     height: auto !important;
   }
 }
 @media only screen and (min-width: 58.75em) {
-  /* line 512, ../scss/_settings.scss */
+  /* line 516, ../scss/_settings.scss */
   .case-studies-extension {
     border-top: 1px solid #e4e2e1;
   }
 }
-/* line 520, ../scss/_settings.scss */
+/* line 524, ../scss/_settings.scss */
 .page-main {
   margin-right: -0.9375em;
+  margin-left: -0.9375em;
 }
 
-/* line 523, ../scss/_settings.scss */
+/* line 528, ../scss/_settings.scss */
 .page-main-content {
   padding-left: 0.9375em;
   padding-right: 0.9375em;
 }
 
-/* line 527, ../scss/_settings.scss */
+/* line 532, ../scss/_settings.scss */
 .page-main-extension {
   background: #FAF8F6;
   border-top: 1px solid #e4e2e1;
   padding-right: 0.9375em;
 }
 
-/* line 532, ../scss/_settings.scss */
+/* line 537, ../scss/_settings.scss */
 .page-main-content {
   padding-top: 1.3em;
+  margin-left: -0.9375em;
+  padding-left: 2.9375em;
 }
-/* line 534, ../scss/_settings.scss */
+/* line 541, ../scss/_settings.scss */
 .page-main-content .info-gr {
   padding: 3em 0 5em;
 }
 
-/* line 543, ../scss/_settings.scss */
+/* line 550, ../scss/_settings.scss */
 .sidebar .content-sec {
   padding-right: 0.9375em;
 }
 
-/* line 547, ../scss/_settings.scss */
+/* line 554, ../scss/_settings.scss */
 div.sidebar {
   background: #333;
   color: white;
 }
-/* line 550, ../scss/_settings.scss */
+/* line 557, ../scss/_settings.scss */
+div.sidebar a {
+  color: #AFAEAF;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  transition: color 0.2s;
+}
+/* line 564, ../scss/_settings.scss */
+div.sidebar a:hover {
+  color: #1a9ad5;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  transition: color 0.2s;
+}
+/* line 573, ../scss/_settings.scss */
 div.sidebar h4.subheader {
   font-size: 1.9em;
   color: white;
   margin-bottom: 0.2em;
 }
-/* line 555, ../scss/_settings.scss */
+/* line 578, ../scss/_settings.scss */
 div.sidebar ul {
   text-indent: 0.08em;
 }
 
-/* line 560, ../scss/_settings.scss */
+/* line 583, ../scss/_settings.scss */
 .link-string li {
   line-height: 1.2em;
 }
-/* line 563, ../scss/_settings.scss */
+/* line 586, ../scss/_settings.scss */
 .link-string a {
   font-size: .9em;
 }
 
 @media only screen and (max-width: 58.75em) {
-  /* line 571, ../scss/_settings.scss */
+  /* line 594, ../scss/_settings.scss */
   div.sidebar h4.subheader {
     font-size: 1.2em;
   }
 }
-/* line 578, ../scss/_settings.scss */
+/* line 601, ../scss/_settings.scss */
 .company-facts {
   padding-bottom: 40px;
 }
-/* line 581, ../scss/_settings.scss */
+/* line 604, ../scss/_settings.scss */
 .company-facts img {
   margin: 0 auto;
 }
-/* line 582, ../scss/_settings.scss */
+/* line 605, ../scss/_settings.scss */
 .company-facts p {
   font-size: .8em;
 }
-/* line 583, ../scss/_settings.scss */
+/* line 606, ../scss/_settings.scss */
 .company-facts .row {
   padding-bottom: 35px;
 }
-/* line 586, ../scss/_settings.scss */
+/* line 609, ../scss/_settings.scss */
 .company-facts .company-facts-extension {
   margin-left: -0.9375em;
+  margin-right: -0.9375em;
   padding-left: 0.9375em;
+  padding-right: 0.9375em;
 }
 @media only screen and (max-width: 767px) {
-  /* line 591, ../scss/_settings.scss */
+  /* line 616, ../scss/_settings.scss */
   .company-facts .company-facts-extension {
     height: auto !important;
   }
-  /* line 593, ../scss/_settings.scss */
+  /* line 618, ../scss/_settings.scss */
   .company-facts .company-facts-extension img .max-width {
     max-width: 25% !important;
   }
 }
 
-/* line 603, ../scss/_settings.scss */
+/* line 628, ../scss/_settings.scss */
 div.company-facts-extension {
   background: #1E1E1E;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 607, ../scss/_settings.scss */
+  /* line 632, ../scss/_settings.scss */
   .company-facts-content {
     padding-top: 1em;
   }
 }
 @media only screen and (min-width: 768px) {
-  /* line 613, ../scss/_settings.scss */
+  /* line 638, ../scss/_settings.scss */
   .company-facts-content {
     padding-top: 50px;
   }
-  /* line 615, ../scss/_settings.scss */
+  /* line 640, ../scss/_settings.scss */
+  .company-facts-content p {
+    padding-top: 2em;
+  }
+  /* line 641, ../scss/_settings.scss */
   .company-facts-content .second {
-    padding-top: 3em;
+    padding-top: 1em;
   }
 }
-/* line 624, ../scss/_settings.scss */
+/* line 650, ../scss/_settings.scss */
 .partner-block ul {
   padding-top: .5em;
 }
 
-/* line 630, ../scss/_settings.scss */
+/* line 656, ../scss/_settings.scss */
 .partner-block-extension {
   border-top: 1px solid #444241;
   padding-top: 1em;
@@ -588,83 +621,135 @@ div.company-facts-extension {
   height: auto !important;
 }
 
-/* line 640, ../scss/_settings.scss */
-.email-alerts-block {
+/* line 666, ../scss/_settings.scss */
+div.email-alerts-block {
   padding-right: 0.9375em;
 }
-/* line 642, ../scss/_settings.scss */
-.email-alerts-block .email-box {
+/* line 668, ../scss/_settings.scss */
+div.email-alerts-block a {
+  color: white;
+}
+/* line 671, ../scss/_settings.scss */
+div.email-alerts-block .email-box {
   padding-right: 0.9375em;
   padding-left: 0.08em;
 }
-/* line 646, ../scss/_settings.scss */
-.email-alerts-block label {
+/* line 675, ../scss/_settings.scss */
+div.email-alerts-block label {
   color: white;
   margin-bottom: 1em;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  transition: color 0.2s;
 }
-/* line 650, ../scss/_settings.scss */
-.email-alerts-block .email-input input {
+/* line 685, ../scss/_settings.scss */
+div.email-alerts-block a:hover {
+  color: #AFAEAF;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  transition: color 0.2s;
+}
+/* line 694, ../scss/_settings.scss */
+div.email-alerts-block .email-input input {
   border-radius: 5px 0px 0px 5px;
 }
-/* line 653, ../scss/_settings.scss */
-.email-alerts-block a.prefix {
+/* line 697, ../scss/_settings.scss */
+div.email-alerts-block a.prefix {
   border-radius: 0px 5px 5px 0px;
 }
 
 @media only screen and (max-width: 58.75em) {
-  /* line 658, ../scss/_settings.scss */
+  /* line 702, ../scss/_settings.scss */
   .email-alerts-extension {
     width: 100%;
   }
 
-  /* line 661, ../scss/_settings.scss */
+  /* line 705, ../scss/_settings.scss */
   .email-box {
     width: 91.66667%;
     padding-right: 0em !important;
   }
 }
+/* line 713, ../scss/_settings.scss */
+.social-block span {
+  opacity: .6;
+}
+/* line 716, ../scss/_settings.scss */
+.social-block a {
+  font-size: 2em;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  transition: color 0.2s;
+}
+/* line 723, ../scss/_settings.scss */
+.social-block a:hover {
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  transition: color 0.2s;
+}
+/* line 732, ../scss/_settings.scss */
+.social-block .foundicon-facebook:hover {
+  color: #4b5d90;
+}
+/* line 737, ../scss/_settings.scss */
+.social-block .foundicon-twitter:hover {
+  color: #9AE4E8;
+}
+/* line 742, ../scss/_settings.scss */
+.social-block .foundicon-youtube:hover {
+  color: #d02525;
+}
+
 @media only screen and (max-width: 767px) {
-  /* line 670, ../scss/_settings.scss */
+  /* line 749, ../scss/_settings.scss */
   .social-block span {
     font-size: 1.5em;
   }
-  /* line 673, ../scss/_settings.scss */
+  /* line 752, ../scss/_settings.scss */
   .social-block .h300 {
     height: auto;
   }
 }
-/* line 683, ../scss/_settings.scss */
+/* line 762, ../scss/_settings.scss */
 .footer-full {
   border-top: 1px solid #e4e2e1;
 }
 
 @media only screen and (min-width: 767px) {
-  /* line 688, ../scss/_settings.scss */
+  /* line 767, ../scss/_settings.scss */
   .footer-full .small-block-grid-2 > li {
     width: auto;
     padding: 0px;
     text-align: center;
     font-weight: 600;
   }
-  /* line 701, ../scss/_settings.scss */
+  /* line 780, ../scss/_settings.scss */
   .footer-full p {
     color: #777;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 707, ../scss/_settings.scss */
+  /* line 786, ../scss/_settings.scss */
   .footer-full {
     border-top: 3px solid #e4e2e1;
     padding-top: 0em;
     font-size: 0.8125em;
     width: 100%;
   }
-  /* line 713, ../scss/_settings.scss */
+  /* line 792, ../scss/_settings.scss */
   .footer-full .column {
     padding-left: 0em!important;
     padding-right: 0em!important;
   }
-  /* line 718, ../scss/_settings.scss */
+  /* line 797, ../scss/_settings.scss */
   .footer-full nav ul {
     height: auto;
     display: block;
@@ -673,25 +758,25 @@ div.company-facts-extension {
     padding-left: 2.2em;
     padding-right: 2.2em;
   }
-  /* line 725, ../scss/_settings.scss */
+  /* line 804, ../scss/_settings.scss */
   .footer-full nav ul li {
     text-align: center;
     margin-left: 0em;
     border-bottom: 1px solid #777777;
     padding-bottom: 0em;
   }
-  /* line 730, ../scss/_settings.scss */
+  /* line 809, ../scss/_settings.scss */
   .footer-full nav ul li:last-child {
     border-bottom: 0px;
   }
-  /* line 733, ../scss/_settings.scss */
+  /* line 812, ../scss/_settings.scss */
   .footer-full nav ul li a {
     display: block;
     padding: 12px 0 12px 15px;
     color: #333;
     font-weight: 200;
   }
-  /* line 742, ../scss/_settings.scss */
+  /* line 821, ../scss/_settings.scss */
   .footer-full p {
     font-size: 0.8125em;
     text-align: center;
@@ -1875,13 +1960,13 @@ td {
 /* Default Link Styles */
 /* line 145, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_type.scss */
 a {
-  color: #bc5753;
+  color: #b61636;
   text-decoration: none;
   line-height: inherit;
 }
 /* line 151, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_type.scss */
 a:hover, a:focus {
-  color: #b14945;
+  color: #9f132f;
 }
 /* line 153, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_type.scss */
 a img {
@@ -1987,7 +2072,7 @@ small {
 code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-weight: bold;
-  color: #7f0a0c;
+  color: #72330e;
 }
 
 /* Lists */
@@ -2286,13 +2371,13 @@ blockquote p {
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
   font-size: 1em;
-  background-color: #bc5753;
-  border-color: #9e413e;
+  background-color: #b61636;
+  border-color: #891028;
   color: white;
 }
 /* line 112, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button:hover, .button:focus {
-  background-color: #9e413e;
+  background-color: #891028;
 }
 /* line 123, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button:hover, .button:focus {
@@ -2300,27 +2385,27 @@ blockquote p {
 }
 /* line 164, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.secondary {
-  background-color: #e9e9e9;
-  border-color: #d0d0d0;
-  color: #333333;
+  background-color: #1a9ad5;
+  border-color: #1479a8;
+  color: white;
 }
 /* line 112, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.secondary:hover, .button.secondary:focus {
-  background-color: #d0d0d0;
+  background-color: #1479a8;
 }
-/* line 118, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
+/* line 123, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.secondary:hover, .button.secondary:focus {
-  color: #333333;
+  color: white;
 }
 /* line 165, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.success {
-  background-color: #5da423;
-  border-color: #457a1a;
+  background-color: #16b67e;
+  border-color: #10895f;
   color: white;
 }
 /* line 112, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.success:hover, .button.success:focus {
-  background-color: #457a1a;
+  background-color: #10895f;
 }
 /* line 123, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.success:hover, .button.success:focus {
@@ -2328,13 +2413,13 @@ blockquote p {
 }
 /* line 166, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.alert {
-  background-color: #c60f13;
-  border-color: #970b0e;
+  background-color: #b65116;
+  border-color: #893d10;
   color: white;
 }
 /* line 112, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.alert:hover, .button.alert:focus {
-  background-color: #970b0e;
+  background-color: #893d10;
 }
 /* line 123, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.alert:hover, .button.alert:focus {
@@ -2384,8 +2469,8 @@ blockquote p {
 }
 /* line 176, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled, .button[disabled] {
-  background-color: #bc5753;
-  border-color: #9e413e;
+  background-color: #b61636;
+  border-color: #891028;
   color: white;
   cursor: default;
   opacity: 0.6;
@@ -2394,7 +2479,7 @@ blockquote p {
 }
 /* line 112, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #9e413e;
+  background-color: #891028;
 }
 /* line 123, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
@@ -2402,13 +2487,13 @@ blockquote p {
 }
 /* line 134, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #bc5753;
+  background-color: #b61636;
 }
 /* line 177, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled.secondary, .button[disabled].secondary {
-  background-color: #e9e9e9;
-  border-color: #d0d0d0;
-  color: #333333;
+  background-color: #1a9ad5;
+  border-color: #1479a8;
+  color: white;
   cursor: default;
   opacity: 0.6;
   -webkit-box-shadow: none;
@@ -2416,20 +2501,20 @@ blockquote p {
 }
 /* line 112, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  background-color: #d0d0d0;
+  background-color: #1479a8;
 }
-/* line 118, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
+/* line 123, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  color: #333333;
+  color: white;
 }
 /* line 134, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  background-color: #e9e9e9;
+  background-color: #1a9ad5;
 }
 /* line 178, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled.success, .button[disabled].success {
-  background-color: #5da423;
-  border-color: #457a1a;
+  background-color: #16b67e;
+  border-color: #10895f;
   color: white;
   cursor: default;
   opacity: 0.6;
@@ -2438,7 +2523,7 @@ blockquote p {
 }
 /* line 112, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
-  background-color: #457a1a;
+  background-color: #10895f;
 }
 /* line 123, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
@@ -2446,12 +2531,12 @@ blockquote p {
 }
 /* line 134, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
-  background-color: #5da423;
+  background-color: #16b67e;
 }
 /* line 179, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled.alert, .button[disabled].alert {
-  background-color: #c60f13;
-  border-color: #970b0e;
+  background-color: #b65116;
+  border-color: #893d10;
   color: white;
   cursor: default;
   opacity: 0.6;
@@ -2460,7 +2545,7 @@ blockquote p {
 }
 /* line 112, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
-  background-color: #970b0e;
+  background-color: #893d10;
 }
 /* line 123, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
@@ -2468,7 +2553,7 @@ blockquote p {
 }
 /* line 134, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
 .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
-  background-color: #c60f13;
+  background-color: #b65116;
 }
 
 /* line 185, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_buttons.scss */
@@ -2753,8 +2838,8 @@ fieldset legend {
 input.error,
 .error textarea,
 textarea.error {
-  border-color: #c60f13;
-  background-color: rgba(198, 15, 19, 0.1);
+  border-color: #b65116;
+  background-color: rgba(182, 81, 22, 0.1);
 }
 /* line 214, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_forms.scss */
 .error input:focus,
@@ -2768,7 +2853,7 @@ textarea.error:focus {
 /* line 304, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_forms.scss */
 .error label,
 label.error {
-  color: #c60f13;
+  color: #b65116;
 }
 
 /* line 307, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_forms.scss */
@@ -2780,7 +2865,7 @@ small.error {
   margin-bottom: 1em;
   font-size: 0.75em;
   font-weight: bold;
-  background: #c60f13;
+  background: #b65116;
   color: white;
 }
 
@@ -3234,7 +3319,7 @@ form.custom .custom.disabled {
 }
 /* line 78, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_split-buttons.scss */
 .split.button span {
-  border-left-color: #8c3a37;
+  border-left-color: #720e22;
 }
 /* line 111, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_split-buttons.scss */
 .split.button span {
@@ -3252,7 +3337,7 @@ form.custom .custom.disabled {
 }
 /* line 78, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_split-buttons.scss */
 .split.button.secondary span {
-  border-left-color: #c3c3c3;
+  border-left-color: #126991;
 }
 /* line 135, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_split-buttons.scss */
 .split.button.secondary span:before {
@@ -3260,11 +3345,11 @@ form.custom .custom.disabled {
 }
 /* line 78, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_split-buttons.scss */
 .split.button.alert span {
-  border-left-color: #7f0a0c;
+  border-left-color: #72330e;
 }
 /* line 78, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_split-buttons.scss */
 .split.button.success span {
-  border-left-color: #396516;
+  border-left-color: #0e724f;
 }
 /* line 149, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_split-buttons.scss */
 .split.button.tiny {
@@ -3693,36 +3778,36 @@ form.custom .custom.disabled {
 }
 /* line 219, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
-  background: #bc5753;
+  background: #b61636;
   font-size: 0.8125em;
 }
 /* line 222, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button:hover {
-  background: #9e413e;
+  background: #891028;
 }
 /* line 226, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.secondary {
-  background: #e9e9e9;
+  background: #1a9ad5;
 }
 /* line 228, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.secondary:hover {
-  background: #d0d0d0;
+  background: #1479a8;
 }
 /* line 232, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.success {
-  background: #5da423;
+  background: #16b67e;
 }
 /* line 234, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.success:hover {
-  background: #457a1a;
+  background: #10895f;
 }
 /* line 238, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.alert {
-  background: #c60f13;
+  background: #b65116;
 }
 /* line 240, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.alert:hover {
-  background: #970b0e;
+  background: #893d10;
 }
 /* line 248, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active a {
@@ -4648,8 +4733,8 @@ form.custom .custom.disabled {
   position: relative;
   padding: 0.6875em 1.3125em 0.75em 0.6875em;
   font-size: 0.875em;
-  background-color: #bc5753;
-  border-color: #9e413e;
+  background-color: #b61636;
+  border-color: #891028;
   color: white;
 }
 /* line 96, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_alert-boxes.scss */
@@ -4679,21 +4764,21 @@ form.custom .custom.disabled {
 }
 /* line 101, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_alert-boxes.scss */
 .alert-box.success {
-  background-color: #5da423;
-  border-color: #457a1a;
+  background-color: #16b67e;
+  border-color: #10895f;
   color: white;
 }
 /* line 102, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_alert-boxes.scss */
 .alert-box.alert {
-  background-color: #c60f13;
-  border-color: #970b0e;
+  background-color: #b65116;
+  border-color: #893d10;
   color: white;
 }
 /* line 103, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_alert-boxes.scss */
 .alert-box.secondary {
-  background-color: #e9e9e9;
-  border-color: #d0d0d0;
-  color: #505050;
+  background-color: #1a9ad5;
+  border-color: #1479a8;
+  color: white;
 }
 
 /* Breadcrumbs */
@@ -4706,8 +4791,8 @@ form.custom .custom.disabled {
   list-style: none;
   border-style: solid;
   border-width: 1px;
-  background-color: #f6f6f6;
-  border-color: gainsboro;
+  background-color: #24a8e4;
+  border-color: #178abe;
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
@@ -4727,7 +4812,7 @@ form.custom .custom.disabled {
   font-size: 0.6875em;
   padding-left: 0.75em;
   text-transform: uppercase;
-  color: #bc5753;
+  color: #b61636;
 }
 /* line 71, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs li.current a {
@@ -4794,7 +4879,7 @@ kbd {
   position: relative;
   padding: 0.1875em 0.625em 0.25em;
   font-size: 0.875em;
-  background-color: #bc5753;
+  background-color: #b61636;
   color: #fff;
 }
 /* line 73, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_labels.scss */
@@ -4809,18 +4894,18 @@ kbd {
 }
 /* line 76, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_labels.scss */
 .label.alert {
-  background-color: #c60f13;
+  background-color: #b65116;
   color: #fff;
 }
 /* line 77, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_labels.scss */
 .label.success {
-  background-color: #5da423;
+  background-color: #16b67e;
   color: #fff;
 }
 /* line 78, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_labels.scss */
 .label.secondary {
-  background-color: #e9e9e9;
-  color: #333;
+  background-color: #1a9ad5;
+  color: #fff;
 }
 
 /* Inline Lists */
@@ -4881,14 +4966,14 @@ kbd {
 }
 /* line 69, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_pagination.scss */
 .pagination li.current a {
-  background: #bc5753;
+  background: #b61636;
   color: white;
   font-weight: bold;
   cursor: default;
 }
 /* line 76, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_pagination.scss */
 .pagination li.current a:hover, .pagination li.current a:focus {
-  background: #bc5753;
+  background: #b61636;
 }
 
 /* line 82, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_pagination.scss */
@@ -4936,16 +5021,16 @@ kbd {
 .panel.callout {
   border-style: solid;
   border-width: 1px;
-  border-color: #9e413e;
+  border-color: #891028;
   margin-bottom: 1.25em;
   padding: 1.25em;
-  background: #bc5753;
+  background: #b61636;
   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 }
-/* line 43, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_panels.scss */
+/* line 44, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_panels.scss */
 .panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p {
-  color: #333333;
+  color: white;
 }
 /* line 47, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_panels.scss */
 .panel.callout > :first-child {
@@ -5038,25 +5123,25 @@ kbd {
 }
 /* line 51, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_progress-bars.scss */
 .progress .meter {
-  background: #bc5753;
+  background: #b61636;
   height: 100%;
   display: block;
 }
 /* line 54, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_progress-bars.scss */
 .progress.secondary .meter {
-  background: #e9e9e9;
+  background: #1a9ad5;
   height: 100%;
   display: block;
 }
 /* line 55, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_progress-bars.scss */
 .progress.success .meter {
-  background: #5da423;
+  background: #16b67e;
   height: 100%;
   display: block;
 }
 /* line 56, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_progress-bars.scss */
 .progress.alert .meter {
-  background: #c60f13;
+  background: #b65116;
   height: 100%;
   display: block;
 }
@@ -5098,7 +5183,7 @@ kbd {
 /* line 42, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_side-nav.scss */
 .side-nav li a {
   display: block;
-  color: #bc5753;
+  color: #b61636;
 }
 /* line 47, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_side-nav.scss */
 .side-nav li.active a {
@@ -5147,7 +5232,7 @@ kbd {
   -webkit-border-radius: 1000px;
   border-radius: 1000px;
   font-weight: bold;
-  background: #bc5753;
+  background: #b61636;
   padding: 0.1875em 0.5625em;
   cursor: default;
   color: white;
@@ -5269,8 +5354,8 @@ kbd {
     background: -moz-linear-gradient(top, white 0%, #f2f2f2 100%);
     background: -webkit-linear-gradient(top, white 0%, #f2f2f2 100%);
     background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
-    -webkit-box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 1000px #e1f5d1, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
-    box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 980px #e1f5d1, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
+    -webkit-box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 1000px #d2faec, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
+    box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 980px #d2faec, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
   }
   /* line 178, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_switch.scss */
   .switch:hover > span, .switch:focus > span {
@@ -5453,8 +5538,8 @@ table tfoot tr td {
 }
 /* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_thumbs.scss */
 .th:hover, .th:focus {
-  -webkit-box-shadow: 0 0 6px 1px rgba(188, 87, 83, 0.5);
-  box-shadow: 0 0 6px 1px rgba(188, 87, 83, 0.5);
+  -webkit-box-shadow: 0 0 6px 1px rgba(182, 22, 54, 0.5);
+  box-shadow: 0 0 6px 1px rgba(182, 22, 54, 0.5);
 }
 /* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_thumbs.scss */
 .th.radius {
@@ -5472,8 +5557,8 @@ table tfoot tr td {
 }
 /* line 34, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_tooltips.scss */
 .has-tip:hover, .has-tip:focus {
-  border-bottom: dotted 1px #7a322f;
-  color: #bc5753;
+  border-bottom: dotted 1px #5b0b1b;
+  color: #b61636;
 }
 /* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_tooltips.scss */
 .has-tip.tip-left, .has-tip.tip-right {
@@ -5507,8 +5592,8 @@ table tfoot tr td {
 }
 /* line 67, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_tooltips.scss */
 .tooltip.opened {
-  color: #bc5753 !important;
-  border-bottom: dotted 1px #7a322f !important;
+  color: #b61636 !important;
+  border-bottom: dotted 1px #5b0b1b !important;
 }
 /* line 72, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_tooltips.scss */
 .tooltip.radius {

@@ -8,6 +8,7 @@
 // General
 //
 
+
 //
 // Advanced Layout
 //
@@ -47,10 +48,10 @@
   $text-direction: ltr;
 
   // We use these as default colors throughout
-  $primary-color: #BC5753;
-  $secondary-color: #e9e9e9;
-  $alert-color: #c60f13;
-  $success-color: #5da423;
+  $primary-color: #B61636;
+  $secondary-color: #1A9AD5;
+  $alert-color: #B65116;
+  $success-color: #16B67E;
 
   // We use these to make sure border radius matches unless we want it different.
   $global-radius: 3px;
@@ -305,7 +306,7 @@
 // Layout
 //
 @media only screen and (min-width: 62.5em) {
-  .case-studies-content, .page-main-content{
+  .masthead-photo-content, .case-studies-content, .page-main-content{
     width: 41.66666em;
   }
   .case-studies-extension, .page-main-extension, 
@@ -461,13 +462,16 @@
 
     .masthead-photo { 
       margin-right: -0.9375em;  
+      background: white;
        
       overflow: hidden; 
       float: right; }
     .masthead-photo-extension{ 
-      width: 1200px; 
+      width: 9999px; 
     }
-
+    .masthead-photo-content{
+      float: right;
+    }
     div .orbit-container{ background: none; padding-right: 0.9375em; }
     @media only screen and (min-width: 58.75em) {
       div .orbit-container{  
@@ -519,6 +523,7 @@
   //
   .page-main{
     margin-right: -0.9375em;
+    margin-left: -0.9375em;
   }
   .page-main-content {
     padding-left: 0.9375em;
@@ -531,6 +536,8 @@
   }
   .page-main-content{
     padding-top:1.3em;
+    margin-left: -0.9375em;
+    padding-left: 2.9375em;
     .info-gr{
       padding: 3em 0 5em;
     }
@@ -547,6 +554,22 @@
   div.sidebar{
     background: #333;
     color: white;
+    a{
+      color: #AFAEAF;
+      -webkit-transition: color .2s;
+      -moz-transition: color .2s;
+      -o-transition: color .2s;
+      -ms-transition: color .2s;
+      transition: color .2s;
+      &:hover{
+        color: $secondary-color;
+        -webkit-transition: color .2s;
+        -moz-transition: color .2s;
+        -o-transition: color .2s;
+        -ms-transition: color .2s;
+        transition: color .2s;
+      }
+    }
     h4.subheader{
       font-size: 1.9em;
       color: white;
@@ -585,7 +608,9 @@
       }
       .company-facts-extension{
         margin-left: -0.9375em;
+        margin-right: -0.9375em;
         padding-left: 0.9375em;
+        padding-right: 0.9375em;
       }
       @media only screen and (max-width: 767px) {
         .company-facts-extension{
@@ -612,8 +637,9 @@
     @media only screen and (min-width: 768px) {
       .company-facts-content{
         padding-top: 50px;
+        p{ padding-top: 2em; }
         .second{
-          padding-top: 3em;
+          padding-top: 1em;
         }
       }
     }
@@ -637,8 +663,11 @@
 
   // Email Alerts
   //
-    .email-alerts-block{
+    div.email-alerts-block{
       padding-right: 0.9375em;
+      a{
+        color: white;
+      }
       .email-box{
         padding-right: 0.9375em;
         padding-left: $left-spacing;
@@ -646,6 +675,21 @@
       label{
         color: white;
         margin-bottom: 1em;
+        -webkit-transition: color .2s;
+        -moz-transition: color .2s;
+        -o-transition: color .2s;
+        -ms-transition: color .2s;
+        transition: color .2s;
+      }
+      a{
+        &:hover{
+          color: #AFAEAF;
+          -webkit-transition: color .2s;
+          -moz-transition: color .2s;
+          -o-transition: color .2s;
+          -ms-transition: color .2s;
+          transition: color .2s;
+        }
       }
       .email-input input{
         border-radius: 5px 0px 0px 5px;
@@ -665,6 +709,41 @@
     }
   // Social block
   //
+      .social-block{
+        span{
+          opacity: .6;
+        }
+        a{
+          font-size: 2em;
+          -webkit-transition:  color .2s;
+          -moz-transition:  color .2s;
+          -o-transition:  color .2s;
+          -ms-transition:  color .2s;
+          transition:  color .2s;
+           &:hover {
+            -webkit-transition: color .2s;
+            -moz-transition: color .2s;
+            -o-transition: color .2s;
+            -ms-transition: color .2s;
+            transition: color .2s;
+          }
+        }
+        .foundicon-facebook{
+          &:hover{
+            color: #4b5d90;
+          }
+        }
+        .foundicon-twitter{
+          &:hover{
+            color: #9AE4E8;
+          }
+        }
+        .foundicon-youtube{
+          &:hover{ 
+            color: #d02525; 
+          }
+        }
+      }
       @media only screen and (max-width: 767px) {
         .social-block{
           span{
