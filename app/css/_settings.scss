@@ -272,6 +272,9 @@
 
     .x1 {
         overflow:hidden;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-bottom: 4%;
     }
     .x1 .x2 {
       display:block;
@@ -462,7 +465,7 @@
 
     .masthead-photo { 
       margin-right: -0.9375em;  
-      background: white;
+      background: url('../images/hero-color.jpg') center right;
       overflow: hidden; 
       float: right; 
       border-bottom: 1px solid #E4E2E1;
@@ -530,7 +533,7 @@
     }    
     .case-studies-content{
     }
-    .orbit-container .orbit-slides-container > * {
+    orbit-container .orbit-slides-container > * {
       padding-right: 0.9375em;
       padding-left: 0.9375em;
     }
@@ -546,6 +549,13 @@
       .case-studies-extension{
       }
     }
+    @media only screen and (max-width: 767px) {
+      .case-studies-extension{
+        img{
+          margin: 0 auto;
+        }
+      }
+    }  
 
   //
   // Page Main
@@ -562,12 +572,17 @@
   .page-main-content{
     padding-top:1.3em;
     padding-right: 2.8125em;
-    padding-left: 2.8125em;
+    padding-left: 0.9375em;
     .info-gr{
       padding: 3em 0 5em;
     }
   }
-
+  @media only screen and (max-width: 767px) {
+    .page-main-content{
+      padding-right:1.8750em;
+      padding-left:1.8750em;
+    }
+  }
 //
 // Sidebar
 //
@@ -599,6 +614,10 @@
       font-size: 1.9em;
       color: white;
       margin-bottom: 0.2em;
+    }
+    hr{
+      border: solid #444;
+      border-width: 1px 0px 0px;
     }
   }
   @media only screen and (min-width: 767px) {
@@ -657,6 +676,9 @@
       }
     }
     @media only screen and (max-width: 767px) {
+      .company-facts{ 
+        padding-bottom: 2em;
+      }
       .company-facts-extension{
         ul{
           padding: 0 0.9375em;
@@ -749,6 +771,11 @@
       .email-box{
         width: 91.66667%;
         padding-right: 0em !important;
+      }
+    }
+    @media only screen and (max-width: 767px) {
+      .email-alerts-extension{
+        padding-top:1em;
       }
     }
   // Social block
