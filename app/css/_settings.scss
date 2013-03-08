@@ -532,6 +532,12 @@
       background: white;
     }    
     .case-studies-content{
+      .image-wrapper{
+        border-radius: 35px 15px 15px 15px;
+        overflow: hidden;
+        width:160px;
+        margin:0 auto;
+      }
     }
     orbit-container .orbit-slides-container > * {
       padding-right: 0.9375em;
@@ -703,10 +709,10 @@
     }
     @media only screen and (min-width: 768px) {
       .company-facts-content{
-        padding-top: 50px;
-        p{ padding-top: 1.8em; }
+        padding-top: 60px;
+        p{ padding-top: .3em; }
         .second{
-          padding-top: 1em;
+          padding-top: 1.753em;
         }
       }
     }
