@@ -274,28 +274,28 @@
         overflow:hidden;
     }
     .x1 .x2 {
-        display:block;
-        float:left;
-        padding: 48%;
-        width:auto;
-        height:auto;
-        border-radius:50%;
-        -moz-border-radius:50%;
-        -webkit-border-radius:50%;
-        -khtml-border-radius: 50%;
-        border:3px solid #eee;
-        text-align:center;
-        position: relative;
+      display:block;
+      float:left;
+      padding: 48%;
+      width:auto;
+      height:auto;
+      border-radius:50%;
+      -moz-border-radius:50%;
+      -webkit-border-radius:50%;
+      -khtml-border-radius: 50%;
+      border:3px solid #eee;
+      text-align:center;
+      position: relative;
     }
     .x1 .x2 span {
-        position: absolute;
-        width: 100%;
-        left: 0;
-        top: 48%;
-        line-height: 1em;
-        height: 1em;
-        font-size: 100%;
-        overflow: hidden;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 48%;
+      line-height: 1em;
+      height: 1em;
+      font-size: 100%;
+      overflow: hidden;
     }
   // Spacing
 
@@ -315,12 +315,13 @@
   }
   .social-block-content, .email-alerts-content, .products-link-content, .distribution-link-content,
   .partner-block-content, .company-facts-content{
-    width: 20.83333em;
+    width: 17.83333em;
   }  
 }
   .social-block-content, .email-alerts-content, .products-link-content, .distribution-link-content,
   .partner-block-content, .company-facts-content{
     padding-left: 0.9375em;
+    padding-right: 0.9375em;
   }
 
 
@@ -457,19 +458,36 @@
     }
   
   // Hero
-  //
+  // 
 
     .masthead-photo { 
       margin-right: -0.9375em;  
       background: white;
-       
       overflow: hidden; 
-      float: right; }
+      float: right; 
+      border-bottom: 1px solid #E4E2E1;
+    }
     .masthead-photo-extension{ 
       width: 9999px; 
     }
     .masthead-photo-content{
       float: right;
+      h1{
+        font-weight: 100;
+        font-size: 2.4em;
+        display:inline-block;
+        background:#c5424c;
+        background:rgb (197,66,76);
+        background:rgba(197,66,76,0.66);
+        color: white;
+        margin: 0em;
+        padding:0 .4em;
+      }
+      .text-two-line{
+        margin-top: 7em;
+        margin-left: .9em;
+        
+      }
     }
     div .orbit-container{ background: none; 
       padding-right: 0.9375em; 
@@ -479,10 +497,17 @@
         height: 350px;
       }
     }
+    @media only screen and (max-width: 767px) {
+      .masthead-photo-content{
+        float: right;
+        h1{
+        }
+      }
+    }
 
 
-    .orbit-slide-number{ display: none; }
-    .orbit-next, .orbit-prev{ display: none; }
+    .orbit-slide-number{ visibility: hidden; }
+    .orbit-next, .orbit-prev{ visibility: hidden; }
 
   //
   // Case Study
@@ -506,8 +531,8 @@
     .case-studies-content{
     }
     .orbit-container .orbit-slides-container > * {
-      padding-right: 1.875em;
-      padding-left: 1.875em;
+      padding-right: 0.9375em;
+      padding-left: 0.9375em;
     }
     .orbit-timer{
       visibility: hidden;
@@ -519,7 +544,6 @@
     }
     @media only screen and (min-width: 58.75em) {
       .case-studies-extension{
-        border-top: 1px solid #E4E2E1;
       }
     }
 
@@ -576,6 +600,8 @@
       color: white;
       margin-bottom: 0.2em;
     }
+  }
+  @media only screen and (min-width: 767px) {
     ul{
       text-indent: $left-spacing;
     }
@@ -597,6 +623,21 @@
       }
     }
   }
+  @media only screen and (max-width: 767px) {
+    .sidebar{
+      text-align: center;
+      .fl{
+        float: none;
+      }
+      .partner-block-content{
+        ul{
+          li{
+            img{ margin: 0 auto; }
+          }
+        }
+      }
+    }
+  }
   // Company Facts
   //
     .company-facts{ 
@@ -612,20 +653,23 @@
         margin-right: -0.9375em;
         padding-left: 0.9375em;
         padding-right: 0.9375em;
+        border-bottom: 1px solid #444241;
       }
-      @media only screen and (max-width: 767px) {
-        .company-facts-extension{
-          img{
-            .max-width{
-              max-width: 25% !important;
-            }
-          }
-          height: auto !important;
-        }
-      }        
-
     }
-
+    @media only screen and (max-width: 767px) {
+      .company-facts-extension{
+        ul{
+          padding: 0 0.9375em;
+        }
+        img{
+          max-width: 120px !important;
+          float: none!important;
+          padding-bottom: 1em;
+          padding-top: 1em;
+        }
+        height: auto !important;
+      }        
+    }
     div.company-facts-extension{
       background:#1E1E1E;
     }
@@ -638,7 +682,7 @@
     @media only screen and (min-width: 768px) {
       .company-facts-content{
         padding-top: 50px;
-        p{ padding-top: 2em; }
+        p{ padding-top: 1.8em; }
         .second{
           padding-top: 1em;
         }
@@ -655,7 +699,6 @@
       }
     }
     .partner-block-extension{
-      border-top: 1px solid #444241;
       padding-top:1em;
       padding-right: 0.9375em;
       padding-left: 0.9375em;
@@ -805,16 +848,28 @@
         li{
           text-align: center;
           margin-left: 0em;
-          border-bottom: 1px solid #777;
+          border-bottom: 1px solid #eee;
           padding-bottom: 0em;
-          &:last-child{
-            border-bottom: 0px;
-          }
           a{
             display: block;
             padding: 12px 0 12px 15px;
             color:#333;
             font-weight: 200;
+            -webkit-transition:  opacity .2s;
+            -moz-transition:  opacity .2s;
+            -o-transition:  opacity .2s;
+            -ms-transition:  opacity .2s;
+            transition:  opacity .2s;
+              &:active,&:hover {
+                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+                filter: alpha(opacity=50);
+                opacity: .5;
+                -webkit-transition: opacity .2s;
+                -moz-transition: opacity .2s;
+                -o-transition: opacity .2s;
+                -ms-transition: opacity .2s;
+                transition: opacity .2s;
+              }
             }
           }
         }
