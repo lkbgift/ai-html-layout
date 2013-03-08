@@ -134,13 +134,14 @@ module.exports = function (grunt) {
         },
         compass: {
             options: {
-                sassDir: '<%= yeoman.app %>/scss',
+                sassDir: '<%= yeoman.app %>/css',
                 cssDir: '.tmp/css',
                 imagesDir: '<%= yeoman.app %>/images',
                 javascriptsDir: '<%= yeoman.app %>/scripts',
                 fontsDir: '<%= yeoman.app %>/fonts',
                 importPath: 'app/components',
-                relativeAssets: true
+                relativeAssets: true,
+                require: 'zurb-foundation'
             },
             dist: {},
             server: {
@@ -154,7 +155,7 @@ module.exports = function (grunt) {
         /*concat: {
             dist: {}
         },*/
-        requirejs: {
+        /*requirejs: {
             dist: {
                 // Options: https://github.com/jrburke/r.js/blob/master/build/example.build.js
                 options: {
@@ -172,7 +173,7 @@ module.exports = function (grunt) {
                     //uglify2: {} // https://github.com/mishoo/UglifyJS2
                 }
             }
-        },
+        },*/
         useminPrepare: {
             html: '<%= yeoman.app %>/index.html',
             options: {
@@ -200,7 +201,7 @@ module.exports = function (grunt) {
             dist: {
                 files: {
                     '<%= yeoman.dist %>/css/main.css': [
-                        '.tmp/styles/{,*/}*.css',
+                        '.tmp/css/{,*/}*.css',
                         '<%= yeoman.app %>/css/{,*/}*.css'
                     ]
                 }
