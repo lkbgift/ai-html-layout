@@ -7,6 +7,8 @@
 @import "topbar";
 @import "sidebar";
 @import "footer";
+@import "font";
+
 //
 // Gen eral
 //
@@ -96,7 +98,7 @@
   }
   // Spacing
 
-    .vertical-space{ padding: 10% 3% 0; }
+  .vertical-space{ padding: 10% 3% 0; }
 
 //
 // Layout
