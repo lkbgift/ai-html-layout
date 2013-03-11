@@ -197,7 +197,7 @@
   //
     .case-studies{
        margin-right: -0.9375em; 
-       height: 370px;
+       height: auto;
     }
     .case-study-item{ 
       padding: 2em 0; 
@@ -211,7 +211,7 @@
     }
     .case-studies-extension{
       background: white;
-      height: 370px;
+      height: auto;
     }    
     .case-studies-content{
       text-align:center;
@@ -221,12 +221,15 @@
       .image-wrapper{
         border-radius: 35px 15px 15px 15px;
         overflow: hidden;
-        width:160px;
+        max-width:160px;
         margin:0 auto;
       }
     }
     .orbit-timer{
       visibility: hidden;
+    }
+    ol.orbit-bullets {
+      padding-right: 0.9375em; 
     }
     div .orbit-bullets li {
       -webkit-transition: background .2s;

@@ -118,3 +118,14 @@
       box-shadow: 0 10px 0 1px $primary-color, 0 16px 0 1px $primary-color, 0 22px 0 1px $primary-color;
     }
   
+    .search-box{
+      input{
+        width: 30% !important;
+        float: right;
+        border-radius: 10px;
+        &:focus{
+          width: 100% !important;
+          
+        }
+      }
+    }
