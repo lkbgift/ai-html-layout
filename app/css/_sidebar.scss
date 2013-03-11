@@ -175,16 +175,12 @@
           transition: all .2s;
         }
       }
-      .email-input input{
-        border-radius: 5px 0px 0px 5px;
-        &:focus{
-          width: 130%;
-          margin-left: -30%;
-        }
-      }
       a.prefix{
         border-radius: 0px 5px 5px 0px;
       }
+    }
+    .email-input input{
+      border-radius: 5px 0px 0px 5px;
     }
     @media only screen and (max-width: 58.75em) {
       .email-alerts-extension{
@@ -195,6 +191,7 @@
         padding-right: 0em !important;
       }
     }
+
     @media only screen and (max-width: 767px) {
       .email-alerts-extension{
         padding-top:1em;
@@ -221,17 +218,17 @@
             transition: color .2s;
           }
         }
-        .foundicon-facebook{
+        .foundiconsoc-facebook{
           &:hover{
             color: #4b5d90;
           }
         }
-        .foundicon-twitter{
+        .foundiconsoc-twitter{
           &:hover{
             color: #9AE4E8;
           }
         }
-        .foundicon-youtube{
+        .foundiconsoc-youtube{
           &:hover{ 
             color: #d02525; 
           }
