@@ -1,3 +1,5 @@
+@import "variables";
+
 //
 // Footer
 //
@@ -21,6 +23,26 @@
     }
     p{
       color: #777;
+    }
+    nav{
+      ul{
+        li{
+          a{
+           -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+              filter: alpha(opacity=50);
+              opacity: .8;
+              -webkit-transition: all .2s;
+              -moz-transition: all .2s;
+              -o-transition: all .2s;
+              -ms-transition: all .2s;
+              transition: all .2s;
+            &:hover{  
+              color: $secondary-color !important;
+              opacity: 1;
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -62,11 +84,11 @@
                 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
                 filter: alpha(opacity=50);
                 opacity: .5;
-                -webkit-transition: opacity .2s;
-                -moz-transition: opacity .2s;
-                -o-transition: opacity .2s;
-                -ms-transition: opacity .2s;
-                transition: opacity .2s;
+                -webkit-transition: all .2s;
+                -moz-transition: all .2s;
+                -o-transition: all .2s;
+                -ms-transition: all .2s;
+                transition: all .2s;
               }
             }
           }
