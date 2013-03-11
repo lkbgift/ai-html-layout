@@ -1,0 +1,85 @@
+//
+// Footer
+//
+.footer-full{
+  border-top: 1px solid #E4E2E1;
+}
+@media only screen and (min-width: 767px) {
+  .footer-full{
+    .small-block-grid-2 > li {
+      width: auto;
+      padding: 0px;
+      text-align: center;
+      font-weight: 600;
+    }
+    ul{
+      li{
+        a{
+          
+        }
+      }
+    }
+    p{
+      color: #777;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .footer-full{
+    border-top: 3px solid #E4E2E1;
+    padding-top: 0em;
+    font-size: 0.8125em;
+    width: 100%;
+
+    .column{
+      padding-left: 0em!important;
+      padding-right: 0em!important;
+    }
+    nav{
+      ul{
+        height: auto;
+        display: block;
+        margin: 0;
+        padding-top:1em;
+        padding-left:2.2em;
+        padding-right:2.2em;
+        li{
+          text-align: center;
+          margin-left: 0em;
+          border-bottom: 1px solid #eee;
+          padding-bottom: 0em;
+          a{
+            display: block;
+            padding: 12px 0 12px 15px;
+            color:#333;
+            font-weight: 200;
+            -webkit-transition:  opacity .2s;
+            -moz-transition:  opacity .2s;
+            -o-transition:  opacity .2s;
+            -ms-transition:  opacity .2s;
+            transition:  opacity .2s;
+              &:active,&:hover {
+                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+                filter: alpha(opacity=50);
+                opacity: .5;
+                -webkit-transition: opacity .2s;
+                -moz-transition: opacity .2s;
+                -o-transition: opacity .2s;
+                -ms-transition: opacity .2s;
+                transition: opacity .2s;
+              }
+            }
+          }
+        }
+      }
+      p{
+        font-size: 0.8125em;
+        text-align: center;
+        font-weight: 400;
+        height: auto;
+        display: block;
+        font-size:.8em;
+        padding: 12px 0 9px 15px;
+      }
+    }
+  }
