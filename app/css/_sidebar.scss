@@ -26,6 +26,9 @@
         -ms-transition: color .2s;
         transition: color .2s;
       }
+      .icon{
+        font-size: 1.4em;
+      }
     }
     h4.subheader{
       font-size: 1.9em;
@@ -90,6 +93,18 @@
         padding-left: 0.9375em;
         padding-right: 0.9375em;
         border-bottom: 1px solid #444241;
+      }
+      h3.subheader{
+
+      }
+      .orbit-container {
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        background: none;
+      }
+      .orbit-prev, .orbit-next, .orbit-slide-number, .orbit-timer{
+        visibility: hidden;
       }
     }
     @media only screen and (max-width: 767px) {

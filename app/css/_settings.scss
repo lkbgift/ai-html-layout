@@ -100,6 +100,34 @@
 
   .vertical-space{ padding: 10% 3% 0; }
 
+  .bk-white{
+    background: white;
+  }
+  .circle{
+    font-size: 30px;
+    word-spacing: 1px;
+    -webkit-border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    -ms-border-radius: 1000px;
+    -o-border-radius: 1000px;
+    border-radius: 1000px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 105px;
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    text-align: center;
+    color: white;
+    background-color: $secondary-color;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    position: relative;
+  }
+
 //
 // Layout
 //
@@ -172,12 +200,12 @@
         
       }
     }
-    div .orbit-container{ background: none; 
-      padding-right: 0.9375em; text-align:left;
-    }
+    
     @media only screen and (min-width: 58.75em) {
-      div .orbit-container{  
-        height: 320px;
+      .case-studies{
+        div .orbit-container{  
+          height: 320px;
+        }
       }
     }
     @media only screen and (max-width: 767px) {
@@ -188,9 +216,7 @@
       }
     }
 
-
-    .orbit-slide-number{ visibility: hidden; }
-    .orbit-next, .orbit-prev{ visibility: hidden; }
+    
 
   //
   // Case Study
@@ -225,40 +251,47 @@
         margin:0 auto;
       }
     }
-    .orbit-timer{
-      visibility: hidden;
-    }
-    ol.orbit-bullets {
-      padding-right: 0.9375em; 
-    }
-    div .orbit-bullets li {
-      -webkit-transition: background .2s;
-      -moz-transition: background .2s;
-      -o-transition: background .2s;
-      -ms-transition: background .2s;
-      transition: background .2s;
-      background: #ababab;
-      -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-      filter: alpha(opacity=80);
-      opacity: .8;
-      border: solid 2px #F9F8F6; 
-    }
-    div .orbit-bullets li:hover {
-      background: #B61636;
-      -webkit-transition: background .2s;
-      -moz-transition: background .2s;
-      -o-transition: background .2s;
-      -ms-transition: background .2s;
-      transition: background .2s;
-    }
-    div .orbit-bullets li.active {
-      -webkit-transition: background .2s;
-      -moz-transition: background .2s;
-      -o-transition: background .2s;
-      -ms-transition: background .2s;
-      transition: background .2s;
-      background: none;
-      border: 2px solid #59848c;
+    .case-studies{
+      div .orbit-container{ background: none; 
+        padding-right: 0.9375em; text-align:left;
+      }
+      .orbit-slide-number{ visibility: hidden; }
+      .orbit-next, .orbit-prev{ visibility: hidden; }
+      .orbit-timer{
+        visibility: hidden;
+      }
+      ol.orbit-bullets {
+        padding-right: 0.9375em; 
+      }
+      div .orbit-bullets li {
+        -webkit-transition: background .2s;
+        -moz-transition: background .2s;
+        -o-transition: background .2s;
+        -ms-transition: background .2s;
+        transition: background .2s;
+        background: #ababab;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+        filter: alpha(opacity=80);
+        opacity: .8;
+        border: solid 2px #F9F8F6; 
+      }
+      div .orbit-bullets li:hover {
+        background: #B61636;
+        -webkit-transition: background .2s;
+        -moz-transition: background .2s;
+        -o-transition: background .2s;
+        -ms-transition: background .2s;
+        transition: background .2s;
+      }
+      div .orbit-bullets li.active {
+        -webkit-transition: background .2s;
+        -moz-transition: background .2s;
+        -o-transition: background .2s;
+        -ms-transition: background .2s;
+        transition: background .2s;
+        background: none;
+        border: 2px solid #59848c;
+      }
     }
     @media only screen and (max-width: 58.75em) {
       .case-studies{

@@ -79,7 +79,7 @@
             </div>    
           </div>
         </div>
-        <div class="case-studies h300 fr">
+        <div id="featured" class="case-studies h300 fr">
           <div class="case-studies-extension fr">
             <div class="case-studies-content content-sec fr">
               <ul id="featured2" data-orbit>
@@ -140,7 +140,7 @@
               <div class=""> 
                 <h4 class="">Content, Curation, Connectivity</h4>
                
-                <p>Acquinity Interactive is a publisher and product marketing and development company, with three platforms of expertise: niche online communities, their accompanying email products, and telemarketing. At Acquinity, we leverage our unique demographic targeting and profiling to ensure that each consumer has a genuine interest in our advertisers’ offerings. </p>
+                <p>Acquinity Interactive is a publisher, product marketing, and development company. We have three platforms of expertise: niche online communities, their accompanying email products, and telemarketing. At Acquinity, we leverage our unique demographic targeting and profiling to ensure that each consumer has a genuine interest in our advertisers’ offerings. </p>
                 <div class="hide-for-small large-3 fr">
                   <img src="images/sub/graphic1.png" alt="">
                 </div>
@@ -154,30 +154,28 @@
         </div>
       </div>
       <div class="sidebar large-4 small-12 columns">
-        <div class="company-facts "> 
+        <div class="company-facts" id="featrap"> 
           <div class="company-facts-extension h300 fl">
             <div class="company-facts-content content-sec">
               <div class="">
-                <ul class="no-style small-block-grid-2">
-                  <li class="large-12">
-                    <div> 
-                        <i class="foundicon-globe"></i>
-                      <p class="">Etiam ornare dictum diam eu pharetra. Dui, porta vel facilisis eget, vestibulum eu magna.
-                      </p>
-                    </div>
+                <ul id="featrap" data-orbit>
+                  <li data-orbit-slide="headline-1">
+                    <h2>Headline 1</h2>
+                    <h3>Subheadline</h3>
+                    <p>Pellentesque habitant morbi tristique senectus.</p>
                   </li>
-                  <li class="large-12 second">
-                    <div>
-                        <i class="foundicon-idea"></i>
-                      <p class="">Sed ultrices ornare dictum. Praesent mi, porta vel facilisis eget, vestibulum eu magna.
-                      </p>
-                    </div>
+                  <li data-orbit-slide="headline-2">
+                    <h2>Headline 2</h2>
+                    <h3>Subheadline</h3>
+                    <p>Pellentesque habitant morbi tristique senectus.</p>
+                  </li>
+                  <li data-orbit-slide="headline-3">
+                    <h2>Headline 3</h2>
+                    <h3>Subheadline</h3>
+                    <p>Pellentesque habitant morbi tristique senectus.</p>
                   </li>
                 </ul>
               </div>
-              
-              
-              
             </div>
           </div>
         </div>
@@ -290,7 +288,9 @@
   <script src="scripts/foundation.min.js"></script>
   
   <script>
-    $(document).foundation('topbar').foundation('orbit', { timer_speed: 5000, animation_speed: 500, timer: false, bullets: true, }, function (response) {});
+    $(document).foundation('topbar');
+    $('#featured').foundation('orbit', { timer_speed: 5000, animation_speed: 500, timer: false, bullets: true, }, function (response) {});
+    $('#featrap').foundation('orbit', { timer_speed: 2500, animation_speed: 1000, bullets: false, stack_on_small: false, }, function (response) {});
   </script>
 </body>
 </html>
