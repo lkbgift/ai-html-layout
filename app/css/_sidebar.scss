@@ -81,6 +81,20 @@
   //
     .company-facts{ 
 
+    .circle{
+      h2{
+        font-size: 1.5em;
+        line-height: 1.6em;
+        font-weight: 400;
+        color: #efefef;
+        span{
+          font-size:.6em;
+        }
+      }
+    }
+    .second-stat{
+      margin-top: 1.7em;
+    }
       padding-bottom: 40px;
       img { margin: 0 auto; }
       p{ font-size: .8em; }
