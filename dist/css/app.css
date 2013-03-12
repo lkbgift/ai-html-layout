@@ -248,7 +248,7 @@ figure {
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/normalize\.scss}line{font-family:\00003253}}
 fieldset {
-  border: 1px solid silver;
+  border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
@@ -404,189 +404,1926 @@ table {
   border-spacing: 0;
 }
 
-
-#sc_drag_area_protector div{
-  border-radius: 0px 0px;
-  margin:0;
-  /*max-width:100%;*/
-  min-width: 1px;
-
-}
-
-#sc_drag_area {
-  height:100px;
-  left:150px;
-  position: absolute;
-  top:100px;
-  width:250px;
-  z-index: 9999;
-}
-#sc_drag_container {
-  border: 1px solid #0000FF;
-  cursor: move ;
-  height: 100% ;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-  position: relative ;
-  width: 100%;
-  z-index:9997;
-}
-#sc_drag_area_protector {
-  border-radius: 0px 0px;
-  display: block;
-  height:100%;
-  left:0;
-  top:0;
-  position: absolute;
-  width:100%;
-  z-index:8500;
-  margin: 0;
-  
-  min-width: 1px;
-  overflow: hidden;
-}
-#sc_drag_size {
-  background-color: rgba(44, 44, 44, 0.5);
-  color:#ffffff;
-  font-family: arial,san-serif;
-  font-weight:bold;
-  font-size:12px;
-  height:18px;
-  min-width:65px !important;
-  left:12px;
-  line-height:18px;
-  position:absolute;
-  padding-left:4px;
-  padding-right:4px;
-  text-align:center;
-  top: -18px;
-  z-index:9998;
-}
-#sc_drag_cancel, #sc_drag_crop {
-  background-color: rgba(0, 0, 0, 0.5);
-  cursor:pointer;
-  color:#ffffff;
-  font-size:12px;
-  font-family: arial,san-serif;
-  font-weight:bold;
-  height:22px;
-  line-height:22px;
-  position:absolute ;
-  z-index:9998
-}
-#sc_drag_crop {
-  bottom:-25px;
-  text-align: center;
-  right:10px;
-  min-width: 30px !important;
-  padding: 0 10px;
-}
-#sc_drag_cancel {
-  bottom:-25px;
-  text-align: center;
-  right:70px;
-  min-width: 30px !important;
-  padding: 0 10px;
-}
-#sc_drag_shadow_top, #sc_drag_shadow_bottom, #sc_drag_shadow_left, #sc_drag_shadow_right {
-  background-color: #000000;
-  opacity: 0.5;
-  position: absolute;
-  z-index:7000;
-  border: 0;
-}
-#sc_drag_shadow_top {
-  left: 0;
-  top: 0;
-}
-#sc_drag_shadow_bottom {
-  bottom: 0;
-  right: 0;
-}
-#sc_drag_shadow_left {
-  bottom: 0;
-  left: 0;
-}
-#sc_drag_shadow_right {
-  right: 0;
-  top: 0;
-}
-#sc_drag_north_east, #sc_drag_north_west, #sc_drag_south_east, #sc_drag_south_west  {
-  border:1px solid #FFFFFF;
-  background-color: #0000FF;
-  height: 5px;
-  position: absolute;
-  width: 5px;
-  z-index:9998;
-}
-#sc_drag_north_east {
-  cursor: ne-resize ;
-  right: -4px ;
-  top: -3px;
-}
-#sc_drag_north_west {
-  cursor: nw-resize ;
-  left: -3px ;
-  top: -3px;
-}
-#sc_drag_south_east {
-  bottom: -4px;
-  cursor: se-resize ;
-  right: -4px ;
-}
-#sc_drag_south_west {
-  bottom: -4px;
-  cursor: sw-resize ;
-  left: -3px ;
-}
-
-.sc_tip_save_status {
-  position :fixed;
-  border-radius: 4px 4px;
-  height: 30px;
-  line-height: 30px;
-  text-indent: 1em;
-  width: 200px;
-  background: #fff1a8;
-  color: #000000;
-  top:5px;
-  left:45%;
-  font-size: 12px;
-}
-
-.sc_tip_save_status a{
-  text-decoration: underline;
-  color: #2A5DB0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_variables\.scss}line{font-family:\0000323}}
 h3.subheader {
   font-size: 2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_variables\.scss}line{font-family:\0000324}}
 h4.subheader {
   font-family: "franklin-gothic-urw-comp";
   text-transform: uppercase;
 }
 
-/* Medium Displays: 768px - 1279px */
-@media only screen and (min-width: 66em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\0000395}}
-  .lkb-hide-for-medium {
-    display: none !important;
+/* Background color for the top bar */
+/* Height and margin */
+/* Control Input height for top bar */
+/* Set the link colors and styles for top-level nav */
+/* Style the top bar dropdown elements */
+/* Top menu icon styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_topbar\.scss}line{font-family:\0000330}}
+nav.top-bar input {
+  top: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_topbar\.scss}line{font-family:\0000335}}
+.top-bar li.name h1 {
+  line-height: 68px;
+  font-size: 1.7625em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_topbar\.scss}line{font-family:\0000340}}
+.top-bar div input {
+  line-height: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_topbar\.scss}line{font-family:\0000342}}
+.top-bar a {
+  color: #b61636;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_topbar\.scss}line{font-family:\0000344}}
+.top-bar a i {
+  -webkit-transition: color .2s;
+  -moz-transition: color .2s;
+  -o-transition: color .2s;
+  -ms-transition: color .2s;
+  transition: color .2s;
+  font-size: 1.7em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_topbar\.scss}line{font-family:\0000351}}
+.top-bar a i:hover {
+  color: #e94969;
+  -webkit-transition: color .2s;
+  -moz-transition: color .2s;
+  -o-transition: color .2s;
+  -ms-transition: color .2s;
+  transition: color .2s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_topbar\.scss}line{font-family:\0000360}}
+.top-bar a:hover {
+  background: none;
+}
+
+@media only screen and (min-width: 58.75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_topbar\.scss}line{font-family:\0000367}}
+  div section.top-bar-section li a:not(.button) {
+    padding: 0 12px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_topbar\.scss}line{font-family:\0000372}}
+.top-bar-section ul.right li a:not(.button):hover {
+  background: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_topbar\.scss}line{font-family:\0000376}}
+section.top-bar-section ul li > a {
+  color: #333;
+  font-size: .9em;
+  font-weight: 600;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_topbar\.scss}line{font-family:\0000382}}
+.top-nav-wrapper {
+  border-bottom: 1px solid #E4E2E1;
+}
+
+@media only screen and (min-width: 58.75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_topbar\.scss}line{font-family:\0000387}}
+  section.top-bar-section li a:not(.button) {
+    padding: 0 20px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_topbar\.scss}line{font-family:\0000392}}
+.logo {
+  padding-top: .7em;
+  width: 130px;
+  opacity: 1;
+  -webkit-transition: opacity .2s linear;
+  -moz-transition: opacity .2s linear;
+  -o-transition: opacity .2s linear;
+  -ms-transition: opacity .2s linear;
+  transition: opacity .2s linear;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_topbar\.scss}line{font-family:\00003101}}
+.logo:hover {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  opacity: .7;
+  -webkit-transition: opacity .2s linear;
+  -moz-transition: opacity .2s linear;
+  -o-transition: opacity .2s linear;
+  -ms-transition: opacity .2s linear;
+  transition: opacity .2s linear;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_topbar\.scss}line{font-family:\00003113}}
+.menu-icon span {
+  color: #b61636;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_topbar\.scss}line{font-family:\00003116}}
+.top-bar li.toggle-topbar.menu-icon a span {
+  -webkit-box-shadow: 0 10px 0 1px #b61636, 0 16px 0 1px #b61636, 0 22px 0 1px #b61636;
+  box-shadow: 0 10px 0 1px #b61636, 0 16px 0 1px #b61636, 0 22px 0 1px #b61636;
+}
+
+@media only screen and (min-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_topbar\.scss}line{font-family:\00003122}}
+  .search-box input {
+    width: 30% !important;
+    float: right;
+    border-radius: 10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_topbar\.scss}line{font-family:\00003128}}
+  .search-box:focus input, .search-box:hover input {
+    width: 100% !important;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_variables\.scss}line{font-family:\0000323}}
+h3.subheader {
+  font-size: 2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_variables\.scss}line{font-family:\0000324}}
+h4.subheader {
+  font-family: "franklin-gothic-urw-comp";
+  text-transform: uppercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\000037}}
+.sidebar .content-sec {
+  padding-right: 0.9375em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\0000311}}
+div.sidebar {
+  background: #333;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\0000314}}
+div.sidebar a {
+  color: #AFAEAF;
+  -webkit-transition: color .2s;
+  -moz-transition: color .2s;
+  -o-transition: color .2s;
+  -ms-transition: color .2s;
+  transition: color .2s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\0000321}}
+div.sidebar a:hover {
+  color: #59848c;
+  -webkit-transition: color .2s;
+  -moz-transition: color .2s;
+  -o-transition: color .2s;
+  -ms-transition: color .2s;
+  transition: color .2s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\0000329}}
+div.sidebar a .icon {
+  font-size: 1.4em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\0000333}}
+div.sidebar h4.subheader {
+  font-size: 1.9em;
+  color: white;
+  margin-bottom: 0.2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\0000338}}
+div.sidebar hr {
+  border: solid #444;
+  border-width: 1px 0px 0px;
+}
+
+@media only screen and (min-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\0000344}}
+  ul {
+    text-indent: 0.08em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\0000349}}
+.link-string li {
+  line-height: 1.2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\0000352}}
+.link-string a {
+  font-size: .9em;
+}
+
+@media only screen and (max-width: 58.75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\0000360}}
+  div.sidebar h4.subheader {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\0000366}}
+  .sidebar {
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\0000368}}
+  .sidebar .fl {
+    float: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\0000374}}
+  .sidebar .partner-block-content ul li img {
+    margin: 0 auto;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\0000382}}
+.company-facts {
+  padding-bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\0000385}}
+.company-facts img {
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\0000386}}
+.company-facts p {
+  font-size: .8em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\0000387}}
+.company-facts .row {
+  padding-bottom: 35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\0000390}}
+.company-facts .company-facts-extension {
+  margin-left: -0.9375em;
+  margin-right: -0.9375em;
+  padding-left: 1.875em;
+  padding-right: 0.9375em;
+  border-bottom: 1px solid #444241;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003100}}
+.company-facts .orbit-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  background: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003106}}
+.company-facts .orbit-prev, .company-facts .orbit-next, .company-facts .orbit-slide-number, .company-facts .orbit-timer {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003111}}
+  .company-facts {
+    padding-bottom: 2em;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003114}}
+  .company-facts-extension {
+    height: auto !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003115}}
+  .company-facts-extension ul {
+    padding: 0 0.9375em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003118}}
+  .company-facts-extension img {
+    max-width: 120px !important;
+    float: none !important;
+    padding-bottom: 1em;
+    padding-top: 1em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003127}}
+div.company-facts-extension {
+  background: #1E1E1E;
+}
+
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003131}}
+  .company-facts-content {
+    padding-top: 1em;
+  }
+}
+@media only screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003137}}
+  .company-facts-content {
+    padding-top: 60px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003139}}
+  .company-facts-content p {
+    padding-top: .3em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003140}}
+  .company-facts-content .second {
+    padding-top: 1.753em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003149}}
+.partner-block ul {
+  padding-top: .5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003155}}
+.partner-block-extension {
+  padding-top: 1em;
+  padding-right: 0.9375em;
+  padding-left: 0.9375em;
+  height: auto !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003164}}
+div.email-alerts-block {
+  padding-right: 0.9375em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003166}}
+div.email-alerts-block a {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003169}}
+div.email-alerts-block .email-box {
+  padding-right: 0.9375em;
+  padding-left: 0.08em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003173}}
+div.email-alerts-block label {
+  color: white;
+  margin-bottom: 1em;
+  -webkit-transition: color .2s;
+  -moz-transition: color .2s;
+  -o-transition: color .2s;
+  -ms-transition: color .2s;
+  transition: color .2s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003183}}
+div.email-alerts-block .button:hover {
+  color: #AFAEAF;
+  background: #45676d;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  -ms-transition: all .2s;
+  transition: all .2s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003193}}
+div.email-alerts-block a.prefix {
+  border-radius: 0px 5px 5px 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003197}}
+.email-input input {
+  border-radius: 5px 0px 0px 5px;
+}
+
+@media only screen and (max-width: 58.75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003201}}
+  .email-alerts-extension {
+    width: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003204}}
+  .email-box {
+    width: 91.66667%;
+    padding-right: 0em !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003211}}
+  .email-alerts-extension {
+    padding-top: 1em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003218}}
+.social-block span {
+  opacity: .6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003221}}
+.social-block a {
+  font-size: 2em;
+  -webkit-transition: color .2s;
+  -moz-transition: color .2s;
+  -o-transition: color .2s;
+  -ms-transition: color .2s;
+  transition: color .2s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003228}}
+.social-block a:hover {
+  -webkit-transition: color .2s;
+  -moz-transition: color .2s;
+  -o-transition: color .2s;
+  -ms-transition: color .2s;
+  transition: color .2s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003237}}
+.social-block .foundiconsoc-facebook:hover {
+  color: #4b5d90;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003242}}
+.social-block .foundiconsoc-twitter:hover {
+  color: #9AE4E8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003247}}
+.social-block .foundiconsoc-youtube:hover {
+  color: #d02525;
+}
+
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003254}}
+  .social-block span {
+    font-size: 1.5em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_sidebar\.scss}line{font-family:\00003257}}
+  .social-block .h300 {
+    height: auto;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_variables\.scss}line{font-family:\0000323}}
+h3.subheader {
+  font-size: 2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_variables\.scss}line{font-family:\0000324}}
+h4.subheader {
+  font-family: "franklin-gothic-urw-comp";
+  text-transform: uppercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_footer\.scss}line{font-family:\000036}}
+.footer-full {
+  border-top: 1px solid #E4E2E1;
+}
+
+@media only screen and (min-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_footer\.scss}line{font-family:\0000311}}
+  .footer-full .small-block-grid-2 > li {
+    width: auto;
+    padding: 0px;
+    text-align: center;
+    font-weight: 600;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_footer\.scss}line{font-family:\0000324}}
+  .footer-full p {
+    color: #777;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_footer\.scss}line{font-family:\0000330}}
+  .footer-full nav ul li a {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: .8;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    -ms-transition: all .2s;
+    transition: all .2s;
+    color: #59848c;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_footer\.scss}line{font-family:\0000340}}
+  .footer-full nav ul li a:hover {
+    opacity: 1;
+    color: #31494e;
+  }
+}
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_footer\.scss}line{font-family:\0000351}}
+  .footer-full {
+    border-top: 3px solid #E4E2E1;
+    padding-top: 0em;
+    font-size: 0.8125em;
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_footer\.scss}line{font-family:\0000357}}
+  .footer-full .column {
+    padding-left: 0em !important;
+    padding-right: 0em !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_footer\.scss}line{font-family:\0000362}}
+  .footer-full nav ul {
+    height: auto;
+    display: block;
+    margin: 0;
+    padding-top: 1em;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_footer\.scss}line{font-family:\0000369}}
+  .footer-full nav ul li {
+    text-align: center;
+    margin-left: 0em;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_footer\.scss}line{font-family:\0000374}}
+  .footer-full nav ul li a {
+    display: block;
+    padding: 12px 0 12px 15px;
+    color: #333;
+    font-weight: 200;
+    -webkit-transition: opacity .2s;
+    -moz-transition: opacity .2s;
+    -o-transition: opacity .2s;
+    -ms-transition: opacity .2s;
+    transition: opacity .2s;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_footer\.scss}line{font-family:\0000384}}
+  .footer-full nav ul li a:active, .footer-full nav ul li a:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: .5;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    -ms-transition: all .2s;
+    transition: all .2s;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_footer\.scss}line{font-family:\0000398}}
+  .footer-full p {
+    font-size: 0.8125em;
+    text-align: center;
+    font-weight: 400;
+    height: auto;
+    display: block;
+    font-size: .8em;
+    padding: 12px 0 9px 15px;
   }
 }
 /* general icons for IE7 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003134}}
-[class*="foundicon-"] {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_accessibility_foundicons_ie7\.scss}line{font-family:\000034}}
+[class*="foundiconacc-"] {
+  font-family: "AccessibilityFoundicons";
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-wheelchair {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf000;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-speaker {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf001;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-fontsize {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf002;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-eject {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf003;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-view-mode {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf004;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-eyeball {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf005;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-asl {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf006;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-person {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf007;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-question {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf008;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-adult {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf009;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-child {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00a;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-glasses {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00b;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-cc {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00c;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-blind {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00d;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-braille {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00e;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-iphone-home {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00f;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-w3c {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf010;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-css {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf011;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-key {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf012;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-hearing-impaired {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf013;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-male {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf014;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-female {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf015;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-network {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf016;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-guidedog {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf017;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-universal-access {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf018;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\0000312}}
+.foundiconacc-elevator {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf019;");
+}
+
+/* font-face */
+@font-face {
+  font-family: "AccessibilityFoundicons";
+  src: url("../fonts/accessibility_foundicons.eot");
+  src: url("../fonts/accessibility_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/accessibility_foundicons.woff") format("woff"), url("../fonts/accessibility_foundicons.ttf") format("truetype"), url("../fonts/accessibility_foundicons.svg#AccessibilityFoundicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global foundicon styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_accessibility_foundicons\.scss}line{font-family:\000037}}
+[class*="foundiconacc-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_accessibility_foundicons\.scss}line{font-family:\0000317}}
+[class*="foundiconacc-"]:before {
+  font-family: "AccessibilityFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+/* icons */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-wheelchair:before {
+  content: "\f000";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-speaker:before {
+  content: "\f001";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-fontsize:before {
+  content: "\f002";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-eject:before {
+  content: "\f003";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-view-mode:before {
+  content: "\f004";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-eyeball:before {
+  content: "\f005";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-asl:before {
+  content: "\f006";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-person:before {
+  content: "\f007";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-question:before {
+  content: "\f008";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-adult:before {
+  content: "\f009";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-child:before {
+  content: "\f00a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-glasses:before {
+  content: "\f00b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-cc:before {
+  content: "\f00c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-blind:before {
+  content: "\f00d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-braille:before {
+  content: "\f00e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-iphone-home:before {
+  content: "\f00f";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-w3c:before {
+  content: "\f010";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-css:before {
+  content: "\f011";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-key:before {
+  content: "\f012";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-hearing-impaired:before {
+  content: "\f013";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-male:before {
+  content: "\f014";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-female:before {
+  content: "\f015";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-network:before {
+  content: "\f016";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-guidedog:before {
+  content: "\f017";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-universal-access:before {
+  content: "\f018";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-accessibility\/_settings\.scss}line{font-family:\000036}}
+.foundiconacc-elevator:before {
+  content: "\f019";
+}
+
+/* general icons for IE7 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_social_foundicons_ie7\.scss}line{font-family:\000034}}
+[class*="foundiconsoc-"] {
+  font-family: "SocialFoundicons";
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-thumb-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf000;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-thumb-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf001;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-rss {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf002;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-facebook {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf003;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-twitter {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf004;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-pinterest {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf005;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-github {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf006;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-path {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf007;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-linkedin {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf008;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-dribbble {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf009;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-stumble-upon {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00a;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-behance {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00b;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-reddit {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00c;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-google-plus {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00d;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-youtube {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00e;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-vimeo {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00f;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-flickr {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf010;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-slideshare {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf011;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-picassa {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf012;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-skype {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf013;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-steam {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf014;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-instagram {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf015;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-foursquare {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf016;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-delicious {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf017;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-chat {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf018;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-torso {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf019;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-tumblr {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01a;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-video-chat {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01b;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-digg {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01c;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\0000312}}
+.foundiconsoc-wordpress {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01d;");
+}
+
+/* font-face */
+@font-face {
+  font-family: "SocialFoundicons";
+  src: url("../fonts/social_foundicons.eot");
+  src: url("../fonts/social_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/social_foundicons.woff") format("woff"), url("../fonts/social_foundicons.ttf") format("truetype"), url("../fonts/social_foundicons.svg#SocialFoundicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global foundicon styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_social_foundicons\.scss}line{font-family:\000037}}
+[class*="foundiconsoc-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_social_foundicons\.scss}line{font-family:\0000317}}
+[class*="foundiconsoc-"]:before {
+  font-family: "SocialFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+/* icons */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-thumb-up:before {
+  content: "\f000";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-thumb-down:before {
+  content: "\f001";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-rss:before {
+  content: "\f002";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-facebook:before {
+  content: "\f003";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-twitter:before {
+  content: "\f004";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-pinterest:before {
+  content: "\f005";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-github:before {
+  content: "\f006";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-path:before {
+  content: "\f007";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-linkedin:before {
+  content: "\f008";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-dribbble:before {
+  content: "\f009";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-stumble-upon:before {
+  content: "\f00a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-behance:before {
+  content: "\f00b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-reddit:before {
+  content: "\f00c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-google-plus:before {
+  content: "\f00d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-youtube:before {
+  content: "\f00e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-vimeo:before {
+  content: "\f00f";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-flickr:before {
+  content: "\f010";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-slideshare:before {
+  content: "\f011";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-picassa:before {
+  content: "\f012";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-skype:before {
+  content: "\f013";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-steam:before {
+  content: "\f014";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-instagram:before {
+  content: "\f015";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-foursquare:before {
+  content: "\f016";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-delicious:before {
+  content: "\f017";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-chat:before {
+  content: "\f018";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-torso:before {
+  content: "\f019";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-tumblr:before {
+  content: "\f01a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-video-chat:before {
+  content: "\f01b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-digg:before {
+  content: "\f01c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-enclosed\/_settings\.scss}line{font-family:\000036}}
+.foundiconsoc-wordpress:before {
+  content: "\f01d";
+}
+
+/* general icons for IE7 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_general_foundicons_ie7\.scss}line{font-family:\000034}}
+[class*="foundicongen-"] {
+  font-family: "GeneralFoundicons";
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-settings {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf000;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-heart {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf001;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-star {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf002;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-plus {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf003;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-minus {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf004;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-checkmark {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf005;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-remove {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf006;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-mail {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf007;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-calendar {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf008;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-page {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf009;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-tools {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00a;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-globe {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00b;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-home {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00c;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-quote {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00d;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-people {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00e;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-monitor {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00f;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-laptop {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf010;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-phone {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf011;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-cloud {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf012;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-error {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf013;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-right-arrow {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf014;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-left-arrow {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf015;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-up-arrow {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf016;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-down-arrow {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf017;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-trash {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf018;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-add-doc {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf019;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-edit {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01a;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-lock {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01b;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-unlock {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01c;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-refresh {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01d;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-paper-clip {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01e;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-video {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01f;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-photo {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf020;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-graph {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf021;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-idea {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf022;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-mic {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf023;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-cart {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf024;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-address-book {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf025;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-compass {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf026;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-flag {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf027;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-location {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf028;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-clock {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf029;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-folder {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02a;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-inbox {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02b;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-website {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02c;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-smiley {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02d;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\0000312}}
+.foundicongen-search {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02e;");
+}
+
+/* font-face */
+@font-face {
+  font-family: "GeneralFoundicons";
+  src: url("../fonts/general_foundicons.eot");
+  src: url("../fonts/general_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/general_foundicons.woff") format("woff"), url("../fonts/general_foundicons.ttf") format("truetype"), url("../fonts/general_foundicons.svg#GeneralFoundicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global foundicon styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_general_foundicons\.scss}line{font-family:\000037}}
+[class*="foundicongen-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_general_foundicons\.scss}line{font-family:\0000317}}
+[class*="foundicongen-"]:before {
+  font-family: "GeneralFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+/* icons */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-settings:before {
+  content: "\f000";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-heart:before {
+  content: "\f001";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-star:before {
+  content: "\f002";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-plus:before {
+  content: "\f003";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-minus:before {
+  content: "\f004";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-checkmark:before {
+  content: "\f005";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-remove:before {
+  content: "\f006";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-mail:before {
+  content: "\f007";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-calendar:before {
+  content: "\f008";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-page:before {
+  content: "\f009";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-tools:before {
+  content: "\f00a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-globe:before {
+  content: "\f00b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-home:before {
+  content: "\f00c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-quote:before {
+  content: "\f00d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-people:before {
+  content: "\f00e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-monitor:before {
+  content: "\f00f";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-laptop:before {
+  content: "\f010";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-phone:before {
+  content: "\f011";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-cloud:before {
+  content: "\f012";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-error:before {
+  content: "\f013";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-right-arrow:before {
+  content: "\f014";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-left-arrow:before {
+  content: "\f015";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-up-arrow:before {
+  content: "\f016";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-down-arrow:before {
+  content: "\f017";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-trash:before {
+  content: "\f018";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-add-doc:before {
+  content: "\f019";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-edit:before {
+  content: "\f01a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-lock:before {
+  content: "\f01b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-unlock:before {
+  content: "\f01c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-refresh:before {
+  content: "\f01d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-paper-clip:before {
+  content: "\f01e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-video:before {
+  content: "\f01f";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-photo:before {
+  content: "\f020";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-graph:before {
+  content: "\f021";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-idea:before {
+  content: "\f022";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-mic:before {
+  content: "\f023";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-cart:before {
+  content: "\f024";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-address-book:before {
+  content: "\f025";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-compass:before {
+  content: "\f026";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-flag:before {
+  content: "\f027";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-location:before {
+  content: "\f028";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-clock:before {
+  content: "\f029";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-folder:before {
+  content: "\f02a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-inbox:before {
+  content: "\f02b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-website:before {
+  content: "\f02c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-smiley:before {
+  content: "\f02d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-general\/_settings\.scss}line{font-family:\000036}}
+.foundicongen-search:before {
+  content: "\f02e";
+}
+
+/* general icons for IE7 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_general_enclosed_foundicons_ie7\.scss}line{font-family:\000034}}
+[class*="foundiconenc-"] {
   font-family: "GeneralEnclosedFoundicons";
   font-weight: normal;
   font-style: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003115}}
-.foundicon-search {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-settings {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf000;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-heart {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf001;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-star {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf002;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-plus {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf003;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-minus {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf004;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-checkmark {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf005;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-remove {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf006;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-mail {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf007;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-calendar {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf008;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-page {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf009;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-tools {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00a;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-globe {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00b;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-home {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00c;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-quote {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00d;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-people {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00e;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-monitor {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00f;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-laptop {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf010;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-phone {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf011;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-cloud {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf012;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-error {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf013;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-right-arrow {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf014;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-left-arrow {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf015;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-up-arrow {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf016;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-down-arrow {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf017;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-trash {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf018;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-add-doc {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf019;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-edit {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01a;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-lock {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01b;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-unlock {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01c;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-refresh {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01d;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-paper-clip {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01e;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-video {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01f;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-photo {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf020;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-graph {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf021;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-idea {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf022;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-mic {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf023;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-cart {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf024;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-address-book {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf025;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-compass {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf026;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-flag {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf027;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-location {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf028;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-clock {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf029;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-folder {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02a;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-inbox {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02b;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-website {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02c;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-smiley {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02d;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\0000312}}
+.foundiconenc-search {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02e;");
 }
 
@@ -600,8 +2337,8 @@ h4.subheader {
 }
 
 /* global foundicon styles */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003146}}
-[class*="foundicon-"] {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_general_enclosed_foundicons\.scss}line{font-family:\000037}}
+[class*="foundiconenc-"] {
   display: inline;
   width: auto;
   height: auto;
@@ -612,141 +2349,310 @@ h4.subheader {
   background-repeat: repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003156}}
-[class*="general foundicon"]:before {
-  font-family: GeneralEnclosedFoundicons;
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: inherit;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003109}}
-.foundicon-search:before {
-  content: "\f02e";
-}
-
-/* general icons for IE7 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003197}}
-[class*="foundicon-"] {
-  font-family: "SocialFoundicons";
-  font-weight: normal;
-  font-style: normal;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003178}}
-.foundicon-facebook {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf003;");
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003178}}
-.foundicon-twitter {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf004;");
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003178}}
-.foundicon-youtube {
-  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00e;");
-}
-
-/* font-face */
-@font-face {
-  font-family: "SocialFoundicons";
-  src: url("../fonts/social_foundicons.eot");
-  src: url("../fonts/social_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/social_foundicons.woff") format("woff"), url("../fonts/social_foundicons.ttf") format("truetype"), url("../fonts/social_foundicons.svg#SocialFoundicons") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* global foundicon styles */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003211}}
-[class*="foundicon-"] {
-  display: inline;
-  width: auto;
-  height: auto;
-  line-height: inherit;
-  vertical-align: baseline;
-  background-image: none;
-  background-position: 0 0;
-  background-repeat: repeat;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003221}}
-[class*="social foundicon"]:before {
-  font-family: SocialFoundicons;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_general_enclosed_foundicons\.scss}line{font-family:\0000317}}
+[class*="foundiconenc-"]:before {
+  font-family: "GeneralEnclosedFoundicons";
   font-weight: normal;
   font-style: normal;
   text-decoration: inherit;
 }
 
 /* icons */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003172}}
-.foundicon-facebook:before {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-settings:before {
+  content: "\f000";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-heart:before {
+  content: "\f001";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-star:before {
+  content: "\f002";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-plus:before {
   content: "\f003";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003172}}
-.foundicon-twitter:before {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-minus:before {
   content: "\f004";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003172}}
-.foundicon-youtube:before {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-checkmark:before {
+  content: "\f005";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-remove:before {
+  content: "\f006";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-mail:before {
+  content: "\f007";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-calendar:before {
+  content: "\f008";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-page:before {
+  content: "\f009";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-tools:before {
+  content: "\f00a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-globe:before {
+  content: "\f00b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-home:before {
+  content: "\f00c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-quote:before {
+  content: "\f00d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-people:before {
   content: "\f00e";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003233}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-monitor:before {
+  content: "\f00f";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-laptop:before {
+  content: "\f010";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-phone:before {
+  content: "\f011";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-cloud:before {
+  content: "\f012";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-error:before {
+  content: "\f013";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-right-arrow:before {
+  content: "\f014";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-left-arrow:before {
+  content: "\f015";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-up-arrow:before {
+  content: "\f016";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-down-arrow:before {
+  content: "\f017";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-trash:before {
+  content: "\f018";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-add-doc:before {
+  content: "\f019";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-edit:before {
+  content: "\f01a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-lock:before {
+  content: "\f01b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-unlock:before {
+  content: "\f01c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-refresh:before {
+  content: "\f01d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-paper-clip:before {
+  content: "\f01e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-video:before {
+  content: "\f01f";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-photo:before {
+  content: "\f020";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-graph:before {
+  content: "\f021";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-idea:before {
+  content: "\f022";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-mic:before {
+  content: "\f023";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-cart:before {
+  content: "\f024";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-address-book:before {
+  content: "\f025";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-compass:before {
+  content: "\f026";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-flag:before {
+  content: "\f027";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-location:before {
+  content: "\f028";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-clock:before {
+  content: "\f029";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-folder:before {
+  content: "\f02a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-inbox:before {
+  content: "\f02b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-website:before {
+  content: "\f02c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-smiley:before {
+  content: "\f02d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/cons-social\/_settings\.scss}line{font-family:\000036}}
+.foundiconenc-search:before {
+  content: "\f02e";
+}
+
+/* Medium Displays: 768px - 1279px */
+@media only screen and (min-width: 66em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\0000323}}
+  .lkb-hide-for-medium {
+    display: none !important;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\0000329}}
 .social-block span {
   font-size: 2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\0000334}}
 .fl {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\0000337}}
 .fr {
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\0000340}}
 .h300 {
   height: 350px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\0000343}}
 .b30 {
   padding-bottom: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003250}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\0000346}}
 .tp30 {
   padding-top: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003253}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\0000349}}
 ul.no-style {
   list-style: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\0000352}}
 hr.silent {
-  border: 1px solid white;
+  border: 1px solid #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\0000355}}
 .overflow {
   overflow: hidden;
   border-top: 5px solid #b61636;
   background: #FAF8F6;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003260}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\0000356}}
 .top-nav-wrapper {
   background: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\0000357}}
 .sexy_line {
   margin: 25px 0;
   height: 1px;
@@ -754,12 +2660,12 @@ hr.silent {
   background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003267}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\0000363}}
 .pr98 {
   padding-right: 0.9375em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\0000369}}
 .x1 {
   overflow: hidden;
   margin-left: 7%;
@@ -767,7 +2673,7 @@ hr.silent {
   margin-bottom: 4%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003279}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\0000375}}
 .x1 .x2 {
   display: block;
   float: left;
@@ -778,12 +2684,12 @@ hr.silent {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   -khtml-border-radius: 50%;
-  border: 3px solid #eeeeee;
+  border: 3px solid #eee;
   text-align: center;
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003293}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\0000389}}
 .x1 .x2 span {
   position: absolute;
   width: 100%;
@@ -795,177 +2701,98 @@ hr.silent {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003305}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003101}}
 .vertical-space {
   padding: 10% 3% 0;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003103}}
+.bk-white {
+  background: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003106}}
+.circle {
+  font-size: 30px;
+  word-spacing: 1px;
+  -webkit-border-radius: 1000px;
+  -moz-border-radius: 1000px;
+  -ms-border-radius: 1000px;
+  -o-border-radius: 1000px;
+  border-radius: 1000px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 105px;
+  width: 100px;
+  height: 100px;
+  max-width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #59848c;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  position: relative;
+}
+
 @media only screen and (min-width: 62.5em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003135}}
   .masthead-photo-content, .case-studies-content, .page-main-content {
     width: 41.66666em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003140}}
   .case-studies-extension, .page-main-extension,
   .social-block-extension, .email-alerts-extension, .products-link-extension, .distribution-link-extension,
   .partner-block-extension, .company-facts-extension {
     width: 9999px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003144}}
   .social-block-content, .email-alerts-content, .products-link-content, .distribution-link-content,
   .partner-block-content, .company-facts-content {
     width: 17.83333em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003149}}
 .social-block-content, .email-alerts-content, .products-link-content, .distribution-link-content,
 .partner-block-content, .company-facts-content {
   padding-left: 0.9375em;
   padding-right: 0.9375em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003156}}
 .social-block-extension, .email-alerts-extension, .products-link-extension, .distribution-link-extension,
 .partner-block-extension, .company-facts-extension {
   background: #353230;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003164}}
 .main {
   background: white;
 }
 
-/* Background color for the top bar */
-/* Height and margin */
-/* Control Input height for top bar */
-/* Set the link colors and styles for top-level nav */
-/* Style the top bar dropdown elements */
-/* Top menu icon styles */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003372}}
-nav.top-bar input {
-  top: 24px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003377}}
-.top-bar li.name h1 {
-  line-height: 68px;
-  font-size: 1.7625em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003382}}
-.top-bar div input {
-  line-height: 1em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003384}}
-.top-bar a {
-  color: #b61636;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003386}}
-.top-bar a i {
-  -webkit-transition: color 0.2s;
-  -moz-transition: color 0.2s;
-  -o-transition: color 0.2s;
-  -ms-transition: color 0.2s;
-  transition: color 0.2s;
-  font-size: 1.7em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003393}}
-.top-bar a i:hover {
-  color: #e94969;
-  -webkit-transition: color 0.2s;
-  -moz-transition: color 0.2s;
-  -o-transition: color 0.2s;
-  -ms-transition: color 0.2s;
-  transition: color 0.2s;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003402}}
-.top-bar a:hover {
-  background: none;
-}
-
-@media only screen and (min-width: 58.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003409}}
-  div section.top-bar-section li a:not(.button) {
-    padding: 0 12px;
-  }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003414}}
-.top-bar-section ul.right li a:not(.button):hover {
-  background: none;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003418}}
-section.top-bar-section ul li > a {
-  color: #333;
-  font-size: .9em;
-  font-weight: 600;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003424}}
-.top-nav-wrapper {
-  border-bottom: 1px solid #e4e2e1;
-}
-
-@media only screen and (min-width: 58.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003429}}
-  section.top-bar-section li a:not(.button) {
-    padding: 0 20px;
-  }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003434}}
-.logo {
-  padding-top: .7em;
-  width: 130px;
-  opacity: 1;
-  -webkit-transition: opacity 0.2s linear;
-  -moz-transition: opacity 0.2s linear;
-  -o-transition: opacity 0.2s linear;
-  -ms-transition: opacity 0.2s linear;
-  transition: opacity 0.2s linear;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003443}}
-.logo:hover {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-  filter: alpha(opacity=80);
-  opacity: .7;
-  -webkit-transition: opacity 0.2s linear;
-  -moz-transition: opacity 0.2s linear;
-  -o-transition: opacity 0.2s linear;
-  -ms-transition: opacity 0.2s linear;
-  transition: opacity 0.2s linear;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003455}}
-.menu-icon span {
-  color: #b61636;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003458}}
-.top-bar li.toggle-topbar.menu-icon a span {
-  -webkit-box-shadow: 0 10px 0 1px #b61636, 0 16px 0 1px #b61636, 0 22px 0 1px #b61636;
-  box-shadow: 0 10px 0 1px #b61636, 0 16px 0 1px #b61636, 0 22px 0 1px #b61636;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003466}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003174}}
 .masthead-photo {
   margin-right: -0.9375em;
   background: url("../images/hero-color.jpg") center right;
   overflow: hidden;
   float: right;
-  border-bottom: 1px solid #e4e2e1;
+  border-bottom: 1px solid #E4E2E1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003473}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003181}}
 .masthead-photo-extension {
   width: 9999px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003476}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003184}}
 .masthead-photo-content {
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003478}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003186}}
 .masthead-photo-content h1 {
   font-weight: 100;
   font-size: 2.4em;
@@ -975,471 +2802,244 @@ section.top-bar-section ul li > a {
   background: rgba(197, 66, 76, 0.66);
   color: white;
   margin: 0em;
-  padding: 0 0.4em;
+  padding: 0 .4em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003489}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003197}}
 .masthead-photo-content .text-two-line {
   margin-top: 7em;
   margin-left: .9em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003495}}
-div .orbit-container {
-  background: none;
-  padding-right: 0.9375em;
-}
-
 @media only screen and (min-width: 58.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003499}}
-  div .orbit-container {
-    height: 350px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003206}}
+  .case-studies div .orbit-container {
+    height: 320px;
   }
 }
 @media only screen and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003504}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003212}}
   .masthead-photo-content {
     float: right;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003512}}
-.orbit-slide-number {
-  visibility: hidden;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003513}}
-.orbit-next, .orbit-prev {
-  visibility: hidden;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003518}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003224}}
 .case-studies {
   margin-right: -0.9375em;
+  height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003521}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003228}}
 .case-study-item {
   padding: 2em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003523}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003230}}
 .case-study-item h2.subheader {
   font-size: 1.2em;
   margin-bottom: .2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003527}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003234}}
 .case-study-item p {
   font-size: .8em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003531}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003238}}
 .case-studies-extension {
   background: white;
+  height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003535}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003242}}
+.case-studies-content {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003244}}
+.case-studies-content .orbit-bullets {
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003247}}
 .case-studies-content .image-wrapper {
   border-radius: 35px 15px 15px 15px;
   overflow: hidden;
-  width: 160px;
+  max-width: 160px;
   margin: 0 auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003542}}
-orbit-container .orbit-slides-container > * {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003255}}
+.case-studies div .orbit-container {
+  background: none;
   padding-right: 0.9375em;
-  padding-left: 0.9375em;
+  text-align: left;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003546}}
-.orbit-timer {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003258}}
+.case-studies .orbit-slide-number {
   visibility: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003259}}
+.case-studies .orbit-next, .case-studies .orbit-prev {
+  visibility: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003260}}
+.case-studies .orbit-timer {
+  visibility: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003263}}
+.case-studies ol.orbit-bullets {
+  padding-right: 0.9375em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003266}}
+.case-studies div .orbit-bullets li {
+  -webkit-transition: background .2s;
+  -moz-transition: background .2s;
+  -o-transition: background .2s;
+  -ms-transition: background .2s;
+  transition: background .2s;
+  background: #ababab;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  opacity: .8;
+  border: solid 2px #F9F8F6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003278}}
+.case-studies div .orbit-bullets li:hover {
+  background: #B61636;
+  -webkit-transition: background .2s;
+  -moz-transition: background .2s;
+  -o-transition: background .2s;
+  -ms-transition: background .2s;
+  transition: background .2s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003286}}
+.case-studies div .orbit-bullets li.active {
+  -webkit-transition: background .2s;
+  -moz-transition: background .2s;
+  -o-transition: background .2s;
+  -ms-transition: background .2s;
+  transition: background .2s;
+  background: none;
+  border: 2px solid #59848c;
 }
 
 @media only screen and (max-width: 58.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003550}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003297}}
   .case-studies {
     height: auto !important;
   }
 }
 @media only screen and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003560}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003307}}
   .case-studies-extension img {
     margin: 0 auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003569}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003316}}
 .page-main {
   margin-right: -0.9375em;
   margin-left: -0.9375em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003573}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003320}}
 .page-main-extension {
   background: #FAF8F6;
-  border-top: 1px solid #e4e2e1;
+  border-top: 1px solid #E4E2E1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003578}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003325}}
 .page-main-content {
   padding-top: 1.3em;
   padding-right: 2.8125em;
   padding-left: 0.9375em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003582}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003329}}
 .page-main-content .info-gr {
   padding: 3em 0 5em;
 }
 
 @media only screen and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003587}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003334}}
   .page-main-content {
     padding-right: 1.8750em;
     padding-left: 1.8750em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003596}}
-.sidebar .content-sec {
-  padding-right: 0.9375em;
+/* line 748, ../../../src/scss/screen.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003347}}
+.list-icon-items .pulse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: none;
+  border: 1px solid #ee6557;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 275ms;
+  -moz-transition-duration: 275ms;
+  -o-transition-duration: 275ms;
+  transition-duration: 275ms;
+  -webkit-transition-timing-function: cubic-bezier(0.53, -0.67, 0.73, 0.74);
+  -moz-transition-timing-function: cubic-bezier(0.53, -0.67, 0.73, 0.74);
+  -o-transition-timing-function: cubic-bezier(0.53, -0.67, 0.73, 0.74);
+  transition-timing-function: cubic-bezier(0.53, -0.67, 0.73, 0.74);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003600}}
-div.sidebar {
-  background: #333;
-  color: white;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003603}}
-div.sidebar a {
-  color: #AFAEAF;
-  -webkit-transition: color 0.2s;
-  -moz-transition: color 0.2s;
-  -o-transition: color 0.2s;
-  -ms-transition: color 0.2s;
-  transition: color 0.2s;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003610}}
-div.sidebar a:hover {
-  color: #1a9ad5;
-  -webkit-transition: color 0.2s;
-  -moz-transition: color 0.2s;
-  -o-transition: color 0.2s;
-  -ms-transition: color 0.2s;
-  transition: color 0.2s;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003619}}
-div.sidebar h4.subheader {
-  font-size: 1.9em;
-  color: white;
-  margin-bottom: 0.2em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003624}}
-div.sidebar hr {
-  border: solid #444444;
-  border-width: 1px 0px 0px;
+/* line 762, ../../../src/scss/screen.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003370}}
+.list-icon-items a {
+  border: none;
+  display: block;
 }
 
-@media only screen and (min-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003630}}
-  ul {
-    text-indent: 0.08em;
-  }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003635}}
-.link-string li {
-  line-height: 1.2em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003638}}
-.link-string a {
-  font-size: .9em;
+/* line 766, ../../../src/scss/screen.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003375}}
+.list-icon-items a .pseudo-link {
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
-@media only screen and (max-width: 58.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003646}}
-  div.sidebar h4.subheader {
-    font-size: 1.2em;
-  }
-}
-@media only screen and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003652}}
-  .sidebar {
-    text-align: center;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003654}}
-  .sidebar .fl {
-    float: none;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003660}}
-  .sidebar .partner-block-content ul li img {
-    margin: 0 auto;
-  }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003668}}
-.company-facts {
-  padding-bottom: 40px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003671}}
-.company-facts img {
-  margin: 0 auto;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003672}}
-.company-facts p {
-  font-size: .8em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003673}}
-.company-facts .row {
-  padding-bottom: 35px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003676}}
-.company-facts .company-facts-extension {
-  margin-left: -0.9375em;
-  margin-right: -0.9375em;
-  padding-left: 0.9375em;
-  padding-right: 0.9375em;
-  border-bottom: 1px solid #444241;
+/* line 774, ../../../src/scss/screen.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003380}}
+.list-icon-items a:hover .button, .list-icon-items a:focus .button, .list-icon-items a:active .button {
+  background-color: #16a6b6;
 }
 
-@media only screen and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003685}}
-  .company-facts {
-    padding-bottom: 2em;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003688}}
-  .company-facts-extension {
-    height: auto !important;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003689}}
-  .company-facts-extension ul {
-    padding: 0 0.9375em;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003692}}
-  .company-facts-extension img {
-    max-width: 120px !important;
-    float: none!important;
-    padding-bottom: 1em;
-    padding-top: 1em;
-  }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003701}}
-div.company-facts-extension {
-  background: #1E1E1E;
+/* line 778, ../../../src/scss/screen.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003384}}
+.list-icon-items a:hover .pulse, .list-icon-items a:focus .pulse, .list-icon-items a:active .pulse {
+  opacity: 1;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+  -webkit-transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+  -moz-transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+  -o-transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+  transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
 }
 
-@media only screen and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003705}}
-  .company-facts-content {
-    padding-top: 1em;
-  }
-}
-@media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003711}}
-  .company-facts-content {
-    padding-top: 60px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003713}}
-  .company-facts-content p {
-    padding-top: .3em;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003714}}
-  .company-facts-content .second {
-    padding-top: 1.753em;
-  }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003723}}
-.partner-block ul {
-  padding-top: .5em;
+/* line 787, ../../../src/scss/screen.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003397}}
+.list-icon-items li.secondary .pulse {
+  border: 1px solid #d1d1d1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003729}}
-.partner-block-extension {
-  padding-top: 1em;
-  padding-right: 0.9375em;
-  padding-left: 0.9375em;
-  height: auto !important;
+/* line 793, ../../../src/scss/screen.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003402}}
+.list-icon-items .button,
+.list-icon-items button {
+  -webkit-backface-visibility: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003738}}
-div.email-alerts-block {
-  padding-right: 0.9375em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003740}}
-div.email-alerts-block a {
-  color: white;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003743}}
-div.email-alerts-block .email-box {
-  padding-right: 0.9375em;
-  padding-left: 0.08em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003747}}
-div.email-alerts-block label {
-  color: white;
-  margin-bottom: 1em;
-  -webkit-transition: color 0.2s;
-  -moz-transition: color 0.2s;
-  -o-transition: color 0.2s;
-  -ms-transition: color 0.2s;
-  transition: color 0.2s;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003757}}
-div.email-alerts-block a:hover {
-  color: #AFAEAF;
-  -webkit-transition: color 0.2s;
-  -moz-transition: color 0.2s;
-  -o-transition: color 0.2s;
-  -ms-transition: color 0.2s;
-  transition: color 0.2s;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003766}}
-div.email-alerts-block .email-input input {
-  border-radius: 5px 0px 0px 5px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003769}}
-div.email-alerts-block a.prefix {
-  border-radius: 0px 5px 5px 0px;
+/* line 799, ../../../src/scss/screen.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003407}}
+.no-csstransitions .pulse {
+  display: none;
 }
 
-@media only screen and (max-width: 58.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003774}}
-  .email-alerts-extension {
-    width: 100%;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003777}}
-  .email-box {
-    width: 91.66667%;
-    padding-right: 0em !important;
-  }
-}
-@media only screen and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003783}}
-  .email-alerts-extension {
-    padding-top: 1em;
-  }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003790}}
-.social-block span {
-  opacity: .6;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003793}}
-.social-block a {
-  font-size: 2em;
-  -webkit-transition: color 0.2s;
-  -moz-transition: color 0.2s;
-  -o-transition: color 0.2s;
-  -ms-transition: color 0.2s;
-  transition: color 0.2s;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003800}}
-.social-block a:hover {
-  -webkit-transition: color 0.2s;
-  -moz-transition: color 0.2s;
-  -o-transition: color 0.2s;
-  -ms-transition: color 0.2s;
-  transition: color 0.2s;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003809}}
-.social-block .foundicon-facebook:hover {
-  color: #4b5d90;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003814}}
-.social-block .foundicon-twitter:hover {
-  color: #9AE4E8;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003819}}
-.social-block .foundicon-youtube:hover {
-  color: #d02525;
-}
-
-@media only screen and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003826}}
-  .social-block span {
-    font-size: 1.5em;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003829}}
-  .social-block .h300 {
-    height: auto;
-  }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003839}}
-.footer-full {
-  border-top: 1px solid #e4e2e1;
-}
-
-@media only screen and (min-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003844}}
-  .footer-full .small-block-grid-2 > li {
-    width: auto;
-    padding: 0px;
-    text-align: center;
-    font-weight: 600;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003857}}
-  .footer-full p {
-    color: #777;
-  }
-}
-@media only screen and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003863}}
-  .footer-full {
-    border-top: 3px solid #e4e2e1;
-    padding-top: 0em;
-    font-size: 0.8125em;
-    width: 100%;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003869}}
-  .footer-full .column {
-    padding-left: 0em!important;
-    padding-right: 0em!important;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003874}}
-  .footer-full nav ul {
-    height: auto;
-    display: block;
-    margin: 0;
-    padding-top: 1em;
-    padding-left: 2.2em;
-    padding-right: 2.2em;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003881}}
-  .footer-full nav ul li {
-    text-align: center;
-    margin-left: 0em;
-    border-bottom: 1px solid #eeeeee;
-    padding-bottom: 0em;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003886}}
-  .footer-full nav ul li a {
-    display: block;
-    padding: 12px 0 12px 15px;
-    color: #333;
-    font-weight: 200;
-    -webkit-transition: opacity 0.2s;
-    -moz-transition: opacity 0.2s;
-    -o-transition: opacity 0.2s;
-    -ms-transition: opacity 0.2s;
-    transition: opacity 0.2s;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003896}}
-  .footer-full nav ul li a:active, .footer-full nav ul li a:hover {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    filter: alpha(opacity=50);
-    opacity: .5;
-    -webkit-transition: opacity 0.2s;
-    -moz-transition: opacity 0.2s;
-    -o-transition: opacity 0.2s;
-    -ms-transition: opacity 0.2s;
-    transition: opacity 0.2s;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/sites\/ai\/wireframe\/app\/css\/_settings\.scss}line{font-family:\00003910}}
-  .footer-full p {
-    font-size: 0.8125em;
-    text-align: center;
-    font-weight: 400;
-    height: auto;
-    display: block;
-    font-size: .8em;
-    padding: 12px 0 9px 15px;
-  }
-}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_global\.scss}line{font-family:\000034}}
 *,
 *:before,
@@ -2936,7 +4536,7 @@ blockquote p {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_type\.scss}line{font-family:\00003372}}
   * {
     background: transparent !important;
-    color: black !important;
+    color: #000 !important;
     /* Black prints faster: h5bp.com/s */
     box-shadow: none !important;
     text-shadow: none !important;
@@ -2968,7 +4568,7 @@ blockquote p {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_type\.scss}line{font-family:\00003391}}
   pre,
   blockquote {
-    border: 1px solid #999999;
+    border: 1px solid #999;
     page-break-inside: avoid;
   }
 
@@ -3059,13 +4659,13 @@ blockquote p {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003164}}
 .button.secondary {
-  background-color: #1a9ad5;
-  border-color: #1479a8;
+  background-color: #59848c;
+  border-color: #45676d;
   color: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003112}}
 .button.secondary:hover, .button.secondary:focus {
-  background-color: #1479a8;
+  background-color: #45676d;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003123}}
 .button.secondary:hover, .button.secondary:focus {
@@ -3170,8 +4770,8 @@ blockquote p {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003177}}
 .button.disabled.secondary, .button[disabled].secondary {
-  background-color: #1a9ad5;
-  border-color: #1479a8;
+  background-color: #59848c;
+  border-color: #45676d;
   color: white;
   cursor: default;
   opacity: 0.6;
@@ -3180,7 +4780,7 @@ blockquote p {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003112}}
 .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  background-color: #1479a8;
+  background-color: #45676d;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003123}}
 .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
@@ -3188,7 +4788,7 @@ blockquote p {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003134}}
 .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  background-color: #1a9ad5;
+  background-color: #59848c;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003178}}
 .button.disabled.success, .button[disabled].success {
@@ -4153,7 +5753,7 @@ form.custom .custom.disabled {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_split-buttons\.scss}line{font-family:\0000378}}
 .split.button.secondary span {
-  border-left-color: #126991;
+  border-left-color: #3b585d;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_split-buttons\.scss}line{font-family:\00003135}}
 .split.button.secondary span:before {
@@ -4611,11 +6211,11 @@ form.custom .custom.disabled {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003227}}
 .top-bar-section ul li > a.button.secondary {
-  background: #1a9ad5;
+  background: #59848c;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003229}}
 .top-bar-section ul li > a.button.secondary:hover {
-  background: #1479a8;
+  background: #45676d;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003233}}
 .top-bar-section ul li > a.button.success {
@@ -4951,7 +6551,7 @@ form.custom .custom.disabled {
   right: 0px;
   width: 11px;
   height: 14px;
-  border: solid 4px black;
+  border: solid 4px #000;
   border-top: none;
   border-bottom: none;
 }
@@ -4962,7 +6562,7 @@ form.custom .custom.disabled {
   width: 11px;
   height: 14px;
   border: solid 8px;
-  border-color: transparent transparent transparent black;
+  border-color: transparent transparent transparent #000;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003107}}
 .orbit-container:hover .orbit-timer > span {
@@ -4999,11 +6599,11 @@ form.custom .custom.disabled {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003134}}
 .orbit-container .orbit-prev > span {
-  border-color: transparent white transparent transparent;
+  border-color: transparent #fff transparent transparent;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003135}}
 .orbit-container .orbit-prev:hover > span {
-  border-color: transparent #cccccc transparent transparent;
+  border-color: transparent #ccc transparent transparent;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003137}}
 .orbit-container .orbit-next {
@@ -5011,13 +6611,13 @@ form.custom .custom.disabled {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003138}}
 .orbit-container .orbit-next > span {
-  border-color: transparent transparent transparent white;
+  border-color: transparent transparent transparent #fff;
   left: 50%;
   margin-left: -8px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003143}}
 .orbit-container .orbit-next:hover > span {
-  border-color: transparent transparent transparent #cccccc;
+  border-color: transparent transparent transparent #ccc;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003147}}
@@ -5035,7 +6635,7 @@ form.custom .custom.disabled {
   background: #fff;
   float: left;
   margin-right: 6px;
-  border: solid 2px black;
+  border: solid 2px #000;
   -webkit-border-radius: 1000px;
   border-radius: 1000px;
 }
@@ -5286,11 +6886,11 @@ form.custom .custom.disabled {
   text-decoration: none;
   font-size: 30px;
   font-weight: normal;
-  line-height: 0.5 !important;
+  line-height: .5 !important;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_joyride\.scss}line{font-family:\00003144}}
 .joyride-close-tip:hover, .joyride-close-tip:focus {
-  color: #eeeeee !important;
+  color: #eee !important;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_joyride\.scss}line{font-family:\00003147}}
@@ -5610,8 +7210,8 @@ form.custom .custom.disabled {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_alert-boxes\.scss}line{font-family:\00003103}}
 .alert-box.secondary {
-  background-color: #1a9ad5;
-  border-color: #1479a8;
+  background-color: #59848c;
+  border-color: #45676d;
   color: white;
 }
 
@@ -5625,8 +7225,8 @@ form.custom .custom.disabled {
   list-style: none;
   border-style: solid;
   border-width: 1px;
-  background-color: #24a8e4;
-  border-color: #178abe;
+  background-color: #63939c;
+  border-color: #4f757c;
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
@@ -5738,7 +7338,7 @@ kbd {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_labels\.scss}line{font-family:\0000378}}
 .label.secondary {
-  background-color: #1a9ad5;
+  background-color: #59848c;
   color: #fff;
 }
 
@@ -5963,7 +7563,7 @@ kbd {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lkbogdonoff\/\.rvm\/gems\/ruby-1\.9\.3-p385\/gems\/zurb-foundation-4\.0\.4\/scss\/foundation\/components\/_progress-bars\.scss}line{font-family:\0000354}}
 .progress.secondary .meter {
-  background: #1a9ad5;
+  background: #59848c;
   height: 100%;
   display: block;
 }
