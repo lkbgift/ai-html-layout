@@ -305,19 +305,20 @@ ul, li, ol{
         -o-transition: background .2s;
         -ms-transition: background .2s;
         transition: background .2s;
-        background: #ababab;
+        background: #a7a8e6;
         -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
         filter: alpha(opacity=80);
         opacity: .8;
-        border: solid 2px #F9F8F6; 
+        border: solid 2px $secondary-color; 
       }
       div .orbit-bullets li:hover {
-        background: #B61636;
+        background: #B61636!important;
         -webkit-transition: background .2s;
         -moz-transition: background .2s;
         -o-transition: background .2s;
         -ms-transition: background .2s;
         transition: background .2s;
+        border: none;
       }
       div .orbit-bullets li.active {
         -webkit-transition: background .2s;
@@ -326,7 +327,7 @@ ul, li, ol{
         -ms-transition: background .2s;
         transition: background .2s;
         background: none;
-        border: 2px solid #59848c;
+        
       }
       .orbit-container {
         overflow: visible !important;
