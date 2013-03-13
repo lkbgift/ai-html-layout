@@ -13,18 +13,10 @@
     color: white;
     a{
       color: #AFAEAF;
-      -webkit-transition: color .2s;
-      -moz-transition: color .2s;
-      -o-transition: color .2s;
-      -ms-transition: color .2s;
-      transition: color .2s;
+      @include transition( color, .2s );
       &:hover{
         color: $secondary-color;
-        -webkit-transition: color .2s;
-        -moz-transition: color .2s;
-        -o-transition: color .2s;
-        -ms-transition: color .2s;
-        transition: color .2s;
+        @include transition( color, .2s );
       }
       .icon{
         font-size: 1.4em;
@@ -187,21 +179,13 @@
       label{
         color: white;
         margin-bottom: 1em;
-        -webkit-transition: color .2s;
-        -moz-transition: color .2s;
-        -o-transition: color .2s;
-        -ms-transition: color .2s;
-        transition: color .2s;
+        @include transition( color, .2s );
       }
       .button{
         &:hover{
           color: #AFAEAF;
           background: darken($secondary-color, 10%);
-          -webkit-transition: all .2s;
-          -moz-transition: all .2s;
-          -o-transition: all .2s;
-          -ms-transition: all .2s;
-          transition: all .2s;
+          @include transition( all, .2s );
         }
       }
       a.prefix{
@@ -234,17 +218,9 @@
         }
         a{
           font-size: 2em;
-          -webkit-transition:  color .2s;
-          -moz-transition:  color .2s;
-          -o-transition:  color .2s;
-          -ms-transition:  color .2s;
-          transition:  color .2s;
+          @include transition( color, .2s );
            &:hover {
-            -webkit-transition: color .2s;
-            -moz-transition: color .2s;
-            -o-transition: color .2s;
-            -ms-transition: color .2s;
-            transition: color .2s;
+            @include transition( color, .2s );
           }
         }
         .foundiconsoc-facebook{
