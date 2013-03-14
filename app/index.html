@@ -12,15 +12,30 @@
 
     <link rel="stylesheet" href="styles/main.css">
 
+    <!-- build:js scripts/vendor/modernizr.js -->
     <script src="components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+    
     <script type="text/javascript" src="//use.typekit.net/hxm2vop.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   </head>
   <body>
+    <div id="bgContent">
+      <div id="bgLeft">
+        <div id="bgLeftExtension">
+          <div id="bgLeftContent"></div>
+        </div>
+      </div>
+
+      <div id="bgRight">
+        <div id="bgRightExtension">
+          <div id="bgRightContent"></div>
+        </div>
+      </div>
+    </div>
     <div class="overflow twelve">
       <div class="top-nav-wrapper twelve">
-
         <div class="row top-nav">
           <nav class="top-bar">
             <ul class="title-area">
@@ -73,13 +88,9 @@
         <div class="main large-8 columns ">
           <div class="masthead-photo h300">
             <div class="s9999 masthead-photo-extension image-wrapper">
-              <div class="lftcont masthead-photo-content content-sec image-post">
-                <div class="text-two-line">
-                </div>
-              </div>    
-            </div>
+             </div>
           </div>
-          <div id="featured" class="case-studies h300 fr">
+          <div id="featured" class="case-studies fr">
             <div class="s9999 case-studies-extension fr">
               <div class="lftcont case-studies-content content-sec fr">
                 <ul id="featured2" data-orbit>
@@ -156,7 +167,7 @@
         <div class="sidebar large-4 small-12 columns">
           <div class="company-facts" id="featrap"> 
             <div class="s9999 company-facts-extension h300 fl">
-              <div class="pl98g pr98g company-facts-content content-sec">
+              <div class="pl98 pr98 company-facts-content content-sec">
                 <div class="">
                   <ul id="featrap" data-orbit>
                     <li>
@@ -274,7 +285,8 @@
       g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
       s.parentNode.insertBefore(g,s)}(document,'script'));
   </script>
-
+  <!-- build:js scripts/main.js -->
   <script data-main="scripts/main" src="components/requirejs/require.js"></script>
+  <!-- endbuild -->
 </body>
 </html>

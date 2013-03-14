@@ -24,12 +24,6 @@ ul, li, ol{
 // Media Queries
 //
 
-  /* Medium Displays: 768px - 1279px */
-  @media only screen and (min-width: 66em) {
-    .lkb-hide-for-medium{
-      display: none !important;
-    }
-  }
 
 
   .social-block span {font-size: 2em; }
@@ -68,10 +62,9 @@ ul, li, ol{
     position: relative;
   }
 
-  //
-  // Layout
-  //
-  .s9999{ width: 9999px; }
+// Layout
+//
+ // .s9999{ width: 9999px; }     
   .h300{ height: 350px; }
   .h100{ height: 100px; }
   .b30{ padding-bottom: 30px; }    
@@ -81,21 +74,6 @@ ul, li, ol{
   .pr98 { padding-right: 0.9375em; }
   .pl98 { padding-left: 0.9375em; }
   .row-fluid{ max-width: none !important; }
-  
-
-//
-// Layout
-//
-@media only screen and (min-width: 62.5em) {
-  .lftcont{
-    width: 41.66666em;
-  }
-  .rgtcont{
-    width: 17.83333em;
-  }  
-}
-  .pr98g { padding-right: 0.9375em; }
-  .pl98g { padding-left: 0.9375em; }
 
 
   .social-block-extension, .email-alerts-extension, .products-link-extension, .distribution-link-extension,
@@ -147,13 +125,6 @@ ul, li, ol{
       }
     }
     
-    @media only screen and (min-width: 58.75em) {
-      .case-studies{
-        div .orbit-container{  
-          height: 320px;
-        }
-      }
-    }
     @media only screen and (max-width: 767px) {
       .masthead-photo-content{
         float: right;
@@ -168,7 +139,6 @@ ul, li, ol{
   // Case Study
   //
     .case-studies{
-       margin-right: -0.9375em; 
        height: auto;
     }
     .case-study-item{ 
@@ -205,7 +175,6 @@ ul, li, ol{
     }    
     .case-studies-content{
       text-align:center;
-      border-left: 1px solid #E4E2E1;
       .orbit-bullets{
         display: inline-block;
       }
@@ -220,6 +189,9 @@ ul, li, ol{
       ul#featured2.orbit-slides-container{
           height: auto !important;
       }
+      
+    //Orbit
+    //
       div .orbit-container{ background: none; 
         padding-right: 0.9375em; text-align:left;
       }
@@ -274,21 +246,6 @@ ul, li, ol{
         overflow: visible !important;
       }
     }
-    .case-studies{
-      height: auto !important;
-    }
-
-    @media only screen and (min-width: 58.75em) {
-      .case-studies-extension{
-      }
-    }
-    @media only screen and (max-width: 767px) {
-      .case-studies-extension{
-        img{
-          margin: 0 auto;
-        }
-      }
-    }  
 
     .lt-ie9 .orbit-container{ overflow: hidden !important;}
     .lt-ie9 .orbit-container li{ display: none !important;}
@@ -298,28 +255,15 @@ ul, li, ol{
   // Page Main
   //
   .page-main{
-    margin-right: -0.9375em;
-    margin-left: -0.9375em;
   }
   .page-main-extension{
     background: #FAF8F6;
-    border-top: 1px solid #E4E2E1;
 
   }
   .page-main-content{
     padding-top: 1.3em;
-    padding-right: 2.8125em;
-    margin-left: 0.9375em;
-    border-left: 1px solid #E4E2E1;
-    padding-left: .9375em;
     .info-gr{
       padding: 3em 0 5em;
-    }
-  }
-  @media only screen and (max-width: 767px) {
-    .page-main-content{
-      padding-right:1.8750em;
-      padding-left:1.8750em;
     }
   }
 

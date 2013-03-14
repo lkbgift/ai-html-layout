@@ -82,11 +82,9 @@
       } 
     }
 
-    @media only screen and (min-width: 58.75em) {
       div section.top-bar-section li a:not(.button) {
         padding: 0 12px;
       }
-    }
 
     .top-bar-section ul.right li a:not(.button):hover {
       background: none;
@@ -101,11 +99,10 @@
     .top-nav-wrapper{
     }
 
-    @media only screen and (min-width: 58.75em) {
       section.top-bar-section li a:not(.button) {
         padding: 0 20px;
       }
-    }
+
 
     .logo{
       padding-top: .7em;
