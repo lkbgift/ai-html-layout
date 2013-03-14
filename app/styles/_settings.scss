@@ -78,19 +78,52 @@ ul, li, ol{
 
   .social-block-extension, .email-alerts-extension, .products-link-extension, .distribution-link-extension,
   .partner-block-extension, .company-facts-extension{
-    background: #353230;
+    background: $sidebar-main-color;
+  }
+
+//
+// Background
+//
+
+  .bgContent{
+    position: absolute;
+    height: 100%;
+    width: $row-width;
+    .bgLeft{
+      width: 66%;
+      height: 100%;
+      background: $page-text-background;
+      float:left;
+      .bgLeftExtension{
+        width: 9999px;
+        height: 100%;
+        .bgLeftContent{ 
+          width: (($row-width/3)*2);
+          float: right;
+          height: 100%;
+        }
+      }
+    }
+    .bgRight{
+      width: 33%;
+      height: 100%;
+      background: $sidebar-main-color;
+      float: right;
+      .bgRightExtension{
+        width: 9999px;
+        height: 100%;
+        .bgRightContent{ 
+          width: (($row-width/3)) ;
+          float: left;
+          height: 100%;
+        }
+      }
+    }
   }
 
 //
 // Main
 //
-
-  .main{
-    background: lighten(#fbffe3, 90%);
-  }
-  div.main.columns{
-  }
-
 
   // Hero
   // 
@@ -100,7 +133,6 @@ ul, li, ol{
       background: url('../images/hero/hero-map.jpg') center right;
       overflow: hidden; 
       float: right; 
-      border-bottom: 1px solid #E4E2E1;
     }
     .masthead-photo-extension{ 
       width: 9999px; 

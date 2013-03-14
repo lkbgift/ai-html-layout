@@ -42,6 +42,19 @@
   $alert-color: #B65116;
   $success-color: #16B67E;
 
+  $sidebar-header-color: #efefef;
+  $sidebar-link-color: #AFAEAF;
+  $sidebar-text-color: white;
+
+  // Background
+  $sidebar-main-color: #333;
+  $page-text-background: #FAF8F6;
+
+  // Unique
+  $facebook-color: #4b5d90;
+  $twitter-color: #9AE4E8;
+  $youtube-color: #d02525;
+  
   // We use these to make sure border radius matches unless we want it different.
   $global-radius: 3px;
   $global-rounded: 1000px;
@@ -56,6 +69,20 @@
   $include-print-styles: true;
 
   $left-spacing: .08em;
+
+  // 
+  // Grid
+  // 
+
+  $row-width:     62.5em !default;
+  $column-gutter: 1.875em !default;
+  $total-columns: 12 !default;
+
+  //
+  // Numbers
+  //
+  $border-round-right: 0px 5px 5px 0px;
+  $border-round-left: 5px 0px 0px 5px;
 
   //
   // Functions
