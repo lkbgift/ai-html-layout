@@ -18,7 +18,8 @@ ul, li, ol{
   list-style:none;
 }
 
-
+body{
+}
 
 //
 // Media Queries
@@ -61,12 +62,14 @@ ul, li, ol{
     zoom: 1;
     position: relative;
   }
+  .clearboth{ clear: both; }
 
 // Layout
 //
  // .s9999{ width: 9999px; }     
   .h300{ height: 350px; }
   .h100{ height: 100px; }
+  .h120{ height: 120px; }
   .b30{ padding-bottom: 30px; }    
   .tp30{ padding-top: 30px; }
   .mrn9{ margin-right: -0.9375em; }
@@ -84,41 +87,62 @@ ul, li, ol{
 //
 // Background
 //
-
-  .bgContent{
+  #bg{
     position: absolute;
-    height: 100%;
-    width: $row-width;
-    .bgLeft{
-      width: 66%;
-      height: 100%;
-      background: $page-text-background;
-      float:left;
-      .bgLeftExtension{
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+  }
+  #bgContent{
+    width: 58.75em;
+    margin: 0 auto;
+    #bgLeft{
+      float: left;
+      width: 39.16666em;
+      #bgLeftExtension{
+        float: right;
         width: 9999px;
-        height: 100%;
-        .bgLeftContent{ 
-          width: (($row-width/3)*2);
-          float: right;
-          height: 100%;
+        background: $page-text-background;
+        #bgLeftContent{ 
+        float: right;
+        width: 39.16665em;
+        border-left: 1px solid #E4E2E1;
+        height: 2000px;
         }
       }
     }
-    .bgRight{
-      width: 33%;
-      height: 100%;
-      background: $sidebar-main-color;
-      float: right;
-      .bgRightExtension{
+    #bgRight{
+      float: left;
+      width: 19.58333em;
+      #bgRightExtension{
+        float: left;
         width: 9999px;
-        height: 100%;
-        .bgRightContent{ 
-          width: (($row-width/3)) ;
+        background: $sidebar-main-color;
+        #bgRightContent{ 
           float: left;
-          height: 100%;
+          width: 19.58332em;
+          border-right: 1px solid #464341;
+          height: 2000px;
         }
       }
     }
+  }
+
+  .brand-bar{
+    .brand-bar-extension{
+     // width: 9999px;
+     // float: right;
+      .brand-bar-content{
+        padding-left: 1em;
+        padding-right: 1em;
+        li{
+          padding-top: 10px;
+        }
+      //  float:right;
+      //  max-width: 39.166em;
+      }
+    }                 
   }
 
 //
@@ -129,7 +153,6 @@ ul, li, ol{
   // 
 
     .masthead-photo { 
-      margin-right: -0.9375em;  
       background: url('../images/hero/hero-map.jpg') center right;
       overflow: hidden; 
       float: right; 
@@ -171,7 +194,7 @@ ul, li, ol{
   // Case Study
   //
     .case-studies{
-       height: auto;
+     overflow: hidden;
     }
     .case-study-item{ 
       padding: 2em 0; 
