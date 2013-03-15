@@ -49,6 +49,7 @@
   $sidebar-text-color: white;
 
   // Background
+  $sidebar-company-color: #323232;
   $sidebar-main-color: #333;
   $page-text-background: #FAF8F6;
 
@@ -79,6 +80,8 @@
   $row-width:     62.5em !default;
   $column-gutter: 1.875em !default;
   $total-columns: 12 !default;
+  $max-left: 39.16665em;
+  $max-right: 19.58333em;
 
   //
   // Numbers
