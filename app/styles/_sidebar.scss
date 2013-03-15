@@ -1,0 +1,224 @@
+@import "variables";
+
+//
+// Sidebar
+//
+
+  div.sidebar{
+    background: $sidebar-main-color;
+    color: $sidebar-text-color;
+    a{
+      color: $sidebar-link-color;
+      @include transition( color, .2s );
+      &:hover{
+        color: $secondary-color;
+        @include transition( color, .2s );
+      }
+      .icon{
+        font-size: 1.4em;
+      }
+    }
+    h4.subheader{
+      font-size: 1.9em;
+      color: $sidebar-header-color;
+      margin-bottom: 0.2em;
+    }
+    hr{
+      border: solid #444;
+      border-width: 1px 0px 0px;
+    }
+  }
+  @media only screen and (min-width: 767px) {
+    ul{
+      text-indent: $left-spacing;
+    }
+  }
+  .link-string{
+    li{
+      line-height: 1.2em;
+    }
+    a{
+      font-size: .9em;
+    }
+  }
+  div.sidebar{
+    h4.subheader{
+      font-size: 1.2em;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .sidebar{
+      text-align: center;
+      .fl{
+        float: none;
+      }
+      .partner-block-content{
+        ul{
+          li{
+            img{ margin: 0 auto; }
+          }
+        }
+      }
+    }
+  }
+  // Company Facts
+  //
+    .company-facts{ 
+      .circle{
+        h2{
+          font-size: 1.5em;
+          line-height: 1.6em;
+          font-weight: 400;
+          color: $sidebar-header-color;
+          span{
+            font-size:.6em;
+          }
+        }
+      }
+      .second-stat{
+        margin-top: 1.7em;
+      }
+      padding-bottom: 40px;
+      img { margin: 0 auto; }
+      p{ font-size: .8em; }
+      .row{
+        padding-bottom: 35px;
+      }
+      .company-facts-extension{
+      }
+      h3.subheader{
+
+      }
+      .orbit-container {
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        background: none;
+      }
+      .orbit-prev, .orbit-next, .orbit-slide-number, .orbit-timer{
+        visibility: hidden;
+      }
+    }
+    @media only screen and (max-width: 767px) {
+      .company-facts{ 
+        padding-bottom: 2em;
+      }
+      .company-facts-extension{
+        ul{
+        }
+        img{
+          max-width: 120px !important;
+          float: none!important;
+          padding-bottom: 1em;
+          padding-top: 1em;
+        }
+        height: auto !important;
+      }        
+    }
+    div.company-facts-extension{
+      background:#1E1E1E;
+    }
+    @media only screen and (max-width: 767px) {
+      .company-facts-content{
+        padding-top: 1em;
+
+      }
+    }
+    @media only screen and (min-width: 768px) {
+      .company-facts-content{
+        padding-top: 60px;
+        p{ padding-top: .3em; }
+        .second{
+          padding-top: 1.753em;
+        }
+      }
+    }
+  // Partner
+  //
+
+    .partner-block{
+      ul{
+        padding-top: .5em;
+        li{
+        }
+      }
+    }
+    .partner-block-extension{
+      padding-top:1em;
+      height: auto !important;
+    }
+
+  // Email Alerts
+  //
+    div.email-alerts-block{
+      a{
+        color: white;
+      }
+      .email-box{
+        padding-left: $left-spacing;
+      }
+      label{
+        color: white;
+        margin-bottom: 1em;
+        @include transition( color, .2s );
+      }
+      .button{
+        &:hover{
+          color: #AFAEAF;
+          background: darken($secondary-color, 10%);
+          @include transition( all, .2s );
+        }
+      }
+      a.prefix{
+        border-radius: $border-round-right;
+      }
+    }
+    .email-input input{
+      border-radius: $border-round-left;
+    }
+
+    @media only screen and (max-width: 767px) {
+      .email-alerts-extension{
+        padding-top:1em;
+      }
+    }
+  // Social block
+  //
+      .social-block{
+        span{
+          opacity: .6;
+        }
+        a{
+          font-size: 2em;
+          @include transition( color, .2s );
+           &:hover {
+            @include transition( color, .2s );
+          }
+        }
+        .foundiconsoc-facebook{
+          &:hover{
+            color: $facebook-color;
+          }
+        }
+        .foundiconsoc-twitter{
+          &:hover{
+            color: $twitter-color;
+          }
+        }
+        .foundiconsoc-youtube{
+          &:hover{ 
+            color: $youtube-color; 
+          }
+        }
+      }
+      @media only screen and (max-width: 767px) {
+        .social-block{
+          span{
+            font-size: 1.5em;
+          }
+          .h300{
+            height: auto;
+          }
+        }
+
+      }

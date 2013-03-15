@@ -1,0 +1,372 @@
+// Settings file to override Foundation variables
+
+// You can find the variables for each component at the bottom of their
+// doc page. We tried to name them to where they'd make sense just by reading them.
+// Go to http://foundation.zurb.com/docs/ to find what you need.
+
+@import "topbar";
+@import "sidebar";
+@import "footer";
+@import "font";
+@import "ieset";
+
+//
+// Gen eral
+//
+
+ul, li, ol{
+  list-style:none;
+}
+
+
+
+//
+// Media Queries
+//
+
+
+
+  .social-block span {font-size: 2em; }
+
+//
+// Elements
+//
+  .fl{ float:left; }
+  .fr{ float:right; }
+  .ofhdn{ overflow:hidden; }
+  ul.no-style{ list-style: none;}
+  hr.silent{ border: 1px solid #fff; }
+  .top-nav-wrapper{ background: white; }
+  .circle{
+    font-size: 30px;
+    word-spacing: 1px;
+    -webkit-border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    -ms-border-radius: 1000px;
+    -o-border-radius: 1000px;
+    border-radius: 1000px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 105px;
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    text-align: center;
+    color: white;
+    background-color: $secondary-color;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    position: relative;
+  }
+
+// Layout
+//
+ // .s9999{ width: 9999px; }     
+  .h300{ height: 350px; }
+  .h100{ height: 100px; }
+  .b30{ padding-bottom: 30px; }    
+  .tp30{ padding-top: 30px; }
+  .mrn9{ margin-right: -0.9375em; }
+  .mln9{ margin-left: -0.9375em; }
+  .pr98 { padding-right: 0.9375em; }
+  .pl98 { padding-left: 0.9375em; }
+  .row-fluid{ max-width: none !important; }
+
+
+  .social-block-extension, .email-alerts-extension, .products-link-extension, .distribution-link-extension,
+  .partner-block-extension, .company-facts-extension{
+    background: $sidebar-main-color;
+  }
+
+//
+// Background
+//
+
+  .bgContent{
+    position: absolute;
+    height: 100%;
+    width: $row-width;
+    .bgLeft{
+      width: 66%;
+      height: 100%;
+      background: $page-text-background;
+      float:left;
+      .bgLeftExtension{
+        width: 9999px;
+        height: 100%;
+        .bgLeftContent{ 
+          width: (($row-width/3)*2);
+          float: right;
+          height: 100%;
+        }
+      }
+    }
+    .bgRight{
+      width: 33%;
+      height: 100%;
+      background: $sidebar-main-color;
+      float: right;
+      .bgRightExtension{
+        width: 9999px;
+        height: 100%;
+        .bgRightContent{ 
+          width: (($row-width/3)) ;
+          float: left;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+//
+// Main
+//
+
+  // Hero
+  // 
+
+    .masthead-photo { 
+      margin-right: -0.9375em;  
+      background: url('../images/hero/hero-map.jpg') center right;
+      overflow: hidden; 
+      float: right; 
+    }
+    .masthead-photo-extension{ 
+      width: 9999px; 
+    }
+    .masthead-photo-content{
+      float: right;
+      h1{
+        font-weight: 100;
+        font-size: 2.4em;
+        display:inline-block;
+        background:#c5424c;
+        background:rgb (197,66,76);
+        background:rgba(197,66,76,0.66);
+        color: white;
+        margin: 0em;
+        padding:0 .4em;
+      }
+      .text-two-line{
+        margin-top: 7em;
+        margin-left: .9em;
+        
+      }
+    }
+    
+    @media only screen and (max-width: 767px) {
+      .masthead-photo-content{
+        float: right;
+        h1{
+        }
+      }
+    }
+
+    
+
+  //
+  // Case Study
+  //
+    .case-studies{
+       height: auto;
+    }
+    .case-study-item{ 
+      padding: 2em 0; 
+      h2.subheader{
+        font-size: 1.2em;
+        margin-bottom: .2em;
+      }
+      p{
+        font-size: .8em;
+      }
+    }
+    .case-studies-extension{
+        background: white;
+        li{
+          height: auto;
+          opacity: .4;
+          -webkit-transition:  all .9s;
+          -moz-transition:  all .9s;
+          -o-transition:  all .9s;
+          -ms-transition:  all .9s;
+          transition:  all .9s;
+        }
+        li.active{
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+        filter: alpha(opacity=60);
+        opacity: 1;
+        -webkit-transition: all .2s;
+        -moz-transition: all .2s;
+        -o-transition: all .2s;
+        -ms-transition: all .2s;
+        transition: all .2s;
+        }
+    }    
+    .case-studies-content{
+      text-align:center;
+      .orbit-bullets{
+        display: inline-block;
+      }
+      .image-wrapper{
+        border-radius: 35px 15px 15px 15px;
+        overflow: hidden;
+        max-width:160px;
+      }
+    }
+    
+    .case-studies{
+      ul#featured2.orbit-slides-container{
+          height: auto !important;
+      }
+      
+    //Orbit
+    //
+      div .orbit-container{ background: none; 
+        padding-right: 0.9375em; text-align:left;
+      }
+      .orbit-slide-number{ visibility: hidden; }
+      .orbit-next{ visibility: hidden; } 
+      .orbit-prev{  
+        background: white;
+        background: transparent!important;
+        top: 7%!important;
+        width: 1000%!important;
+        margin-left: -1000%!important;
+        height: 117%!important;
+      }
+      .orbit-timer{
+        visibility: hidden;
+      }
+      ol.orbit-bullets {
+        padding-right: 0.9375em; 
+      }
+      div .orbit-bullets li {
+        -webkit-transition: background .2s;
+        -moz-transition: background .2s;
+        -o-transition: background .2s;
+        -ms-transition: background .2s;
+        transition: background .2s;
+        background: lighten(#949494, 20%);
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+        filter: alpha(opacity=80);
+        opacity: .8;
+        border: none;
+      }
+      div .orbit-bullets li:hover {
+        background: $secondary-color!important;
+        -webkit-transition: background .2s;
+        -moz-transition: background .2s;
+        -o-transition: background .2s;
+        -ms-transition: background .2s;
+        transition: background .2s;
+        border: none;
+      }
+      div .orbit-bullets li.active {
+        -webkit-transition: background .2s;
+        -moz-transition: background .2s;
+        -o-transition: background .2s;
+        -ms-transition: background .2s;
+        transition: background .2s;
+        background: none;
+        border: solid 2px $secondary-color; 
+        
+      }
+      .orbit-container {
+        overflow: visible !important;
+      }
+    }
+
+    .lt-ie9 .orbit-container{ overflow: hidden !important;}
+    .lt-ie9 .orbit-container li{ display: none !important;}
+    .lt-ie9 .orbit-container li.active{ display: block !important;}
+
+  //
+  // Page Main
+  //
+  .page-main{
+  }
+  .page-main-extension{
+    background: #FAF8F6;
+
+  }
+  .page-main-content{
+    padding-top: 1.3em;
+    .info-gr{
+      padding: 3em 0 5em;
+    }
+  }
+
+
+
+
+// pulse
+// 
+
+/* line 748, ../../../src/scss/screen.scss */
+.list-icon-items .pulse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: none;
+  border: 1px solid #ee6557;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 275ms;
+  -moz-transition-duration: 275ms;
+  -o-transition-duration: 275ms;
+  transition-duration: 275ms;
+  -webkit-transition-timing-function: cubic-bezier(0.53, -0.67, 0.73, 0.74);
+  -moz-transition-timing-function: cubic-bezier(0.53, -0.67, 0.73, 0.74);
+  -o-transition-timing-function: cubic-bezier(0.53, -0.67, 0.73, 0.74);
+  transition-timing-function: cubic-bezier(0.53, -0.67, 0.73, 0.74);
+}
+/* line 762, ../../../src/scss/screen.scss */
+.list-icon-items a {
+  border: none;
+  display: block;
+}
+/* line 766, ../../../src/scss/screen.scss */
+.list-icon-items a .pseudo-link {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+/* line 774, ../../../src/scss/screen.scss */
+.list-icon-items a:hover .button, .list-icon-items a:focus .button, .list-icon-items a:active .button {
+  background-color: #16a6b6;
+}
+/* line 778, ../../../src/scss/screen.scss */
+.list-icon-items a:hover .pulse, .list-icon-items a:focus .pulse, .list-icon-items a:active .pulse {
+  opacity: 1;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+  -webkit-transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+  -moz-transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+  -o-transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+  transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+/* line 787, ../../../src/scss/screen.scss */
+.list-icon-items li.secondary .pulse {
+  border: 1px solid #d1d1d1;
+}
+/* line 793, ../../../src/scss/screen.scss */
+.list-icon-items .button,
+.list-icon-items button {
+  -webkit-backface-visibility: hidden;
+}
+
+/* line 799, ../../../src/scss/screen.scss */
+.no-csstransitions .pulse {
+  display: none;
+}
+
