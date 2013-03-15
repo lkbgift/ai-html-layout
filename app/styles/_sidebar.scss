@@ -63,19 +63,7 @@
   }
   // Company Facts
   //
-    #featrap{
-      max-width: $max-right;
-      margin: 0 auto;
-    }
-    .brand-row{
-      padding:0 .5em;
-      opacity: .3;
-      @include transition( all, .7s );
-      &.active{
-        opacity: 1;
-        @include transition( all, .7s );
-      }
-    }
+
     .company-facts{ 
       .x2{
         h2{
@@ -103,6 +91,7 @@
         padding-bottom: 35px;
       }
       .company-facts-extension{
+        background: $sidebar-company-color;
       }
       .orbit-container {
         overflow: hidden;

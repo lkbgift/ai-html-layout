@@ -24,7 +24,7 @@ require(["jquery",
   "foundation/foundation",            
   "foundation/foundation.alerts",     
   "foundation/foundation.clearing",   
-  "foundation/foundation.cookie",    
+  "foundation/foundation.cookie",   
   "foundation/foundation.dropdown",   
   "foundation/foundation.forms",      
   "foundation/foundation.joyride",    
@@ -38,4 +38,5 @@ require(["jquery",
 ], function ($) {
   $(document).foundation('topbar');
   $('#brandslider').foundation('orbit', { timer_speed: 5000, stack_on_small: false, animation_speed: 750, timer: false, bullets: false, }, function (response) {});
+  $('#case-sliders').foundation('orbit', {  stack_on_small: false, animation_speed: 750, bullets: false, bullets: true, }, function (response) {$('#case-sliders').find('.orbit-timer span').click();})
 });
