@@ -19,10 +19,7 @@ ul, li, ol{
 }
 
 body{
-<<<<<<< HEAD
   background: white;
-=======
->>>>>>> logobar
 }
 
 //
@@ -65,6 +62,12 @@ body{
     vertical-align: middle;
     zoom: 1;
     position: relative;
+  }
+  .circleout{
+    padding: 5px;
+    border: 5px solid #666;
+    display: inline-block;
+    border-radius: 1000px;
   }
   .clearboth{ clear: both; }
 

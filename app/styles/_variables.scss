@@ -23,6 +23,8 @@
   h3.subheader{ font-size: 2em; }
   h4.subheader{ font-family: "franklin-gothic-urw-comp"; text-transform: uppercase; }
 
+  $highcase: "franklin-gothic-urw-comp", Helvetica, sans-serif; 
+
   // We use these to control various global styles
   $body-bg: #fff;
   $body-font-color: #222;
