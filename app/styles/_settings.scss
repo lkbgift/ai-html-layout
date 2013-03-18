@@ -66,6 +66,10 @@ body{
   .row-fluid{ max-width: none !important; }
   .content{
   }
+  .margeless{ margin: 0px; }
+  .pl02{
+    padding-left: 0.2em;
+  }
 
 //
 // Background
@@ -203,6 +207,9 @@ body{
     padding:0px !important;
   }
   .hero-row {
+    .main{
+      z-index: 1;
+    }
     .sidebar {
       background: #1A1A1A;
     }
@@ -256,70 +263,63 @@ body{
         width: 667px;
       }
     }
-    .case-studies-extension{
-      .orbit-prev{ 
-        visibility: visible !important;
-        position: absolute;
-        top: 0%!important;
-        margin-top: 0px!important;
-        background-color: transparent!important;
-        width: 9999px!important;
-        height: 343px!important;
-        margin-left: -9999px!important;
-      } 
-    }
-    .brand-bar-extension{
-      background: #262626 !important;
-      margin: 0 auto !important;
-      #brandslider{
-        max-width: 1000px !important;
+   .company-facts-extension{
+      #featrap{
+        float: right;
+        width: 667px;
       }
-      .orbit-prev{ 
-        visibility: visible !important;
-        position: absolute;
-        top: 0%!important;
-        margin-top: 0px!important;
-        background-color: transparent!important;
-        width: 9999px!important;
-        height: 89px!important;
-        margin-left: -9999px!important;
+      .orbit-container{
+        background: transparent !important;
+        overflow: visible;
       }
-     .orbit-next{ 
-        visibility: visible !important;
-        position: absolute;
-        top: 0%!important;
-        margin-top: 0px!important;
-        background-color: transparent!important;
-        width: 9999px!important;
-        height: 89px!important;
-        margin-right: -9999px!important;
-      }  
     }
   }
 
   #featrap{
     margin: 0 auto;
     padding-top: 0em;
-    .sub-case{
-      padding-left: 1.5em;
-      display: inline;
-      float: left;
-      padding-top: 1em;
-    }
-    .chart{
-      float: left;
-    }
-    li:first-child{
-      padding-top: 2.7em;
-      h4{
+      .pre-head{
+        padding-left: 0.9375em;
+        line-height: 3em;
+        margin-bottom: 0em;
+        padding-bottom: 0em;
       }
-    }
-    li:last-child{
-      padding-top: 1.5em;
-      p{
-        opacity: .6;
+      .orbit-container{
+        li{
+          opacity: .4;
+          @include transition( all, .5s)
+        }
+        li.active{
+          opacity: 1;
+          @include transition( all, .5s)
+        }
       }
-    }
+      .sub-case{
+        padding-left: 1.5em;
+        display: inline;
+        float: left;
+        padding-top: 1em;
+      }
+      .chart{
+        float: left;
+      }
+      .chart-container{
+        padding-top: .5em;
+        h4{
+        }
+      }
+      .sub-case{
+        padding-top: 1.5em;
+        p{
+          opacity: .6;
+        }
+      }
+      .orbit-container{
+        background: transparent;
+      }
+      .orbit-bullets{
+        display: none;
+      }
   }
 
   
@@ -493,6 +493,70 @@ body{
   }
 
   @media only screen and (min-width:768px) {
+     .brand-bar-extension{
+      background: #262626 !important;
+      margin: 0 auto !important;
+      #brandslider{
+        max-width: 1000px !important;
+      }
+      .orbit-prev{ 
+        visibility: visible !important;
+        position: absolute;
+        top: 0%!important;
+        margin-top: 0px!important;
+        background-color: transparent!important;
+        width: 9999px!important;
+        height: 89px!important;
+        margin-left: -9999px!important;
+      }
+     }
+     .case-studies-extension{
+      .orbit-prev{ 
+        visibility: visible !important;
+        position: absolute;
+        top: 0%!important;
+        margin-top: 0px!important;
+        background-color: transparent!important;
+        width: 9999px!important;
+        height: 343px!important;
+        margin-left: -9999px!important;
+      } 
+    }
+     .brand-bar-extension{ 
+     .orbit-next{ 
+        visibility: visible !important;
+        position: absolute;
+        top: 0%!important;
+        margin-top: 0px!important;
+        background-color: transparent!important;
+        width: 9999px!important;
+        height: 89px!important;
+        margin-right: -9999px!important;
+      }  
+    }
+    .company-facts-extension{
+      #featrap{
+      .orbit-container{
+        height: 350px;
+      }
+        .orbit-slide-number{
+          display: none !important;
+        }
+      .orbit-prev{ 
+        visibility: hidden !important;
+      }
+     .orbit-next{ 
+        visibility: visible !important;
+        position: absolute;
+        top: 0%!important;
+        margin-top: 0px!important;
+        background-color: transparent!important;
+        width: 9999px!important;
+        height: 350px!important;
+        margin-right: -9999px!important;
+      } 
+    }
+  }
     #featrap{
       max-width: $max-right;
     }
