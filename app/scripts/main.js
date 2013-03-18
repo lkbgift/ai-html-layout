@@ -39,5 +39,5 @@ require(["jquery",
   $(document).foundation('topbar');
   $('#brandslider').foundation('orbit', { timer_speed: 5000, stack_on_small: false, animation_speed: 750, timer: false, bullets: false, }, function (response) {});
   $('#case-sliders').foundation('orbit', {  stack_on_small: false, animation_speed: 750, bullets: false, bullets: true, }, function (response) {$('#case-sliders').find('.orbit-timer span').click();});
-  $('#featrap').foundation('orbit', {  stack_on_small: false, animation_speed: 750, bullets: false, bullets: true, }, function (response) {$('#featrap').find('.orbit-timer span').click();});
+
 });
