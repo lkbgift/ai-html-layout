@@ -283,6 +283,8 @@ body{
         line-height: 3em;
         margin-bottom: 0em;
         padding-bottom: 0em;
+        opacity: 1;
+        font-size: 1.6em !important;
       }
       .orbit-container{
         li{
@@ -304,7 +306,7 @@ body{
         float: left;
       }
       .chart-container{
-        padding-top: .5em;
+        padding-top: 0em;
         h4{
         }
       }
@@ -324,6 +326,10 @@ body{
 
   
     #case-sliders{
+      padding-top: .8em;
+      h2{
+        margin-bottom: 0em;
+      }
       ul{
         height: auto !important;
       }
@@ -445,7 +451,7 @@ body{
         border: none;
       }
       .orbit-bullets li:hover {
-        background: $secondary-color!important;
+        background: $success-color!important;
         -webkit-transition: background .2s;
         -moz-transition: background .2s;
         -o-transition: background .2s;
