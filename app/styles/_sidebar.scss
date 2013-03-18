@@ -66,6 +66,7 @@
 
     .company-facts{ 
       .chart{
+        display: inline-block;
         h2{
           font-size: 2em;
           line-height: 1.6em;
@@ -75,7 +76,6 @@
             font-size:.6em;
           }
         }
-        max-width: 5em;
       }
       h3.subheader{
         color: $sidebar-header-color;
@@ -174,3 +174,19 @@
         }
 
       }
+
+
+ @media only screen and (min-width:1000px){
+    .email-alerts-extension,
+    .social-block-extension,
+    .products-link-extension{
+      width: 9999px !important;
+      background: #333;
+      float:left;
+      .email-alerts-content,
+      .social-block-content,
+      .Products-link-content{
+        float: left;
+      }
+    }
+  }

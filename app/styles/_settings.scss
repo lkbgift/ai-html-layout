@@ -83,12 +83,12 @@ body{
       #bgLeftExtension{
         float: right;
         width: 9999px;
-        background: $page-text-background;
+       // background: $page-text-background;
         #bgLeftContent{ 
         float: right;
         width: 39.16665em;
-        border-left: 1px solid #E4E2E1;
-        height: 2000px;
+       // border-left: 1px solid #E4E2E1;
+       // height: 2000px;
         }
       }
     }
@@ -98,12 +98,12 @@ body{
       #bgRightExtension{
         float: left;
         width: 9999px;
-        background: $sidebar-main-color;
+       // background: $sidebar-main-color;
         #bgRightContent{ 
           float: left;
           width: 19.58332em;
-          border-right: 1px solid #464341;
-          height: 2000px;
+        //  border-right: 1px solid #464341;
+         // height: 2000px;
         }
       }
     }
@@ -210,20 +210,70 @@ body{
       h2 {
         width: 120px;
         height: 120px;
-        line-height: 110px;
-        border: 2px solid #1b2238;
+        line-height: 100px;
 
-        border-radius: 1000px;
         font-size: 34px;
       }
     }
     h4.subheader{
       opacity: .7;
+      font-size: 1.4em !important;
+      display: inline;
+    }
+  }
+
+  @media only screen and (min-width:1000px){
+    .company-facts-extension{
+      width: 9999px !important;
+      background: #1A1A1A;
+      float:left;
+      .company-facts-content{
+        float: left;
+      }
+    }
+    .case-studies-extension{
+      width: 9999px !important;
+      background: white;
+      float:right;
+      #case-sliders{
+        float: right;
+        width: 667px;
+      }
+    }
+    .page-main-extension{
+      background: #FAF8F6;
+      width: 9999px !important;
+      float: right;
+      .page-main-content{
+        float: right;
+        width: 667px;
+      }
     }
   }
 
   #featrap{
     margin: 0 auto;
+    padding-top: 0em;
+    .sub-case{
+      padding-left: 1.5em;
+      display: inline;
+      float: left;
+      padding-top: 1em;
+    }
+    .chart{
+      float: left;
+    }
+    li:first-child{
+      padding-top: 2.7em;
+      h4{
+      }
+    }
+    li:last-child{
+      padding-top: 1.5em;
+      p{
+        opacity: .6;
+      }
+    }
   }
 
   @media only screen and (min-width:768px) {
@@ -256,18 +306,20 @@ body{
         height: auto !important;
       }
       .orbit-prev{
-
+        visibility: hidden;
       }
       .orbit-next{
-
+        visibility: hidden;
       }
     }
     .case-studies{
 
       width:100%;
       h4.subheader{
-        padding-top: .7em;
+        padding-top: .4em;
+        font-size: 2.3em;
         text-align: left !important;
+        margin-bottom: 0em;
       }
     }
     .case-study-item{ 
@@ -307,8 +359,8 @@ body{
       .image-wrapper{
         border-radius: 35px 15px 15px 15px;
         overflow: hidden;
-        max-width:100%;
-        padding-bottom: 1em;
+        max-width:95%;
+        margin: 0 auto;
       }
     }
     
