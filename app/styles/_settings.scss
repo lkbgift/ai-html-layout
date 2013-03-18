@@ -19,7 +19,9 @@ ul, li, ol{
 }
 
 body{
+  overflow-x: hidden;
   background: white;
+  border-top:5px solid $secondary-color;
 
 }
 
@@ -190,7 +192,9 @@ body{
   // Case Study
   //
   //
-  
+  .content-main > .columns{
+    padding:0px !important;
+  }
   .hero-row {
     .sidebar {
       background: #1A1A1A;
@@ -226,15 +230,48 @@ body{
     #featrap{
       max-width: $max-right;
     }
+    .case-studies-extension{
+        background: white;
+        li{
+          height: auto;
+          opacity: .4;
+            @include transition( all, .9s );
+        }
+        li.active{
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+        filter: alpha(opacity=60);
+        opacity: 1;
+        @include transition( all, .2s );
+        }
+      .orbit-container{ 
+          background: none !important; 
+          text-align: left;
+          overflow:visible;
+      }
+
+    }  
   }
+    #case-sliders{
+      ul{
+        height: auto !important;
+      }
+      .orbit-prev{
+
+      }
+      .orbit-next{
+
+      }
+    }
     .case-studies{
+
+      width:100%;
       h4.subheader{
         padding-top: .7em;
         text-align: left !important;
       }
     }
     .case-study-item{ 
-      padding: 2em 0; 
+      padding: 1em 0; 
       h2.subheader{
         font-size: 1.2em;
         margin-bottom: .2em;
@@ -247,7 +284,7 @@ body{
         background: white;
         li{
           height: auto;
-          opacity: .4;
+          opacity: 0;
             @include transition( all, .9s );
         }
         li.active{
@@ -270,7 +307,8 @@ body{
       .image-wrapper{
         border-radius: 35px 15px 15px 15px;
         overflow: hidden;
-        max-width:160px;
+        max-width:100%;
+        padding-bottom: 1em;
       }
     }
     
