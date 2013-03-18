@@ -25,6 +25,10 @@ body{
 
 }
 
+.container{
+  overflow-x: hidden;
+  background: #333;
+}
 //
 // Media Queries
 //
@@ -57,8 +61,8 @@ body{
   .tp30{ padding-top: 30px; }
   .mrn9{ margin-right: -0.9375em; }
   .mln9{ margin-left: -0.9375em; }
-  .pr98 { padding-right: 0.9375em; }
-  .pl98 { padding-left: 0.9375em; }
+  .pr98 { padding-right: 1.875em; }
+  .pl98 { padding-left: 1.875em; }
   .row-fluid{ max-width: none !important; }
   .content{
   }
@@ -111,8 +115,11 @@ body{
   .content.brand{
 
   }
-
+  .brandwrap{
+    max-height: 89px !important;
+  }
   .brand-bar{
+
     .brand-bar-extension{
      // width: 9999px;
      // float: right;
@@ -249,6 +256,45 @@ body{
         width: 667px;
       }
     }
+    .case-studies-extension{
+      .orbit-prev{ 
+        visibility: visible !important;
+        position: absolute;
+        top: 0%!important;
+        margin-top: 0px!important;
+        background-color: transparent!important;
+        width: 9999px!important;
+        height: 343px!important;
+        margin-left: -9999px!important;
+      } 
+    }
+    .brand-bar-extension{
+      background: #262626 !important;
+      margin: 0 auto !important;
+      #brandslider{
+        max-width: 1000px !important;
+      }
+      .orbit-prev{ 
+        visibility: visible !important;
+        position: absolute;
+        top: 0%!important;
+        margin-top: 0px!important;
+        background-color: transparent!important;
+        width: 9999px!important;
+        height: 89px!important;
+        margin-left: -9999px!important;
+      }
+     .orbit-next{ 
+        visibility: visible !important;
+        position: absolute;
+        top: 0%!important;
+        margin-top: 0px!important;
+        background-color: transparent!important;
+        width: 9999px!important;
+        height: 89px!important;
+        margin-right: -9999px!important;
+      }  
+    }
   }
 
   #featrap{
@@ -276,31 +322,7 @@ body{
     }
   }
 
-  @media only screen and (min-width:768px) {
-    #featrap{
-      max-width: $max-right;
-    }
-    .case-studies-extension{
-        background: white;
-        li{
-          height: auto;
-          opacity: .4;
-            @include transition( all, .9s );
-        }
-        li.active{
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-        filter: alpha(opacity=60);
-        opacity: 1;
-        @include transition( all, .2s );
-        }
-      .orbit-container{ 
-          background: none !important; 
-          text-align: left;
-          overflow:visible;
-      }
-
-    }  
-  }
+  
     #case-sliders{
       ul{
         height: auto !important;
@@ -313,7 +335,6 @@ body{
       }
     }
     .case-studies{
-
       width:100%;
       h4.subheader{
         padding-top: .4em;
@@ -330,6 +351,21 @@ body{
       }
       p{
         font-size: .8em;
+      }
+    }
+    .case-row{ 
+      padding-left: 1em; 
+      padding-right: 1em; 
+
+      a.button{
+        opacity: 0;
+        @include transition(all, 1s);
+      }
+      &.active{
+        a.button{
+          opacity: 1;
+          @include transition(all, 1s);
+        }
       }
     }
     .case-studies-extension{
@@ -454,4 +490,48 @@ body{
     .info-gr{
       padding: 3em 0 5em;
     }
+  }
+
+  @media only screen and (min-width:768px) {
+    #featrap{
+      max-width: $max-right;
+    }
+    .case-studies-extension{
+        background: white;
+        li{
+          height: auto;
+          opacity: .4;
+            @include transition( all, .9s );
+        }
+        li.active{
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+        filter: alpha(opacity=60);
+        opacity: 1;
+        @include transition( all, .2s );
+        }
+      .orbit-container{ 
+          background: none !important; 
+          text-align: left;
+          overflow:visible;
+      }
+
+    }  
+    .case-studies-extension{
+        li{
+          opacity: 0.4;
+            @include transition( all, .9s );
+        }
+        li.active{
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+        filter: alpha(opacity=60);
+        opacity: 1;
+        @include transition( all, .2s );
+        }
+      .orbit-container{ 
+          background: none !important; 
+          text-align: left;
+          overflow:visible;
+      }
+
+    }    
   }

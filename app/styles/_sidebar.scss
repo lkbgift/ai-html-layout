@@ -11,7 +11,7 @@
       color: $sidebar-link-color;
       @include transition( color, .2s );
       &:hover{
-        color: $secondary-color;
+        color: $success-color;
         @include transition( color, .2s );
       }
       .icon{
@@ -31,6 +31,13 @@
   @media only screen and (min-width: 767px) {
     ul{
       text-indent: $left-spacing;
+    }
+
+    .email-alerts-content, 
+    .products-link-content,
+    .contact-block-content, 
+    .social-block-content{
+      padding-right: 0.9375em; padding-left: 0.9375em; 
     }
   }
   .link-string{
@@ -190,3 +197,4 @@
       }
     }
   }
+
