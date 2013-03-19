@@ -29,6 +29,11 @@
     }
   }
   @media only screen and (min-width: 767px) {
+    .content-main{
+      .sidebar{
+      margin-top: 2em;
+      }
+    }
     ul{
       text-indent: $left-spacing;
     }
@@ -55,6 +60,9 @@
   }
   @media only screen and (max-width: 767px) {
     .sidebar{
+      .product-link-content{
+        padding-top: 1.3em;
+      }
       text-align: center;
       .fl{
         float: none;
@@ -107,9 +115,9 @@
   // Email Alerts
   //
     div.email-alerts-block{
-      padding-top: 1.2em;
+
       h4.subheader{
-        padding-top: 0em;
+        padding-top: .8em;
       }
       a{
         color: white;

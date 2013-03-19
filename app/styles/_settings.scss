@@ -172,36 +172,47 @@ html ::selection, body ::selection, button ::selection, input ::selection, selec
       background: url('../images/hero/hero-map.jpg') center center;
       overflow: hidden; 
       float: right; 
+      width: 100%;
     }
     .masthead-photo-extension{ 
-      width: 9999px; 
+      width: 100%; 
     }
     .masthead-photo-content{
-      float: right;
+      margin-top: 185px;
+    }
+    .masthead-photo-content{
+      float: left;
+      padding:0 1.875em 0;
       h1{
         font-weight: 100;
-        font-size: 2.4em;
-        display:inline-block;
-        background:#c5424c;
-        background:rgb (197,66,76);
-        background:rgba(197,66,76,0.66);
+        font-size: 1.7em;
+        display:inline;
+        clear: right;
+        background:#1A1A1A;;
+        background:rgb (26,26,26);
+        background:rgba(26,26,26,0.66);
         color: white;
         margin: 0em;
-        padding:0 .4em;
+        padding-left: .2em;
+        padding-right: .2em;
       }
-      .text-two-line{
-        margin-top: 7em;
-        margin-left: .9em;
-        
-      }
+      @include transition(all, .2s); 
+   
     }
-    
-    @media only screen and (max-width: 767px) {
-      .masthead-photo-content{
-        float: right;
-        h1{
-        }
-      }
+    @media only screen and (min-width: 767px){
+     .masthead-photo-content h1 {
+      font-weight: 400;
+      font-size: 2.2em;
+    }
+    .masthead-photo-content{
+      margin-top: 155px;
+    }
+      .masthead-photo-extension{ 
+      width: 100%; 
+    }
+    .masthead-photo-content{
+    }
+
     }
 
     
@@ -216,6 +227,7 @@ html ::selection, body ::selection, button ::selection, input ::selection, selec
   .hero-row {
     .main{
       z-index: 1;
+      width:100%;
     }
     .sidebar {
       background: #1A1A1A;
@@ -243,6 +255,27 @@ html ::selection, body ::selection, button ::selection, input ::selection, selec
   }
 
   @media only screen and (min-width:1000px){
+      .masthead-photo-content{
+      float: left;
+      padding:0 1.875em 0;
+      margin-top: 135px;
+      h1{
+        font-weight: 100;
+        font-size: 2.8em;
+      }
+    }
+      .masthead-photo{
+        width: 9999px;
+      }
+    .masthead-photo-extension{ 
+      width: 9999px; 
+      float: right;
+      .masthead-photo-content{
+        float:right;
+        width: 667px;
+        padding-left: 1.875em;
+      }
+    }
     .company-facts-extension{
       width: 9999px !important;
       background: #1A1A1A;
@@ -304,7 +337,7 @@ html ::selection, body ::selection, button ::selection, input ::selection, selec
       }
 
       .sub-case{
-        padding-top: 2.2em !important;
+        padding-top: 2.7em !important;
         display: inline;
         float: left;
         padding-top: 1em;
@@ -315,6 +348,7 @@ html ::selection, body ::selection, button ::selection, input ::selection, selec
       }
       .chart{
         float: left;
+        padding-left: .8em;
       }
       .chart-container{
         padding-top: .5em;
@@ -366,7 +400,8 @@ html ::selection, body ::selection, button ::selection, input ::selection, selec
     .case-study-item{ 
       padding: 0em 0em; 
       h2.subheader{
-        font-size: 1.2em;
+        font-size: 1.5em;
+
         margin-bottom: .2em;
       }
       p{
@@ -450,7 +485,8 @@ html ::selection, body ::selection, button ::selection, input ::selection, selec
     }
 
     #case-sliders{
-      padding-top: 1em;
+      padding-top: 2.2em;
+      padding-bottom: 1em;
       text-align:center;
       .orbit-bullets li {
         @include transition( all, .2s );
@@ -497,7 +533,8 @@ html ::selection, body ::selection, button ::selection, input ::selection, selec
 
   }
   .page-main-content{
-    padding-top: 1.3em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
     .info-gr{
       padding: 3em 0 5em;
     }
@@ -522,16 +559,6 @@ html ::selection, body ::selection, button ::selection, input ::selection, selec
       }
      }
      .case-studies-extension{
-      .orbit-prev{ 
-        visibility: visible !important;
-        position: absolute;
-        top: 0%!important;
-        margin-top: 0px!important;
-        background-color: transparent!important;
-        width: 9999px!important;
-        height: 343px!important;
-        margin-left: -9999px!important;
-      } 
     }
      .brand-bar-extension{ 
      .orbit-next{ 
@@ -585,8 +612,8 @@ html ::selection, body ::selection, button ::selection, input ::selection, selec
         @include transition( all, .2s );
         }
         .case-row{
-          padding-left: 2em;
-          padding-right: 2em;
+          padding-left: 0em;
+          padding-right: 0em;
           &.active{
             padding-left: 0em;
             padding-right: 0em;
