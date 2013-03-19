@@ -50,12 +50,17 @@ html ::selection, body ::selection, button ::selection, input ::selection, selec
   .fr{ float:right; }
   .ofhdn{ overflow:hidden; }
   ul.no-style{ list-style: none;}
-  hr.silent{ border: 1px solid #fff; }
+  hr.silent{ border: 0px solid transparent !important; }
   .top-nav-wrapper{ background: white; }
-
-
-
   .clearboth{ clear: both; }
+  .secondary{
+    @include transition (all, .2s);
+    color: $secondary-color;
+    &:hover{
+      color: lighten($secondary-color, 20%);
+    }
+  }
+
 
 // Layout
 //

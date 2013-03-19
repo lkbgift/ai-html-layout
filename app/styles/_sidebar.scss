@@ -21,7 +21,6 @@
     h4.subheader{
       font-size: 1.9em;
       color: $sidebar-header-color;
-      margin-bottom: 0.2em;
     }
     hr{
       border: solid #444;
@@ -31,7 +30,6 @@
   @media only screen and (min-width: 767px) {
     .content-main{
       .sidebar{
-      margin-top: 1.2em;
       }
     }
     ul{
@@ -61,7 +59,6 @@
   @media only screen and (max-width: 767px) {
     .sidebar{
       .product-link-content{
-        padding-top: 1.3em;
       }
       text-align: center;
       .fl{
@@ -102,13 +99,11 @@
 
     .partner-block{
       ul{
-        padding-top: .5em;
         li{
         }
       }
     }
     .partner-block-extension{
-      padding-top:1em;
       height: auto !important;
     }
 
@@ -117,7 +112,6 @@
     div.email-alerts-block{
 
       h4.subheader{
-        padding-top: .8em;
       }
       a{
         color: white;
@@ -143,7 +137,7 @@
       }
     }
     .email-box{
-    padding-right:1em; 
+      padding-right:1em; 
       input{
         border-radius: 3px;
         margin-right:1em;
@@ -151,7 +145,6 @@
     }
     @media only screen and (max-width: 767px) {
       .email-alerts-extension{
-        padding-top:1em;
       }
     }
   // Social block
@@ -183,6 +176,7 @@
           }
         }
         .social-icon{
+          display:inline-block;
           .social-icon-case{
             margin: 0 auto;
             border-radius: 3px;
@@ -222,7 +216,6 @@
       }
 
 .products-link-extension{
-  padding-top: .8em;
 }
  @media only screen and (min-width:1000px){
     .email-alerts-extension,
