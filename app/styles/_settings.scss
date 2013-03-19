@@ -168,11 +168,14 @@ html ::selection, body ::selection, button ::selection, input ::selection, selec
   // Hero
   // 
 
+    
+
     .masthead-photo { 
       background: url('../images/hero/hero-map.jpg') center center;
       overflow: hidden; 
       float: right; 
       width: 100%;
+      border-right: 1px solid #222;
     }
     .masthead-photo-extension{ 
       width: 100%; 
@@ -224,6 +227,11 @@ html ::selection, body ::selection, button ::selection, input ::selection, selec
   .content-main > .columns{
     padding:0px !important;
   }
+  .content-main{
+    .main{
+      border-right: 1px solid darken(#333, 20%);
+    }
+  }
   .hero-row {
     .main{
       z-index: 1;
@@ -262,6 +270,7 @@ html ::selection, body ::selection, button ::selection, input ::selection, selec
       h1{
         font-weight: 100;
         font-size: 2.8em;
+        line-height: 1.3;
       }
     }
       .masthead-photo{
@@ -297,6 +306,7 @@ html ::selection, body ::selection, button ::selection, input ::selection, selec
       background: #FAF8F6;
       width: 9999px !important;
       float: right;
+
       .page-main-content{
         float: right;
         width: 667px;
@@ -346,12 +356,20 @@ html ::selection, body ::selection, button ::selection, input ::selection, selec
         line-height: 1em;
         }
       }
-      .chart{
-        float: left;
-        padding-left: .8em;
-      }
+          .chart{ 
+
+
+    }
+    .case-row{
+      margin-top: 1em;
+    }
       .chart-container{
+        margin: 0 auto;
         padding-top: .5em;
+              background: url('../images/sub/firefox.png') center center;
+      background-repeat: no-repeat;
+      max-width: 250px;
+      height: 166px;
         h4{
         }
       }
@@ -529,7 +547,8 @@ html ::selection, body ::selection, button ::selection, input ::selection, selec
   }
   .page-main-extension{
     background: #FAF8F6;
-
+    border-top: 1px solid #E4E2E1;
+    border-bottom: 1px solid #E4E2E1;
   }
   .page-main-content{
     padding-top: 1.5em;
