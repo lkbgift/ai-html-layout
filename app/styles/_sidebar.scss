@@ -109,7 +109,7 @@
     div.email-alerts-block{
       padding-top: 1.2em;
       h4.subheader{
-        padding-top: .7em;
+        padding-top: 0em;
       }
       a{
         color: white;
@@ -130,13 +130,16 @@
         }
       }
       a.prefix{
-        border-radius: $border-round-right;
+        border-radius: 3px;
       }
     }
-    .email-input input{
-      border-radius: $border-round-left;
+    .email-box{
+    padding-right:1em; 
+      input{
+        border-radius: 3px;
+        margin-right:1em;
+      }
     }
-
     @media only screen and (max-width: 767px) {
       .email-alerts-extension{
         padding-top:1em;
@@ -168,6 +171,36 @@
         .foundiconsoc-youtube{
           &:hover{ 
             color: $youtube-color; 
+          }
+        }
+        .social-icon{
+          .social-icon-case{
+            border-radius: 3px;
+            width:50px;
+            height:50px;
+            @include transition (all, 1s );
+            &:hover{
+              @include transition (all, .5s );
+              opacity:.6;
+            }
+          }
+          img{
+            width: 40px;
+          }
+          .facebook{
+            background: url('/images/social/fb-icon.png') center center;
+            -moz-background-size:100% 100%; /* Old Firefox */
+            background-size:100% 100%;
+          }
+          .twitter{
+            background: url('/images/social/t-icon.png') center center;
+            -moz-background-size:100% 100%; /* Old Firefox */
+            background-size:100% 100%;
+          }
+          .youtube{
+            background: url('/images/social/yt-icon.png') center center;
+            -moz-background-size:100% 100%; /* Old Firefox */
+            background-size:100% 100%;
           }
         }
       }

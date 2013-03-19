@@ -42,7 +42,7 @@
   $primary-color: #B61636;
   $secondary-color: #32345c;
   $alert-color: #B65116;
-  $success-color: #16B67E;
+  $success-color: #586ca8;
 
   $page-purple: #1b2238;
   $circle-accent: #cfb155;
@@ -56,7 +56,7 @@
   $brandbar-color: darken($sidebar-main-color, 5%);
   $sidebar-company-color: darken($sidebar-main-color, 10%);
   $page-text-background: #FAF8F6;
-
+  
   // Unique
   $facebook-color: #4b5d90;
   $twitter-color: #9AE4E8;
@@ -90,8 +90,9 @@
   //
   // Numbers
   //
-  $border-round-right: 0px 1000px 1000px 0px;
-  $border-round-left: 1000px 0px 0px 1000px;
+  $border-round-right: 0px 0 0 0px;
+  $border-round-left: 0 0px 0px 0;
+  
 
   //
   // Functions
