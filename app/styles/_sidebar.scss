@@ -184,9 +184,10 @@
         }
         .social-icon{
           .social-icon-case{
+            margin: 0 auto;
             border-radius: 3px;
-            width:50px;
-            height:50px;
+            width:35px;
+            height:35px;
             @include transition (all, 1s );
             &:hover{
               @include transition (all, .5s );
@@ -194,20 +195,15 @@
             }
           }
           img{
-            width: 40px;
+            width: 30px;
           }
           .facebook{
-            background: url('/images/social/fb-icon.png') center center;
+            background: url('../images/social/fb-icon.png') center center;
             -moz-background-size:100% 100%; /* Old Firefox */
             background-size:100% 100%;
           }
-          .twitter{
-            background: url('/images/social/t-icon.png') center center;
-            -moz-background-size:100% 100%; /* Old Firefox */
-            background-size:100% 100%;
-          }
-          .youtube{
-            background: url('/images/social/yt-icon.png') center center;
+          .linkedin{
+            background: url('../images/social/li-icon.png') center center;
             -moz-background-size:100% 100%; /* Old Firefox */
             background-size:100% 100%;
           }
@@ -225,7 +221,9 @@
 
       }
 
-
+.products-link-extension{
+  padding-top: .8em;
+}
  @media only screen and (min-width:1000px){
     .email-alerts-extension,
     .social-block-extension,

@@ -202,10 +202,22 @@ html ::selection, body ::selection, button ::selection, input ::selection, selec
       @include transition(all, .2s); 
    
     }
-    @media only screen and (min-width: 767px){
+    @media only screen and (max-width: 767px){
+          .content-block{
+      .rgtcont.text-c, ul.text-c{
+        text-align:center !important;
+      }
+    }
+    }
+    @media only screen and (min-width: 768px){
      .masthead-photo-content h1 {
       font-weight: 400;
       font-size: 2.2em;
+    }
+    .content-block{
+      .rgtcont.text-c, ul.text-c{
+        text-align:left !important;
+      }
     }
     .masthead-photo-content{
       margin-top: 155px;
